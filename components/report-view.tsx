@@ -8,6 +8,8 @@ import { Card, CardContent } from '@/components/ui/card';
 import type { Report } from '@/lib/report-types';
 
 const number = new Intl.NumberFormat('zh-CN');
+const displayNumber = (value: number | null) => value === null ? '—' : number.format(value);
+const displayPercent = (value: number | null) => value === null ? '—' : `${value}%`;
 
 export function ReportView({ report, markdown, embedded = false }: { report: Report; markdown: string; embedded?: boolean }) {
   const markdownPath = `/reports/${report.date}.md`;
@@ -56,12 +58,12 @@ export function ReportView({ report, markdown, embedded = false }: { report: Rep
 
         <section className="my-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-6">
           {[
-            ['上涨', number.format(report.market.up), true],
-            ['下跌', number.format(report.market.down), false],
-            ['涨停 / 跌停', `${report.market.limitUp} / ${report.market.limitDown}`, true],
-            ['连板 / 最高板', `${report.market.connected} / ${report.market.highestBoard}`, true],
-            ['昨日红开率', `${report.yesterdayFeedback.redOpenRate}%`, true],
-            ['昨日晋级率', `${report.yesterdayFeedback.continuedLimitRate}%`, true],
+            ['上涨', displayNumber(report.market.up), true],
+            ['下跌', displayNumber(report.market.down), false],
+            ['涨停 / 跌停', `${displayNumber(report.market.limitUp)} / ${displayNumber(report.market.limitDown)}`, true],
+            ['连板 / 最高板', `${displayNumber(report.market.connected)} / ${displayNumber(report.market.highestBoard)}`, true],
+            ['昨日红开率', displayPercent(report.yesterdayFeedback.redOpenRate), true],
+            ['昨日晋级率', displayPercent(report.yesterdayFeedback.continuedLimitRate), true],
           ].map(([label, value, positive]) => (
             <Card key={String(label)} className="gap-2 py-4 ring-border/70">
               <CardContent>

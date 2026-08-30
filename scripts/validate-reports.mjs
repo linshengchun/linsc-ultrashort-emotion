@@ -3,7 +3,7 @@ import path from 'node:path';
 
 const reportDir = path.join(process.cwd(), 'data', 'reports');
 const files = (await readdir(reportDir)).filter((name) => name.endsWith('.json'));
-const required = ['date', 'displayDate', 'conclusion', 'market', 'yesterdayFeedback', 'effects', 'sources'];
+const required = ['date', 'displayDate', 'generatedAt', 'title', 'conclusion', 'market', 'yesterdayFeedback', 'ladder', 'anchors', 'themes', 'themeTimeline', 'effects', 'cycle', 'oneToTwo', 'sources'];
 const forbidden = ['数据完整性', '次日操作', '绕异动', '卡异动'];
 const errors = [];
 
@@ -74,13 +74,13 @@ for (const file of files) {
     for (const oldHeading of ['## 六、涨停原因与题材事件树', '## 七、题材结构：消息、逻辑、预期与想象空间', '## 十一、次日1进2预期标的']) {
       if (markdown.includes(oldHeading)) errors.push(`${file}: Markdown仍包含旧标题“${oldHeading}”`);
     }
-    const feedbackTableHeader = '| 日期 | 有效样本 | 红开率(均开) | 收红率(均收) | 晋级涨停率 | 盘面解读 |';
-    if (markdown.split(feedbackTableHeader).length - 1 !== 1) errors.push(`${file}: 昨日涨停反馈必须只保留一张完整5日表`);
+    const feedbackSection = (markdown.split('## 三、昨日涨停股次日反馈与近5日对比')[1] ?? '').split('## 四、连板梯队与接力结构')[0];
+    if (feedbackSection.split('| 日期 |').length - 1 !== 1) errors.push(`${file}: 昨日涨停反馈必须只保留一张完整5日表`);
     if (markdown.includes('### 近5日对比')) errors.push(`${file}: 昨日涨停反馈仍保留第二张近5日表`);
-    if (!markdown.includes('- **逻辑与预期空间：**')) errors.push(`${file}: Markdown缺少合并后的预期与想象空间`);
+    if (!markdown.includes('- **预期与想象空间：**') && !markdown.includes('- **逻辑与预期空间：**')) errors.push(`${file}: Markdown缺少合并后的预期与想象空间`);
     if (markdown.includes('- **预期面：**') || markdown.includes('- **想象空间：**')) errors.push(`${file}: Markdown仍拆分预期面与想象空间`);
     if (!markdown.includes('领涨核心') && !markdown.includes('万向德农') && !markdown.includes('天娱数科')) errors.push(`${file}: Markdown题材持续表缺少每日领涨核心票`);
-    if (!markdown.includes('异动解析：') || !markdown.includes('帖子吹票逻辑：')) errors.push(`${file}: Markdown的1进2模块缺少两段式炒作逻辑`);
+    if ((report.oneToTwo ?? []).length > 0 && (!markdown.includes('异动解析：') || !markdown.includes('帖子吹票逻辑：'))) errors.push(`${file}: Markdown的1进2模块缺少两段式炒作逻辑`);
     const oneToTwoSection = markdown.split('## 九、次日1进2预期标的')[1] ?? '';
     for (const oldLabel of ['异动原因：', '小作文：', '预期差：', '韭研来源：']) {
       if (oneToTwoSection.includes(oldLabel)) errors.push(`${file}: Markdown的1进2模块仍拆分展示“${oldLabel}”`);

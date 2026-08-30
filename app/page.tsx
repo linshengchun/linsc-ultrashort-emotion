@@ -11,6 +11,7 @@ import { latestReport, reportMarkdown, reports } from '@/lib/generated-reports';
 const reportsBaseUrl = process.env.NEXT_PUBLIC_REPORTS_RAW_BASE ?? 'https://raw.githubusercontent.com/linshengchun/linsc-ultrashort-emotion/main/public/reports';
 
 export default function Home() {
+  const generatorUrl = process.env.NEXT_PUBLIC_GENERATOR_URL ?? (process.env.NODE_ENV === 'development' ? 'http://127.0.0.1:4317' : '');
   return (
     <>
       <header className="border-b bg-card/90 backdrop-blur">
@@ -20,9 +21,9 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2">
                 <h1 className="font-semibold tracking-tight">LINSC · 超短情绪台</h1>
-                <Badge className="bg-red-100 text-red-800">静态报告库</Badge>
+                <Badge className="bg-red-100 text-red-800">{generatorUrl ? 'Codex本地生成' : '报告库'}</Badge>
               </div>
-              <p className="mt-0.5 text-xs text-muted-foreground">盘中看变化，盘后看结构；报告缺失时手动生成</p>
+              <p className="mt-0.5 text-xs text-muted-foreground">盘中看变化，盘后看结构；选择日期后手动生成或覆盖</p>
             </div>
           </div>
           <div className="flex flex-wrap gap-2">
@@ -34,7 +35,7 @@ export default function Home() {
 
       <div className="mx-auto grid w-full max-w-[1480px] gap-4 px-4 py-5 sm:px-6 lg:grid-cols-[330px_minmax(0,1fr)] lg:px-8">
         <aside id="archive" className="space-y-4 lg:sticky lg:top-4 lg:self-start">
-          <ReportFinder availableDates={reports.map((report) => report.date)} reportsBaseUrl={reportsBaseUrl} />
+          <ReportFinder availableDates={reports.map((report) => report.date)} reportsBaseUrl={reportsBaseUrl} generatorUrl={generatorUrl} />
           <ReportArchive
             reportsBaseUrl={reportsBaseUrl}
             initial={reports.map((report) => ({ date: report.date, displayDate: report.displayDate, cycle: report.conclusion.cycle, substate: report.conclusion.substate, temperature: report.conclusion.temperature }))}
