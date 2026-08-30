@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowDownRight, ArrowLeft, ArrowUpRight, CalendarDays, Download, Flame, RefreshCcw } from 'lucide-react';
+import { ArrowDownRight, ArrowLeft, ArrowUpRight, CalendarDays, Download, Flame } from 'lucide-react';
 
 import { MarkdownReport } from '@/components/markdown-report';
 import { Badge } from '@/components/ui/badge';
@@ -9,8 +9,9 @@ import type { Report } from '@/lib/report-types';
 
 const number = new Intl.NumberFormat('zh-CN');
 
-export function ReportView({ report, markdown, workflowUrl, embedded = false }: { report: Report; markdown: string; workflowUrl: string; embedded?: boolean }) {
+export function ReportView({ report, markdown, embedded = false }: { report: Report; markdown: string; embedded?: boolean }) {
   const markdownPath = `/reports/${report.date}.md`;
+  const pdfPath = `/reports/${report.date}.pdf`;
 
   return (
     <main className={embedded ? '' : 'min-h-screen bg-background text-foreground'}>
@@ -43,10 +44,10 @@ export function ReportView({ report, markdown, workflowUrl, embedded = false }: 
               </div>
               <div className="mt-4 flex flex-wrap gap-2 lg:flex-col">
                 <Button asChild className="gap-2 bg-red-600 hover:bg-red-500">
-                  <a href={markdownPath} download><Download className="size-4" />下载MD</a>
+                  <a href={pdfPath} download><Download className="size-4" />下载PDF</a>
                 </Button>
                 <Button asChild variant="outline" className="gap-2 border-white/20 bg-white/5 text-white hover:bg-white/10 hover:text-white">
-                  <a href={workflowUrl} target="_blank" rel="noreferrer"><RefreshCcw className="size-4" />重新生成</a>
+                  <a href={markdownPath} download><Download className="size-4" />下载Markdown</a>
                 </Button>
               </div>
             </div>

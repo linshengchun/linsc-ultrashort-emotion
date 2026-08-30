@@ -1,0 +1,242 @@
+{
+  "date": "2026-08-27",
+  "displayDate": "2026年8月27日（周四）",
+  "generatedAt": "2026-08-30T21:20:00+08:00",
+  "title": "LINSC超短情绪复盘",
+  "conclusion": {
+    "cycle": "主升期",
+    "substate": "放量主升、科技高潮、农业强化",
+    "temperature": 82,
+    "summary": "指数放量共振，涨停数量、连板家数和空间高度同步抬升；科技硬件成为容量主线，农业形成3—2—1梯队，低位材料方向开始发酵。市场处于主升中段，但科技一致性较高，次日更适合围绕前排分歧后的承接，而非无差别追高。",
+    "evidence": [
+      "两市成交额20666.5亿元，较前一日增加3058.3亿元，四大指数全线上涨。",
+      "76只涨停、16只连板、最高6板，跌停仅3只，接力高度和宽度同步增强。",
+      "昨日涨停收红率66.7%、平均收涨3.26%，晋级率31.4%，弱开后承接显著改善。",
+      "科技硬件形成容量主线，农业形成3—2—1梯队，PTFE与液冷材料出现首日聚集。"
+    ]
+  },
+  "market": {
+    "turnoverYi": 20666.5,
+    "turnoverChangeYi": 3058.3,
+    "indexSummary": "上证+1.13%，深证+1.50%，创业板+1.71%，科创50+3.77%；指数与短线情绪形成放量共振。",
+    "up": 3041,
+    "down": 1673,
+    "limitUp": 76,
+    "limitDown": 3,
+    "connected": 16,
+    "highestBoard": 6,
+    "fiveDays": [
+      { "date": "08-21", "label": "周五", "turnoverYi": 18923.0, "up": 2505, "down": 2862, "limitUp": 55, "limitDown": 13, "connected": 11, "highestBoard": 3, "state": "缩量分化" },
+      { "date": "08-24", "label": "周一", "turnoverYi": 19797.3, "up": 1305, "down": 3522, "limitUp": 46, "limitDown": 11, "connected": 10, "highestBoard": 3, "state": "冰点后试错" },
+      { "date": "08-25", "label": "周二", "turnoverYi": 17888.8, "up": 3744, "down": 1111, "limitUp": 65, "limitDown": 2, "connected": 8, "highestBoard": 4, "state": "强修复、缩量" },
+      { "date": "08-26", "label": "周三", "turnoverYi": 17608.2, "up": 2566, "down": 2191, "limitUp": 52, "limitDown": 0, "connected": 13, "highestBoard": 5, "state": "分歧转一致" },
+      { "date": "08-27", "label": "周四", "turnoverYi": 20666.5, "up": 3041, "down": 1673, "limitUp": 76, "limitDown": 3, "connected": 16, "highestBoard": 6, "state": "放量主升" }
+    ]
+  },
+  "yesterdayFeedback": {
+    "sample": 51,
+    "redOpen": 26,
+    "redOpenRate": 51.0,
+    "averageOpen": 1.42,
+    "redClose": 34,
+    "redCloseRate": 66.7,
+    "averageClose": 3.26,
+    "continuedLimit": 16,
+    "continuedLimitRate": 31.4,
+    "reading": "红开率一般，但收红率、平均收盘收益和晋级率明显抬升，属于弱开强收、盘中承接持续增强的主升反馈。",
+    "fiveDays": [
+      { "date": "08-21", "label": "周五", "sample": 79, "redOpen": null, "redOpenRate": null, "averageOpen": null, "redClose": null, "redCloseRate": null, "averageClose": null, "continuedLimit": 11, "continuedLimitRate": 13.9 },
+      { "date": "08-24", "label": "周一", "sample": 52, "redOpen": 31, "redOpenRate": 59.6, "averageOpen": 1.72, "redClose": 20, "redCloseRate": 38.5, "averageClose": 0.34, "continuedLimit": 10, "continuedLimitRate": 19.2 },
+      { "date": "08-25", "label": "周二", "sample": 46, "redOpen": 22, "redOpenRate": 47.8, "averageOpen": 1.38, "redClose": 20, "redCloseRate": 43.5, "averageClose": 1.03, "continuedLimit": 8, "continuedLimitRate": 17.4 },
+      { "date": "08-26", "label": "周三", "sample": 63, "redOpen": 38, "redOpenRate": 60.3, "averageOpen": 1.68, "redClose": 37, "redCloseRate": 58.7, "averageClose": 2.14, "continuedLimit": 12, "continuedLimitRate": 19.0 },
+      { "date": "08-27", "label": "周四", "sample": 51, "redOpen": 26, "redOpenRate": 51.0, "averageOpen": 1.42, "redClose": 34, "redCloseRate": 66.7, "averageClose": 3.26, "continuedLimit": 16, "continuedLimitRate": 31.4 }
+    ]
+  },
+  "ladder": [
+    { "board": 6, "stocks": ["深中华A"] },
+    { "board": 5, "stocks": ["楚天龙"] },
+    { "board": 4, "stocks": ["海鸥住工"] },
+    { "board": 3, "stocks": ["冀衡医药", "捷荣技术", "万向德农", "青山纸业", "康盛股份"] },
+    { "board": 2, "stocks": ["新农股份", "锦龙股份", "法尔胜", "千金药业", "凯瑞德", "杭电股份", "湘财股份", "郴电国际"] }
+  ],
+  "anchors": [
+    { "name": "深中华A", "board": "6板", "role": "全市场空间锚", "influence": "维持高标风险偏好，偏低价与黄金珠宝辨识度抱团，对题材扩散的带动有限。" },
+    { "name": "楚天龙", "board": "5板", "role": "科技情绪高度锚", "influence": "承接科技与高辨识度资金，其反馈决定高位科技接力的容错率。" },
+    { "name": "海鸥住工", "board": "4板", "role": "独立事件高度锚", "influence": "控制权变更逻辑独立，温和晋级有利于事件驱动型接力。" },
+    { "name": "万向德农", "board": "3板", "role": "农业高度核心", "influence": "与新农股份、新赛股份共同构成农业梯队，决定农业能否升级为主线。" },
+    { "name": "冀衡医药", "board": "3板", "role": "医药接棒核心", "influence": "医药高位分化后的残存高度，更多体现个股抱团而非板块扩散。" }
+  ],
+  "themes": [
+    {
+      "name": "AI硬件／半导体／PCB／CPO",
+      "strength": "容量主线",
+      "stage": "放量高潮",
+      "messages": [
+        { "source": "市场资讯", "content": "资金围绕AI算力需求、光通信、PCB、高速互连、存储与国产半导体展开，科技权重与弹性小票同向走强。" },
+        { "source": "涨停结构", "content": "科创50涨幅显著领先，PCB、CPO、半导体设备及存储分支出现多只涨停，形成指数与题材共振。" },
+        { "source": "价格反馈", "content": "楚天龙5板、捷荣技术3板维持辨识度，星网锐捷等低位首板补充，科技从趋势容量向短线接力扩散。" }
+      ],
+      "branches": ["CPO", "PCB", "存储芯片", "半导体设备", "高速互连"],
+      "limitStocks": ["楚天龙", "捷荣技术", "星网锐捷", "大普微-UW"],
+      "logic": "指数放量时，科技硬件既能容纳趋势资金，又能提供20cm和低位首板弹性，是当日最有容量的共振方向。",
+      "expectationSpace": "次日先看科技权重能否保持承接以及低位首板是否出现主动晋级。高潮次日若前排分歧但中军稳定，主线仍可高低切；若中军与首板同时低开，则会从主升转为兑现。",
+      "persistence": "8月21日光通信活跃，8月25日至27日持续回流，8月27日形成放量高潮。",
+      "coreStocks": [
+        { "name": "楚天龙", "role": "高度核心", "performance": "5板，维持科技情绪高度" },
+        { "name": "捷荣技术", "role": "辨识度核心", "performance": "3板，承接老龙与消费电子资金" },
+        { "name": "星网锐捷", "role": "容量首板", "performance": "14:36首封，尾盘回封" },
+        { "name": "大普微-UW", "role": "20cm弹性", "performance": "09:30首封，科创板存储弹性" }
+      ]
+    },
+    {
+      "name": "农业／种业",
+      "strength": "最强题材梯队",
+      "stage": "第二日强化",
+      "messages": [
+        { "source": "市场资讯", "content": "粮食安全、种业振兴、厄尔尼诺与极端天气、地缘扰动及农产品价格预期被组合传播。" },
+        { "source": "板块文章", "content": "讨论进一步从种业延伸到新疆农业、粮食加工与农化，题材可容纳多分支高低切。" },
+        { "source": "价格反馈", "content": "万向德农3板、新农股份2板、新赛股份首板，形成3—2—1梯队；新农开发、金健米业等首板补充宽度。" }
+      ],
+      "branches": ["种业", "粮食安全", "新疆农业", "粮食加工", "农化"],
+      "limitStocks": ["万向德农", "新农股份", "新赛股份", "新农开发", "金健米业"],
+      "logic": "天气、粮价与政策叙事能够同时映射种业、种植、粮食加工及农化，且核心位置低于科技高位，具备高低切承接条件。",
+      "expectationSpace": "若万向德农与新农股份继续正反馈，农业有望从防御轮动升级为跨日主线；若高度核心断板且首板无晋级，题材会退化为科技高潮后的日内避险。",
+      "persistence": "8月25日万向德农启动，8月26日形成2—1结构，8月27日扩展为3—2—1并增加首板宽度。",
+      "coreStocks": [
+        { "name": "万向德农", "role": "高度核心", "performance": "3板，打开农业高度" },
+        { "name": "新农股份", "role": "换手核心", "performance": "2板，承接板块资金" },
+        { "name": "新赛股份", "role": "低位前排", "performance": "09:25首封，封板稳定" },
+        { "name": "新农开发", "role": "首板助攻", "performance": "09:32首封，强化新疆农业分支" }
+      ]
+    },
+    {
+      "name": "PTFE／新材料／液冷",
+      "strength": "新发酵分支",
+      "stage": "首日聚集",
+      "messages": [
+        { "source": "市场资讯", "content": "市场讨论下一代高速互连、高频背板材料升级、PTFE潜在用量及液冷设备需求。" },
+        { "source": "帖子整合", "content": "材料端从电子氟化工扩散到改性材料、成型设备和冷却设备，形成相对科技硬件主线的低位预期差。" },
+        { "source": "价格反馈", "content": "昊华科技、沃特股份、合锻智能、海鸥股份同日首板，已具备次日辨识前排的基础。" }
+      ],
+      "branches": ["高频高速材料", "电子氟化工", "改性材料", "液冷设备"],
+      "limitStocks": ["昊华科技", "沃特股份", "合锻智能", "海鸥股份"],
+      "logic": "科技硬件放量主升后，资金寻找更低位的材料与设备映射，产业链条清晰但仍主要交易预期。",
+      "expectationSpace": "需要至少两只首板晋级并形成前排分工，才能从小作文发酵升级为独立分支；若只剩单只高开，按科技外溢轮动处理。",
+      "persistence": "8月26日叙事发酵，8月27日首次形成四只首板聚集，持续性尚待次日确认。",
+      "coreStocks": [
+        { "name": "昊华科技", "role": "中军前排", "performance": "09:31首封，3次开板" },
+        { "name": "沃特股份", "role": "弹性前排", "performance": "09:34首封，换手回封" },
+        { "name": "海鸥股份", "role": "液冷分支", "performance": "10:42首封，3次开板" },
+        { "name": "合锻智能", "role": "设备映射", "performance": "10:42首封，2次开板" }
+      ]
+    },
+    {
+      "name": "医药",
+      "strength": "高位分化",
+      "stage": "退潮中的核心抱团",
+      "messages": [
+        { "source": "市场资讯", "content": "业绩、原料药、中药及医药商业等叙事分散，前期大面积高潮后进入高位淘汰。" },
+        { "source": "价格反馈", "content": "冀衡医药3板、千金药业2板维持前排，但汉森制药断板，后排未形成同步回流。" }
+      ],
+      "branches": ["原料药", "中药", "医药商业"],
+      "limitStocks": ["冀衡医药", "千金药业", "神奇制药"],
+      "logic": "指数强势时防御属性下降，资金更偏向少数高辨识度核心，板块宽度不足。",
+      "expectationSpace": "只有冀衡医药、千金药业继续超预期并带出新首板，板块才算修复；否则仍按核心抱团处理。",
+      "persistence": "8月24日至25日由汉森制药打开高度，8月26日起高位分化，8月27日由冀衡医药、千金药业接棒。",
+      "coreStocks": [
+        { "name": "冀衡医药", "role": "高度核心", "performance": "3板" },
+        { "name": "千金药业", "role": "换手核心", "performance": "2板" },
+        { "name": "汉森制药", "role": "前高度锚", "performance": "5板后断板" }
+      ]
+    },
+    {
+      "name": "黄金／低价辨识度",
+      "strength": "高标抱团",
+      "stage": "独立延续",
+      "messages": [
+        { "source": "市场资讯", "content": "金价预期、黄金珠宝消费与低价高辨识度被组合传播，题材宽度不大。" },
+        { "source": "价格反馈", "content": "深中华A晋级6板维持全市场高度，湖南黄金、新赛通灵等低位标的提供零散助攻。" }
+      ],
+      "branches": ["黄金", "珠宝消费", "低价辨识度"],
+      "limitStocks": ["深中华A", "湖南黄金", "莱绅通灵"],
+      "logic": "空间板持续晋级提升辨识度，但板块梯队不完整，更多体现个股抱团。",
+      "expectationSpace": "重点看空间板断板方式和低位黄金珠宝能否形成二板承接；没有新增梯队时不按完整主线外推。",
+      "persistence": "深中华A自8月21日持续晋级，8月27日升至6板，低位黄金助攻仍较零散。",
+      "coreStocks": [
+        { "name": "深中华A", "role": "空间高度核心", "performance": "6板" },
+        { "name": "湖南黄金", "role": "容量助攻", "performance": "09:25首封" },
+        { "name": "莱绅通灵", "role": "低位补涨", "performance": "09:39首封" }
+      ]
+    }
+  ],
+  "themeTimeline": [
+    { "theme": "科技硬件", "days": [
+      { "date": "08-21", "performance": "光通信与CPO回流", "leaders": ["星网锐捷", "瑞斯康达"] },
+      { "date": "08-24", "performance": "高位分歧", "leaders": [] },
+      { "date": "08-25", "performance": "半导体与PCB修复", "leaders": ["捷荣技术"] },
+      { "date": "08-26", "performance": "容量趋势增强", "leaders": ["捷荣技术", "楚天龙"] },
+      { "date": "08-27", "performance": "放量高潮、科创50领涨", "leaders": ["楚天龙", "捷荣技术", "星网锐捷", "大普微-UW"] }
+    ] },
+    { "theme": "农业／种业", "days": [
+      { "date": "08-21", "performance": "前周期退潮", "leaders": [] },
+      { "date": "08-24", "performance": "登海种业试探", "leaders": ["登海种业"] },
+      { "date": "08-25", "performance": "万向德农启动", "leaders": ["万向德农"] },
+      { "date": "08-26", "performance": "万向2板、新农首板", "leaders": ["万向德农", "新农股份"] },
+      { "date": "08-27", "performance": "形成3—2—1梯队", "leaders": ["万向德农", "新农股份", "新赛股份"] }
+    ] },
+    { "theme": "PTFE／新材料", "days": [
+      { "date": "08-21", "performance": "未形成合力", "leaders": [] },
+      { "date": "08-24", "performance": "未形成合力", "leaders": [] },
+      { "date": "08-25", "performance": "零散映射", "leaders": [] },
+      { "date": "08-26", "performance": "叙事发酵", "leaders": [] },
+      { "date": "08-27", "performance": "四只首板聚集", "leaders": ["昊华科技", "沃特股份", "合锻智能", "海鸥股份"] }
+    ] },
+    { "theme": "医药", "days": [
+      { "date": "08-21", "performance": "汉森3板，高潮后分化", "leaders": ["汉森制药"] },
+      { "date": "08-24", "performance": "汉森4板", "leaders": ["汉森制药"] },
+      { "date": "08-25", "performance": "汉森5板、冀衡首板", "leaders": ["汉森制药", "冀衡医药"] },
+      { "date": "08-26", "performance": "汉森断板，冀衡2板", "leaders": ["冀衡医药", "千金药业"] },
+      { "date": "08-27", "performance": "冀衡3板、千金2板", "leaders": ["冀衡医药", "千金药业"] }
+    ] },
+    { "theme": "黄金／辨识度", "days": [
+      { "date": "08-21", "performance": "深中华A 2板、黄金回流", "leaders": ["深中华A"] },
+      { "date": "08-24", "performance": "深中华A 3板", "leaders": ["深中华A"] },
+      { "date": "08-25", "performance": "4板", "leaders": ["深中华A"] },
+      { "date": "08-26", "performance": "5板", "leaders": ["深中华A"] },
+      { "date": "08-27", "performance": "6板并有低位助攻", "leaders": ["深中华A", "湖南黄金", "莱绅通灵"] }
+    ] }
+  ],
+  "effects": {
+    "relayDifficulty": "中等偏易：空间、宽度、晋级率与收盘溢价同步改善，但科技高潮后的后排追高性价比下降。",
+    "profit": ["科技硬件容量趋势与20cm弹性", "农业3—2—1梯队", "高辨识度空间板", "低位材料首板"],
+    "loss": ["前期医药后排", "高潮题材午后跟风", "反复炸板的弱封单个股", "无板块助攻的独立跟风"],
+    "styles": [
+      { "style": "连板", "result": "强", "reading": "16只连板、最高6板，梯队完整。" },
+      { "style": "容量趋势", "result": "强", "reading": "科技中军与指数放量共振。" },
+      { "style": "20cm", "result": "强", "reading": "科创板与创业板科技弹性突出。" },
+      { "style": "低价小票", "result": "较强", "reading": "深中华A与农业低价梯队提供辨识度。" },
+      { "style": "反包／二波", "result": "一般", "reading": "赚钱效应主要集中在主升和低位首板。" }
+    ]
+  },
+  "cycle": {
+    "main": "主升期",
+    "substate": "放量主升、科技高潮、农业强化",
+    "signals": ["指数放量共振", "空间板升至6板", "连板梯队完整", "昨日涨停弱开强收", "科技容量主线与农业题材梯队并存"],
+    "risk": "科技硬件已进入高一致状态，次日若中军转弱且首板批量低开，主升会转入高位分歧；农业若核心同时负反馈，则市场可能快速进入多题材电风扇。"
+  },
+  "oneToTwo": [
+    { "rank": "A", "name": "新赛股份", "firstLimitTime": "09:25:02", "seal": "竞价涨停，盘中无实质开板", "theme": "农业／新疆农业", "speculationLogic": "异动解析集中在棉花、种业及新疆农业；帖子把厄尔尼诺、极端天气、粮食安全和区域农业组合传播。其预期差在于万向德农、新农股份已形成3—2高度，而新赛股份以低价竞价板补齐1板梯队。", "forecast": "农业核心需继续正反馈；若竞价仍强但板块后排大面积兑现，需等待换手确认，不能只看一字强度。" },
+    { "rank": "A-", "name": "昊华科技", "firstLimitTime": "09:31:36", "seal": "3次开板，早盘回封", "theme": "PTFE／电子氟化工", "speculationLogic": "异动解析指向含氟材料与电子化学品；帖子围绕高速互连、高频背板材料升级及PTFE潜在用量展开。其央企材料平台和相对容量属性，使其具备新材料分支中军预期差。", "forecast": "需与沃特股份形成至少双前排，且科技硬件中军保持稳定；若材料分支竞价无集群，单独高开不宜追。" },
+    { "rank": "A-", "name": "沃特股份", "firstLimitTime": "09:34:33", "seal": "6次开板，09:46后稳定回封", "theme": "PTFE／高频材料", "speculationLogic": "异动解析集中在改性材料、LCP与高频高速材料；帖子把PTFE、高速互连和国产材料升级串联。其小市值弹性和材料股股性强于中军，是昊华科技之外的进攻型预期差。", "forecast": "换手充分但开板次数较多，次日应看主动弱转强和同题材助攻；若只靠消息顶高开，兑现压力较大。" },
+    { "rank": "B+", "name": "中安科", "firstLimitTime": "09:38:37", "seal": "早盘封板，盘中无实质开板", "theme": "AI安全／网络安全", "speculationLogic": "异动解析指向网络安全、AI安防和低价属性；帖子把AI智能体普及与模型、数据、终端安全需求结合。其预期差在于科技硬件高潮后，安全应用可能承接低位切换。", "forecast": "需要网络安全或AI应用出现同向首板助攻；若科技资金继续只聚焦硬件，安全分支容易成为独立套利。" },
+    { "rank": "B+", "name": "莱绅通灵", "firstLimitTime": "09:39:59", "seal": "2次开板，早盘回封", "theme": "黄金珠宝", "speculationLogic": "异动解析集中在黄金珠宝与消费；帖子把金价预期、珠宝消费和深中华A空间辨识度组合传播。其预期差是作为空间板同题材的低位补涨，辨识度高于普通黄金跟风。", "forecast": "深中华A必须维持温和正反馈，且黄金容量股不能明显转弱；若空间板大幅分歧，补涨逻辑会先被兑现。" },
+    { "rank": "B", "name": "海鸥股份", "firstLimitTime": "10:42:06", "seal": "3次开板，午后封稳", "theme": "液冷／工业冷却", "speculationLogic": "异动解析指向工业冷却塔与液冷设备映射；帖子把AI算力能耗、液冷渗透率和设备更新需求串联。其预期差在于名称相近辨识度叠加真实冷却设备业务，但题材地位仍需板块确认。", "forecast": "需观察液冷设备是否形成集群，且不能仅靠名称联想；若昊华、沃特强而设备端无助攻，优先级下降。" },
+    { "rank": "B", "name": "星网锐捷", "firstLimitTime": "14:36:39", "seal": "尾盘首封，收盘前回封", "theme": "CPO／交换机／AI网络", "speculationLogic": "异动解析指向交换机、数据中心网络与算力基础设施；帖子围绕AI流量增长、CPO和高速网络升级展开。公司容量与机构辨识度较高，但尾盘封板显示更偏主线回流而非日内主动领涨。", "forecast": "适合看容量承接，不适合高一致追板；若科技中军继续放量且早盘主动换手回封，可作为主线延续锚。" }
+  ],
+  "sources": {
+    "objective": ["FTShare-MCP", "东方财富", "腾讯行情"],
+    "themes": ["同花顺问财"],
+    "narratives": ["市场公开讨论", "板块文章", "异动解析"],
+    "note": "题材与个股消息按市场正在交易的叙事记录，不与公告做一致性核验；它们代表预期和传播强度，不代表事实确认。股票范围排除名称含ST、*ST及北交所，纳入科创板；10cm与20cm分别统计。"
+  }
+}

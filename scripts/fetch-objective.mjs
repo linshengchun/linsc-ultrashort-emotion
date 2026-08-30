@@ -107,8 +107,8 @@ const snapshot = {
   latestTradeDate,
   universe: {
     excludeNameContains: ['ST', '*ST'],
-    excludeBoards: ['北交所', '科创板'],
-    includeBoards: ['沪市主板', '深市主板', '创业板'],
+    excludeBoards: ['北交所'],
+    includeBoards: ['沪市主板', '深市主板', '创业板', '科创板'],
   },
   marketSnapshot,
   stocks,

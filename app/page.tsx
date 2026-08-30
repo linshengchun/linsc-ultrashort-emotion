@@ -8,12 +8,9 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { latestReport, reportMarkdown, reports } from '@/lib/generated-reports';
 
-const repositoryUrl = process.env.NEXT_PUBLIC_REPOSITORY_URL ?? 'https://github.com/linshengchun/linsc-ultrashort-emotion';
 const reportsBaseUrl = process.env.NEXT_PUBLIC_REPORTS_RAW_BASE ?? 'https://raw.githubusercontent.com/linshengchun/linsc-ultrashort-emotion/main/public/reports';
 
 export default function Home() {
-  const workflowUrl = `${repositoryUrl}/actions/workflows/manual-report.yml`;
-
   return (
     <>
       <header className="border-b bg-card/90 backdrop-blur">
@@ -37,13 +34,13 @@ export default function Home() {
 
       <div className="mx-auto grid w-full max-w-[1480px] gap-4 px-4 py-5 sm:px-6 lg:grid-cols-[330px_minmax(0,1fr)] lg:px-8">
         <aside id="archive" className="space-y-4 lg:sticky lg:top-4 lg:self-start">
-          <ReportFinder availableDates={reports.map((report) => report.date)} workflowUrl={workflowUrl} reportsBaseUrl={reportsBaseUrl} />
+          <ReportFinder availableDates={reports.map((report) => report.date)} reportsBaseUrl={reportsBaseUrl} />
           <ReportArchive
             reportsBaseUrl={reportsBaseUrl}
             initial={reports.map((report) => ({ date: report.date, displayDate: report.displayDate, cycle: report.conclusion.cycle, substate: report.conclusion.substate, temperature: report.conclusion.temperature }))}
           />
         </aside>
-        <div className="min-w-0"><ReportView report={latestReport} markdown={reportMarkdown[latestReport.date]} workflowUrl={workflowUrl} embedded /></div>
+        <div className="min-w-0"><ReportView report={latestReport} markdown={reportMarkdown[latestReport.date]} embedded /></div>
       </div>
     </>
   );

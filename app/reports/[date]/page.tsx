@@ -4,8 +4,6 @@ import { notFound } from 'next/navigation';
 import { ReportView } from '@/components/report-view';
 import { reportByDate, reportMarkdown, reports } from '@/lib/generated-reports';
 
-const repositoryUrl = process.env.NEXT_PUBLIC_REPOSITORY_URL ?? 'https://github.com/linshengchun/linsc-ultrashort-emotion';
-
 export function generateStaticParams() {
   return reports.map((report) => ({ date: report.date }));
 }
@@ -26,5 +24,5 @@ export default async function ReportPage({ params }: { params: Promise<{ date: s
   const { date } = await params;
   const report = reportByDate.get(date);
   if (!report) notFound();
-  return <ReportView report={report} markdown={reportMarkdown[date]} workflowUrl={`${repositoryUrl}/actions/workflows/manual-report.yml`} />;
+  return <ReportView report={report} markdown={reportMarkdown[date]} />;
 }

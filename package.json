@@ -16,6 +16,7 @@
     "report:index": "node scripts/build-report-index.mjs",
     "report:validate": "node scripts/validate-reports.mjs",
     "report:markdown": "node scripts/render-report-markdown.mjs",
+    "report:pdf": "python scripts/render-report-pdf.py",
     "report:prepare": "npm run report:validate && npm run report:index"
   },
   "dependencies": {

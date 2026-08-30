@@ -35,5 +35,6 @@ next-env.d.ts
 /dist/
 /.wrangler/
 /outputs/
+/output/
 /work/
 /data/raw/*.json

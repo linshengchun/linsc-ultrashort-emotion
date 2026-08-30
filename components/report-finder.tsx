@@ -2,12 +2,12 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { CalendarSearch, FilePlus2 } from 'lucide-react';
+import { CalendarSearch } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 
-export function ReportFinder({ availableDates, workflowUrl, reportsBaseUrl }: { availableDates: string[]; workflowUrl: string; reportsBaseUrl: string }) {
+export function ReportFinder({ availableDates, reportsBaseUrl }: { availableDates: string[]; reportsBaseUrl: string }) {
   const router = useRouter();
   const [date, setDate] = useState(availableDates[0] ?? '');
   const [missing, setMissing] = useState(false);
@@ -57,14 +57,8 @@ export function ReportFinder({ availableDates, workflowUrl, reportsBaseUrl }: { 
 
       {missing ? (
         <div className="mt-4 rounded-xl border border-dashed border-amber-300 bg-amber-50 p-4 text-sm text-amber-950">
-          <p className="font-medium">{date} 尚未生成静态报告。</p>
-          <p className="mt-1 text-xs leading-5 text-amber-800">生成只允许仓库所有者执行。完成后刷新本站，该日期会进入归档。</p>
-          <Button asChild variant="outline" className="mt-3 gap-2 border-amber-300 bg-white">
-            <a href={workflowUrl} target="_blank" rel="noreferrer">
-              <FilePlus2 className="size-4" />
-              生成本日报告
-            </a>
-          </Button>
+          <p className="font-medium">{date} 尚未上传静态报告。</p>
+          <p className="mt-1 text-xs leading-5 text-amber-800">请在本地完成取数、Markdown/PDF生成后，将报告文件上传到 GitHub，再刷新本站。</p>
         </div>
       ) : null}
     </div>

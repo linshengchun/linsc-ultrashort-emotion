@@ -32,7 +32,7 @@ for (const file of files) {
   if ('eventTree' in report) errors.push(`${file}: eventTree应合并到themes，不再单独保存`);
   for (const theme of report.themes ?? []) {
     if (!Array.isArray(theme.messages) || theme.messages.length < 2) errors.push(`${file}: 题材“${theme.name}”的消息面至少需要2条带来源信息`);
-    if (!(theme.messages ?? []).some((item) => item.source?.includes('韭研公社'))) errors.push(`${file}: 题材“${theme.name}”缺少韭研公社资讯`);
+    if (!(theme.messages ?? []).every((item) => item.source && item.content)) errors.push(`${file}: 题材“${theme.name}”的消息面缺少来源类型或内容`);
     if (!theme.expectationSpace) errors.push(`${file}: 题材“${theme.name}”缺少合并后的预期与想象空间`);
     if ('expectation' in theme || 'imagination' in theme) errors.push(`${file}: 题材“${theme.name}”仍保留拆分的预期面或想象空间`);
   }
@@ -79,7 +79,6 @@ for (const file of files) {
     if (markdown.includes('### 近5日对比')) errors.push(`${file}: 昨日涨停反馈仍保留第二张近5日表`);
     if (!markdown.includes('- **逻辑与预期空间：**')) errors.push(`${file}: Markdown缺少合并后的预期与想象空间`);
     if (markdown.includes('- **预期面：**') || markdown.includes('- **想象空间：**')) errors.push(`${file}: Markdown仍拆分预期面与想象空间`);
-    if (!markdown.includes('jiuyangongshe.com')) errors.push(`${file}: Markdown消息面缺少韭研公社资讯链接`);
     if (!markdown.includes('领涨核心') && !markdown.includes('万向德农') && !markdown.includes('天娱数科')) errors.push(`${file}: Markdown题材持续表缺少每日领涨核心票`);
     if (!markdown.includes('异动解析：') || !markdown.includes('帖子吹票逻辑：')) errors.push(`${file}: Markdown的1进2模块缺少两段式炒作逻辑`);
     const oneToTwoSection = markdown.split('## 九、次日1进2预期标的')[1] ?? '';

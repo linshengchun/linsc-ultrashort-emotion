@@ -1,22 +1,22 @@
 # LINSC超短情绪复盘系统
 
-面向只做多、持股约2—3日的A股超短交易者。项目把每个交易日的复盘固化为标准 Markdown 文件，并在网页中按日期阅读和归档。
+面向只做多、持股约2—3日的A股超短交易者。项目把每个交易日的复盘固化为 Markdown 与 PDF 文件，并在网页中按日期阅读和归档。
 
 ## 工作方式
 
-系统仅按需手动生成报告。
+报告在本地生成，GitHub 只负责存储静态文件和托管展示网站。
 
-1. 在网页选择一个交易日。
-2. 已有静态报告时直接打开。
-3. 报告缺失时点击“生成本日报告”；已有报告可点击“重新生成”并覆盖同日期文件。
-4. 仓库所有者在 GitHub Actions 中确认日期并执行工作流。
-5. 工作流取数、生成 Markdown、校验10个模块并提交到仓库；Git历史保留每次覆盖前的版本。
-6. 网站从公开仓库读取最新静态报告，无需为新增报告重新发布站点。
+1. 在本地按交易日取数并生成 Markdown 报告。
+2. 在本地把 Markdown 渲染为紧凑版 PDF。
+3. 将 `data/reports`、`public/reports` 中的 Markdown、JSON、PDF 和索引提交并推送到 GitHub。
+4. 网站只读取 GitHub 中的静态文件，提供在线浏览和 PDF/Markdown 下载，不负责取数或生成报告。
+5. GitHub Actions 仅用于校验和构建网站，不再承担报告生成。
 
 报告文件位于：
 
 - `data/reports/YYYY-MM-DD.md`：正式 Markdown 报告。
 - `data/reports/YYYY-MM-DD.json`：网页摘要和关键指标。
+- `public/reports/YYYY-MM-DD.pdf`：本地生成后上传的正式 PDF。
 - `public/reports/index.json`：静态归档索引。
 
 ## LINSC超短情绪复盘系统 V1.5：正式模块与数据源清单
@@ -47,7 +47,7 @@
 
 ### 固定边界
 
-- 股票范围排除名称含 `ST`、`*ST`、北交所和科创板，保留沪深主板与创业板。
+- 股票范围排除名称含 `ST`、`*ST` 和北交所，纳入沪深主板、创业板与科创板。
 - 报告不展示内部“数据完整性”模块；覆盖不足时在生成流程内部阻止或降级结论。
 - 题材和个股消息按市场正在交易的叙事记录，不与公告做一致性核验，也不把小作文写成已经确认的事实。
 - 不包含高标卡异动、绕异动模块。
@@ -72,14 +72,18 @@ npm run build
 npm run data:fetch -- --date 2026-08-28
 npm run report:generate -- --date 2026-08-28
 npm run report:prepare
+npm run report:pdf -- --date 2026-08-28 --output public/reports/2026-08-28.pdf
+```
+
+首次使用 PDF 渲染功能时安装依赖：
+
+```bash
+python -m pip install reportlab
 ```
 
 ## GitHub配置
 
-在仓库 `Settings → Secrets and variables → Actions` 中添加：
-
-- Secret `OPENAI_API_KEY`：仅供手动报告工作流使用。
-- Variable `OPENAI_MODEL`：可选，默认 `gpt-5.4`。
+本地生成需要在当前终端设置 `OPENAI_API_KEY`；GitHub 不再保存报告生成密钥，也不再运行报告生成工作流。推送静态文件后，CI 自动校验并构建展示网站。
 
 网页构建使用：
 
