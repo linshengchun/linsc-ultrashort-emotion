@@ -11,14 +11,29 @@ export type MarketDay = {
   state: string;
 };
 
+export type YesterdayFeedbackDay = {
+  date: string;
+  label: string;
+  sample: number | null;
+  redOpen: number | null;
+  redOpenRate: number | null;
+  averageOpen: number | null;
+  redClose: number | null;
+  redCloseRate: number | null;
+  averageClose: number | null;
+  continuedLimit: number | null;
+  continuedLimitRate: number | null;
+};
+
 export type Theme = {
   name: string;
   strength: string;
   stage: string;
-  message: string;
+  messages: Array<{ source: string; content: string }>;
+  branches: string[];
+  limitStocks: string[];
   logic: string;
-  expectation: string;
-  imagination: string;
+  expectationSpace: string;
   persistence: string;
   coreStocks: Array<{ name: string; role: string; performance: string }>;
 };
@@ -58,12 +73,12 @@ export type Report = {
     continuedLimit: number;
     continuedLimitRate: number;
     reading: string;
+    fiveDays: YesterdayFeedbackDay[];
   };
   ladder: Array<{ board: number; stocks: string[] }>;
   anchors: Array<{ name: string; board: string; role: string; influence: string }>;
-  eventTree: Array<{ theme: string; trigger: string; branches: string[]; limitStocks: string[] }>;
   themes: Theme[];
-  themeTimeline: Array<{ theme: string; days: Array<{ date: string; performance: string }> }>;
+  themeTimeline: Array<{ theme: string; days: Array<{ date: string; performance: string; leaders: string[] }> }>;
   effects: {
     relayDifficulty: string;
     profit: string[];
@@ -82,7 +97,7 @@ export type Report = {
     firstLimitTime: string;
     seal: string;
     theme: string;
-    reason: string;
+    speculationLogic: string;
     forecast: string;
   }>;
   sources: {
