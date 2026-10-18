@@ -1,0 +1,120 @@
+{
+  "date": "2026-09-24",
+  "displayDate": "2026年9月24日",
+  "generatedAt": "2026-09-27T23:12:00+08:00",
+  "title": "2026-09-24《LINSC超短情绪复盘》",
+  "conclusion": {
+    "cycle": "主升结构内的指数退潮与短线抱团背离",
+    "substate": "大盘普跌、连板高度逆势修复",
+    "temperature": null,
+    "summary": "指数缩量普跌、成长领跌，连板高度反而修复；昨日涨停样本均值为正但左尾扩大，体现高标抱团与普通持仓重伤并存。",
+    "evidence": [
+      "成交额16443.14亿元，环比下降6.29%，上涨1030只、下跌3873只。",
+      "校正后收盘涨停52只、跌停12只；连板13只、最高5板。",
+      "昨日实际涨停池51只，平均收盘+0.55%、中位+0.26%，13只晋级、9只收盘大面。",
+      "华丽家族、南威软件、华远控股等D-1核心出现早盘或尾盘实际跌停级负反馈。"
+    ]
+  },
+  "market": {
+    "turnoverYi": 16443.14,
+    "turnoverPrevYi": 17546.16,
+    "turnoverChangeYi": -1103.02,
+    "turnoverChangePct": -6.29,
+    "turnoverMA60Yi": 22697.09,
+    "turnoverVsMA60Yi": -6253.95,
+    "turnoverVsMA60Pct": -27.55,
+    "indexSummary": "上证指数-1.22%，深证成指-2.34%，创业板指-2.68%，科创50-2.35%；LINSC样本普跌、成长领跌。",
+    "up": 1030,
+    "down": 3873,
+    "limitUp": 52,
+    "limitDown": 12,
+    "connected": 13,
+    "highestBoard": 5,
+    "fiveDays": [
+      {"date":"2026-09-24","label":"09-24","turnoverYi":16443.14,"turnoverChangeYi":-1103.02,"turnoverChangePct":-6.29,"up":1030,"down":3873,"limitUp":52,"limitDown":12,"connected":13,"highestBoard":5,"coreEarlyLimitDown":2,"coreBigLoss":9,"killScore":null,"pain":"三级：心如刀割（5—6分）","marketEnvironment":"缩量普跌、成长领跌","relayState":"高标抱团修复、后手左尾扩大","state":"指数退潮与短线抱团背离"},
+      {"date":"2026-09-23","label":"09-23","turnoverYi":17546.16,"turnoverChangeYi":-3690.43,"turnoverChangePct":-17.38,"up":1710,"down":3225,"limitUp":51,"limitDown":13,"connected":12,"highestBoard":4,"coreEarlyLimitDown":0,"coreBigLoss":9,"killScore":null,"pain":"三级：心如刀割（5—6分）","marketEnvironment":"缩量回落","relayState":"高位分歧、低位轮动","state":"高位兑现"},
+      {"date":"2026-09-22","label":"09-22","turnoverYi":21236.59,"turnoverChangeYi":1030.96,"turnoverChangePct":5.10,"up":2221,"down":2665,"limitUp":63,"limitDown":3,"connected":24,"highestBoard":6,"coreEarlyLimitDown":0,"coreBigLoss":6,"killScore":null,"pain":"三级：心如刀割（5—6分）","marketEnvironment":"放量滞涨","relayState":"高标加强、后排分歧","state":"强分歧"},
+      {"date":"2026-09-21","label":"09-21","turnoverYi":20205.63,"turnoverChangeYi":-462.20,"turnoverChangePct":-2.24,"up":4070,"down":873,"limitUp":102,"limitDown":2,"connected":22,"highestBoard":5,"coreEarlyLimitDown":null,"coreBigLoss":null,"killScore":null,"pain":"一级：怅然若失（1—2分）","marketEnvironment":"缩量普涨","relayState":"多题材扩散","state":"扩散"},
+      {"date":"2026-09-18","label":"09-18","turnoverYi":20667.83,"turnoverChangeYi":2538.82,"turnoverChangePct":14.00,"up":3809,"down":1052,"limitUp":79,"limitDown":0,"connected":12,"highestBoard":4,"coreEarlyLimitDown":0,"coreBigLoss":0,"killScore":0,"pain":"一级：怅然若失（1—2分）","marketEnvironment":"放量普涨","relayState":"梯队修复","state":"加强"}
+    ]
+  },
+  "pain": {
+    "level": "三级：心如刀割（5—6分）",
+    "score": null,
+    "summary": "昨日板样本大面率17.65%，但中位收盘+0.26%、平均收盘+0.55%；实际跌停1只，定向早盘证据为两只D-1三板核心在10:00前触及跌停，未达四级预警下限。",
+    "stocks": [
+      {"name":"华丽家族","role":"D-1三板地产前排","auction":"开盘-8.16%","earlySession":"09:30:15触及实际跌停，多次开板","close":"-9.86%","damage":"实际跌停后打开","impact":"高位地产与持仓退出负反馈"},
+      {"name":"南威软件","role":"D-1三板AI应用前排","auction":"开盘-6.81%","earlySession":"09:50:59触及实际跌停","close":"-9.88%","damage":"收盘接近跌停","impact":"软件、传媒中位接力受压"},
+      {"name":"华远控股","role":"D-1三板地产服务前排","auction":"开盘+2.13%","earlySession":"14:54触及跌停后打开","close":"-9.22%","damage":"红开后大幅回撤","impact":"显示前排溢价也可能快速反转"}
+    ],
+    "spread": "伤害扩展至地产、软件、农业、医药、材料和制造等昨日涨停样本；但新华文轩晋级、整体样本均值为正，尚不能称为广泛清算。"
+  },
+  "yesterdayFeedback": {
+    "sample": 51,
+    "redOpen": 25,
+    "redOpenRate": 49.02,
+    "averageOpen": 1.07,
+    "redClose": 26,
+    "redCloseRate": 50.98,
+    "averageClose": 0.55,
+    "medianClose": 0.26,
+    "continuedLimit": 13,
+    "continuedLimitRate": 25.49,
+    "bigLoss": 9,
+    "bigLossRate": 17.65,
+    "limitDown": 1,
+    "reading": "红开率与平均收盘回升、13只晋级，但大面率升至17.65%；均值被前排支撑，不能代表普通后排持有体验。",
+    "fiveDays": [
+      {"date":"2026-09-24","label":"09-24","sample":51,"redOpen":25,"redOpenRate":49.02,"averageOpen":1.07,"redClose":26,"redCloseRate":50.98,"averageClose":0.55,"medianClose":0.26,"continuedLimit":13,"continuedLimitRate":25.49,"bigLoss":9,"bigLossRate":17.65,"limitDown":1,"pain":"心如刀割；均值为正但核心左尾明显"},
+      {"date":"2026-09-23","label":"09-23","sample":63,"redOpen":25,"redOpenRate":39.68,"averageOpen":1.29,"redClose":37,"redCloseRate":58.73,"averageClose":-0.17,"medianClose":-1.42,"continuedLimit":12,"continuedLimitRate":19.05,"bigLoss":9,"bigLossRate":14.29,"limitDown":3,"pain":"前排跌停、普遍低开"},
+      {"date":"2026-09-22","label":"09-22","sample":102,"redOpen":65,"redOpenRate":63.73,"averageOpen":2.44,"redClose":61,"redCloseRate":59.80,"averageClose":2.49,"medianClose":1.34,"continuedLimit":24,"continuedLimitRate":23.53,"bigLoss":6,"bigLossRate":5.88,"limitDown":0,"pain":"均值正、左尾扩大"},
+      {"date":"2026-09-21","label":"09-21","sample":78,"redOpen":56,"redOpenRate":71.79,"averageOpen":2.10,"redClose":53,"redCloseRate":67.95,"averageClose":3.26,"medianClose":1.65,"continuedLimit":22,"continuedLimitRate":28.21,"bigLoss":2,"bigLossRate":2.56,"limitDown":0,"pain":"先手收益强"},
+      {"date":"2026-09-18","label":"09-18","sample":47,"redOpen":29,"redOpenRate":61.70,"averageOpen":2.05,"redClose":32,"redCloseRate":68.09,"averageClose":2.78,"medianClose":1.23,"continuedLimit":12,"continuedLimitRate":25.53,"bigLoss":1,"bigLossRate":2.13,"limitDown":0,"pain":"强修复"}
+    ]
+  },
+  "ladder": [
+    {"board":5,"stocks":["新华文轩"]},
+    {"board":4,"stocks":["新华传媒","奥佳华","泰慕士"]},
+    {"board":3,"stocks":["天威视讯"]},
+    {"board":2,"stocks":["华茂股份","东方中科","雪龙集团","康强电子","金辰股份","集泰股份","上工申贝","福建水泥"]},
+    {"board":1,"stocks":["平潭发展","漳州发展","厦门港务","福建金森","洛轴股份","吉鑫科技","宁波东力","襄阳轴承","内蒙新华","及其他共39只"]}
+  ],
+  "anchors": [
+    {"name":"新华文轩","board":"5板","role":"出版发行高度锚","influence":"逆指数晋级，提供短线抱团空间，但未带来普遍市场修复。"},
+    {"name":"新华传媒/天威视讯","board":"4板/3板","role":"传媒梯队锚","influence":"中高位延续可支撑传媒观察，后排强度仍需验证。"},
+    {"name":"奥佳华/泰慕士","board":"4板","role":"独立高标","influence":"高位抱团方向分散，避免把单股高度误读成板块共振。"},
+    {"name":"华丽家族/南威软件/华远控股","board":"D-1三板","role":"负反馈锚","influence":"前排早盘或尾盘跌停级回撤，压制新增接力许可。"},
+    {"name":"洛轴股份/吉鑫科技","board":"首板","role":"风电观察锚","influence":"同一收盘后公开叙事覆盖二者，只用于次日低位观察。"}
+  ],
+  "themes": [
+    {"name":"出版传媒/文化消费","strength":"高标延续、后排分化","stage":"抱团延续","messages":[{"source":"同花顺问财与涨停股业务映射","content":"出版发行、教材教辅、广电网络和文化消费方向形成多层映射。"},{"source":"财联社9月24日复盘","content":"确认新华文轩5板，新华传媒等高标晋级。"}],"branches":["出版发行与教材教辅","文化消费与广电网络","传媒与数据中心"],"limitStocks":["新华文轩","新华传媒","天威视讯","内蒙新华"],"logic":"高标梯队完整，但市场普跌和D-1核心大面说明更像抱团而非全面回流。","expectationSpace":"高标、中位和低位共同延续才保留主线观察；若高标独强、后排继续大面，按抱团处理。","persistence":"09-21名称扩散、09-22 AI共振、09-23高位分歧、09-24新华文轩升至5板。","coreStocks":[{"name":"新华文轩","role":"出版高度锚","performance":"5板"},{"name":"新华传媒","role":"中位承接","performance":"4板"}]},
+    {"name":"福建本地/海峡西岸","strength":"弱市扩散","stage":"新方向试错","messages":[{"source":"财联社盘面复盘","content":"将福建列为逆势领涨方向。"},{"source":"东方财富Choice涨停复盘","content":"确认当日公开统计口径涨停52只。"}],"branches":["福建本地国企","海峡西岸与港口","区域基建与消费"],"limitStocks":["平潭发展","漳州发展","新华都","厦门港务","福建金森","福建水泥"],"logic":"多只首板与福建水泥2板构成区域宽度，但事件覆盖不完整，因果需逐条核验。","expectationSpace":"只有辨识度核心承接并有同方向新增封板，才保留跨日预期；单日扩散不足以确认主线。","persistence":"09-24首次形成较明显区域扩散，等待后续确认。","coreStocks":[{"name":"福建水泥","role":"区域2板","performance":"2板"},{"name":"平潭发展","role":"区域首板","performance":"首板"}]},
+    {"name":"风电/海上风电","strength":"逆势活跃、低位","stage":"事件观察","messages":[{"source":"新浪9月24日收盘点评","content":"记录风电设备逆势活跃及海上风电项目进展叙事。"},{"source":"韭研公社收盘后公开帖","content":"20:20发布风电设备主题帖，直接覆盖洛轴股份、吉鑫科技；抓取正文不完整，标题叙事不作公告事实。"}],"branches":["风电轴承","风电铸件","海上风电设备"],"limitStocks":["洛轴股份","吉鑫科技","宁波东力"],"logic":"洛轴股份与吉鑫科技分别为20cm和10cm首板，且有同题材收盘后事件卡覆盖；事件发布时间晚于收盘。","expectationSpace":"仅作次日低位观察，须换手承接并有至少一只同题材助攻；订单或政策需公告核验。","persistence":"09-24逆势活跃，跨日持续性尚未验证。","coreStocks":[{"name":"洛轴股份","role":"20cm首板","performance":"09:42首封"},{"name":"吉鑫科技","role":"风电首板","performance":"10:02首封"}]},
+    {"name":"机器人/装备制造","strength":"高标与低位并存","stage":"分支轮动","messages":[{"source":"同花顺问财映射","content":"奥佳华、宁波东力、襄阳轴承、上工申贝分别映射智能设备或机器人相关业务。"},{"source":"公开收盘复盘","content":"机器人方向列为弱市活跃分支之一。"}],"branches":["机器人轴承","智能制造","健康设备与具身智能"],"limitStocks":["奥佳华","宁波东力","襄阳轴承","上工申贝"],"logic":"高位、2板和首板均有表现，但业务分支较散，不能过度合并。","expectationSpace":"高标分歧可控且低位核心共振时保留轮动预期；孤立表现不视为完整主线。","persistence":"09-24局部活跃，持续性待后续验证。","coreStocks":[{"name":"奥佳华","role":"高位锚","performance":"4板"},{"name":"上工申贝","role":"低位梯队","performance":"2板"}]},
+    {"name":"AI硬件/PCB/半导体","strength":"成长方向承压","stage":"弱势分化","messages":[{"source":"中新经纬9月24日收评","content":"记录CPO、PCB、电子元件和半导体走弱，银行、煤炭相对抗跌。"},{"source":"本地全量行情与问财映射","content":"科技容量股承压，但康强电子、金辰股份、东方中科等个股仍有连板表现。"}],"branches":["CPO与算力硬件","PCB与电子材料","半导体设备"],"limitStocks":["康强电子","金辰股份","东方中科"],"logic":"少数连板与成长板块整体走弱并存，个股强度不能代表行业企稳。","expectationSpace":"只观察个股换手后的独立强度；指数继续弱时优先回避高弹性后手。","persistence":"09-23材料低位轮动、09-24科技成长承压。","coreStocks":[{"name":"康强电子","role":"半导体梯队","performance":"2板"},{"name":"金辰股份","role":"设备梯队","performance":"2板"}]}
+  ],
+  "themeTimeline": [
+    {"theme":"出版传媒/文化","days":[{"date":"09-21","performance":"名称与重组扩散","leaders":["内蒙新华","新华传媒"]},{"date":"09-22","performance":"AI应用共振加强","leaders":["内蒙新华","新华文轩"]},{"date":"09-23","performance":"高位分歧、中位留存","leaders":["新华文轩","新华传媒"]},{"date":"09-24","performance":"高标逆势延续","leaders":["新华文轩","新华传媒","天威视讯"]}]},
+    {"theme":"科技材料/PCB","days":[{"date":"09-21","performance":"材料扩散","leaders":["华瓷股份"]},{"date":"09-22","performance":"芯片与AI切换","leaders":["博通集成"]},{"date":"09-23","performance":"PET铜箔、玻璃基板低位轮动","leaders":["澳弘电子","沃格光电"]},{"date":"09-24","performance":"成长承压、少数连板独立","leaders":["康强电子","金辰股份"]}]},
+    {"theme":"福建/风电/机器人","days":[{"date":"09-23","performance":"局部轮动","leaders":["福建水泥"]},{"date":"09-24","performance":"福建首板扩散，风电逆势，机器人分化","leaders":["福建水泥","洛轴股份","吉鑫科技","奥佳华"]}]},
+    {"theme":"地产/家居","days":[{"date":"09-21","performance":"地产与名称扩散","leaders":["世联行"]},{"date":"09-22","performance":"家居、地产局部延续","leaders":["大亚圣象","我爱我家"]},{"date":"09-23","performance":"地产服务走强","leaders":["我爱我家","华远控股"]},{"date":"09-24","performance":"D-1地产前排大幅负反馈","leaders":["华丽家族","华远控股"]}]}
+  ],
+  "effects": {
+    "relayDifficulty":"困难；大盘与短线高度背离，1档局部观察，首笔不超过1成、总新增不超过2成。",
+    "profit":["新华文轩等出版传媒高标延续。","福建本地首板形成区域宽度。","风电和部分机器人个股弱市活跃。"],
+    "loss":["昨日涨停池9/51收盘跌幅不高于-7%。","华丽家族、南威软件、华远控股等前排出现跌停级回撤。","指数普跌、成长板块承压，后手退出风险高。"],
+    "styles":[{"style":"高位连板","result":"局部修复","reading":"最高板4→5、连板12→13，但与市场广度背离。"},{"style":"昨日涨停持有","result":"均值为正、左尾扩大","reading":"平均收盘+0.55%、大面9只、跌停1只。"},{"style":"福建/风电","result":"弱市新方向","reading":"有局部宽度和事件观察点，持续性未确认。"},{"style":"科技成长后排","result":"偏弱","reading":"指数和成长方向同步承压。"}]
+  },
+  "cycle":{"main":"主升结构内的指数退潮与短线抱团背离","substate":"大盘普跌、连板高度逆势修复","signals":["成交额环比缩量6.29%，下跌3873只。","最高板4→5、连板12→13。","昨日板均收+0.55%，但9只大面、1只实际跌停。","福建、风电和机器人局部承接，未形成统一新主线。"],"risk":"若高标抱团瓦解且D-1核心负反馈继续扩散，指数退潮可能转为全面短线退潮。"},
+  "prediction":{"baseline":"指数弱势延续，出版传媒高标抱团与福建/风电低位试错并行；尚未完成普遍修复。","confidence":"中","firstChoice":"出版传媒高标主动承接并有中低位跟随，仅观察不追一致","secondChoice":"风电换手承接并出现至少一只同题材助攻","avoid":"科技成长后排、D-1大面核心无确认抄底、孤立首板","positionTier":1,"stop":"两只以上高标低于预期、或新增两只核心大面时回到0档并停止新增"},
+  "oneToTwo":[
+    {"name":"洛轴股份","code":"301699","theme":"风电轴承/机器人轴承","board":"20cm首板","firstLimitTime":"09:42","openCount":1,"maxSealYi":4.77,"speculationLogic":"异动解析：问财映射航空轴承、机器人轴承和风电轴承，目标日首封时间09:42。帖子吹票逻辑：韭研公社20:20公开帖将风电设备与订单、政策叙事相连并覆盖该股；正文不完整，标题不等于公告核实。次日接力预判：需换手后主动承接、吉鑫科技或其他风电股助攻；高开兑现或跌停扩散则取消观察。"},
+    {"name":"吉鑫科技","code":"601218","theme":"风电铸件/风电轴承","board":"首板","firstLimitTime":"10:02","openCount":1,"maxSealYi":4.86,"speculationLogic":"异动解析：问财映射风电铸件、风电轴承及半年报增长，目标日首封时间10:02。帖子吹票逻辑：同一条韭研公社20:20公开帖直接提及该股及洛轴股份；正文证据有限，不将标题中的订单叙事视为已核实公告。次日接力预判：需竞价保持溢价且洛轴股份或同题材个股同步承接；单只高开、板块无跟随则不参与。"}
+  ],
+  "sources":{
+    "objective":["FTShare目标日完整缓存5907条、197页，末页hasMore=false；61/61交易日窗口齐全。","逐股以有效涨跌停价和收盘价校正，排除ST及北交所；实际涨停52只、跌停12只。","昨日反馈按9月23日实际涨停池51只重算。"],
+    "themes":["同花顺问财目标日涨停原因映射51只，实际涨停少1只三羊马。","财联社9月24日复盘与东方财富Choice涨停复盘。","中新经纬和新浪财经9月24日收评。"],
+    "narratives":["韭研公社缓存8/8页，事件卡覆盖2/68只优先股，authenticatedSessionSupplied=false。","洛轴股份、吉鑫科技事件卡来自同一条9月24日20:20公开帖；仅用于收盘后次日观察。"],
+    "note":"涨停校正排除ST及北交所并剔除15:00伪事件；情绪温度、痛感精确分值和次日参数未校准。报告不使用9月25日及之后行情。"
+  }
+}

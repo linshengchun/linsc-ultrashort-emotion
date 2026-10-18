@@ -28,6 +28,8 @@ yarn-error.log*
 
 # local environment
 .env*
+/key.txt
+/jiuyan_key.txt
 
 # deployment and generated files
 .vercel
@@ -38,3 +40,17 @@ next-env.d.ts
 /output/
 /work/
 /data/raw/*.json
+/data/narratives/
+/data/cache/
+/.local/
+
+# machine-local state and synchronization artifacts
+/.tmp/
+/tmp/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+*.log
+/config/ssh_known_hosts
+/data/fallbacks/
+/data/reports/history/

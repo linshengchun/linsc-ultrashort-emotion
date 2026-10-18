@@ -60,7 +60,7 @@ def table_flowable(lines, styles, width):
         ("GRID", (0, 0), (-1, -1), 0.25, colors.HexColor("#d6d3d1")),
         ("VALIGN", (0, 0), (-1, -1), "TOP"),
         ("LEFTPADDING", (0, 0), (-1, -1), 3), ("RIGHTPADDING", (0, 0), (-1, -1), 3),
-        ("TOPPADDING", (0, 0), (-1, -1), 3), ("BOTTOMPADDING", (0, 0), (-1, -1), 3),
+        ("TOPPADDING", (0, 0), (-1, -1), 2.4), ("BOTTOMPADDING", (0, 0), (-1, -1), 2.4),
     ]))
     return table
 
@@ -86,6 +86,10 @@ def build_story(markdown, styles, width):
             story.append(Paragraph(inline(line[4:]), styles["H3CN"]))
             index += 1
             continue
+        if line.startswith("#### "):
+            story.append(Paragraph(inline(line[5:]), styles["H4CN"]))
+            index += 1
+            continue
         if line.startswith("| "):
             table_lines = []
             while index < len(lines) and lines[index].startswith("|"):
@@ -93,7 +97,7 @@ def build_story(markdown, styles, width):
                 index += 1
             table = table_flowable(table_lines, styles, width)
             if table:
-                story.extend([Spacer(1, 1.2 * mm), table, Spacer(1, 1.2 * mm)])
+                story.extend([Spacer(1, 0.8 * mm), table, Spacer(1, 0.8 * mm)])
             continue
         if line.startswith(">"):
             quote = line.lstrip("> ")
@@ -142,15 +146,16 @@ def main():
         raise FileNotFoundError(f"报告不存在：{source}")
     pdfmetrics.registerFont(TTFont("CN", str(choose_font())))
     styles = getSampleStyleSheet()
-    styles.add(ParagraphStyle(name="TitleCN", parent=styles["Title"], fontName="CN", fontSize=17, leading=21, alignment=TA_CENTER, textColor=colors.HexColor("#7f1d1d"), spaceAfter=7))
-    styles.add(ParagraphStyle(name="H2CN", parent=styles["Heading2"], fontName="CN", fontSize=12.5, leading=15, textColor=colors.HexColor("#991b1b"), spaceBefore=8, spaceAfter=4, keepWithNext=True))
-    styles.add(ParagraphStyle(name="H3CN", parent=styles["Heading3"], fontName="CN", fontSize=10.5, leading=13, textColor=colors.HexColor("#b45309"), spaceBefore=5, spaceAfter=2, keepWithNext=True))
-    styles.add(ParagraphStyle(name="BodyCN", parent=styles["BodyText"], fontName="CN", fontSize=8.6, leading=12.2, spaceAfter=3))
-    styles.add(ParagraphStyle(name="QuoteCN", parent=styles["BodyText"], fontName="CN", fontSize=8.7, leading=12.4, leftIndent=7, rightIndent=4, borderPadding=5, borderColor=colors.HexColor("#fecaca"), borderWidth=0.6, backColor=colors.HexColor("#fff7ed"), spaceBefore=2, spaceAfter=4))
-    styles.add(ParagraphStyle(name="CellCN", parent=styles["BodyText"], fontName="CN", fontSize=6.6, leading=8.3, spaceAfter=0))
-    styles.add(ParagraphStyle(name="CellHead", parent=styles["BodyText"], fontName="CN", fontSize=6.7, leading=8.4, textColor=colors.white, spaceAfter=0))
+    styles.add(ParagraphStyle(name="TitleCN", parent=styles["Title"], fontName="CN", fontSize=15, leading=17.5, alignment=TA_CENTER, textColor=colors.HexColor("#7f1d1d"), spaceAfter=4))
+    styles.add(ParagraphStyle(name="H2CN", parent=styles["Heading2"], fontName="CN", fontSize=10.8, leading=11.8, textColor=colors.HexColor("#991b1b"), spaceBefore=2.4, spaceAfter=0.6, keepWithNext=True))
+    styles.add(ParagraphStyle(name="H3CN", parent=styles["Heading3"], fontName="CN", fontSize=9.2, leading=10.0, textColor=colors.HexColor("#b45309"), spaceBefore=1.2, spaceAfter=0.3, keepWithNext=True))
+    styles.add(ParagraphStyle(name="H4CN", parent=styles["Heading4"], fontName="CN", fontSize=8.2, leading=9.0, textColor=colors.HexColor("#7c2d12"), spaceBefore=0.8, spaceAfter=0.2, keepWithNext=True))
+    styles.add(ParagraphStyle(name="BodyCN", parent=styles["BodyText"], fontName="CN", fontSize=7.2, leading=8.6, spaceAfter=0.2))
+    styles.add(ParagraphStyle(name="QuoteCN", parent=styles["BodyText"], fontName="CN", fontSize=7.2, leading=8.7, leftIndent=5, rightIndent=3, borderPadding=2.2, borderColor=colors.HexColor("#fecaca"), borderWidth=0.6, backColor=colors.HexColor("#fff7ed"), spaceBefore=0.3, spaceAfter=0.6))
+    styles.add(ParagraphStyle(name="CellCN", parent=styles["BodyText"], fontName="CN", fontSize=5.7, leading=6.6, spaceAfter=0))
+    styles.add(ParagraphStyle(name="CellHead", parent=styles["BodyText"], fontName="CN", fontSize=5.8, leading=6.7, textColor=colors.white, spaceAfter=0))
     output.parent.mkdir(parents=True, exist_ok=True)
-    doc = BaseDocTemplate(str(output), pagesize=A4, leftMargin=15 * mm, rightMargin=15 * mm, topMargin=13 * mm, bottomMargin=15 * mm, title=f"LINSC超短情绪复盘-{args.date}", author="LINSC")
+    doc = BaseDocTemplate(str(output), pagesize=A4, leftMargin=12 * mm, rightMargin=12 * mm, topMargin=7 * mm, bottomMargin=10 * mm, title=f"LINSC超短情绪复盘-{args.date}", author="LINSC")
     frame = Frame(doc.leftMargin, doc.bottomMargin, doc.width, doc.height, id="normal")
     doc.addPageTemplates([PageTemplate(id="report", frames=[frame], onPage=footer)])
     doc.build(build_story(source.read_text(encoding="utf-8"), styles, doc.width))

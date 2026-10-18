@@ -1,5 +1,138 @@
 [
   {
+    "date": "2026-10-16",
+    "displayDate": "2026年10月16日",
+    "cycle": "主跌期",
+    "substate": "指数与宽度修复、旧接力退潮；新题材首板抢跑",
+    "temperature": null
+  },
+  {
+    "date": "2026-10-15",
+    "displayDate": "2026年10月15日",
+    "cycle": "主跌期",
+    "substate": "放量普跌、核心重伤；局部抱团与反包",
+    "temperature": null
+  },
+  {
+    "date": "2026-10-14",
+    "displayDate": "2026年10月14日",
+    "cycle": "主跌期",
+    "substate": "指数缩量下跌、后手兑现；传媒局部修复",
+    "temperature": null
+  },
+  {
+    "date": "2026-10-13",
+    "displayDate": "2026年10月13日",
+    "cycle": "主跌期",
+    "substate": "指数修复、核心退潮；PCB/冰雪低位抢跑",
+    "temperature": null
+  },
+  {
+    "date": "2026-10-12",
+    "displayDate": "2026年10月12日",
+    "cycle": "主跌期",
+    "substate": "缩量退潮、传媒局部延续（暂判）",
+    "temperature": null
+  },
+  {
+    "date": "2026-10-09",
+    "displayDate": "2026年10月9日",
+    "cycle": "电风扇期",
+    "substate": "午后应用轮动、接力修复尝试",
+    "temperature": null
+  },
+  {
+    "date": "2026-10-08",
+    "displayDate": "2026年10月8日",
+    "cycle": "放量普跌、短线高痛感分歧",
+    "substate": "电池高标抱团、旧医药科技受伤",
+    "temperature": null
+  },
+  {
+    "date": "2026-09-30",
+    "displayDate": "2026年9月30日",
+    "cycle": "电风扇期",
+    "substate": "高位强分歧、医药低位抢跑",
+    "temperature": null
+  },
+  {
+    "date": "2026-09-29",
+    "displayDate": "2026年9月29日",
+    "cycle": "电风扇期",
+    "substate": "缩量修复中的高位强分歧",
+    "temperature": null
+  },
+  {
+    "date": "2026-09-28",
+    "displayDate": "2026年9月28日",
+    "cycle": "指数退潮加深、短线高标孤立抱团",
+    "substate": "成长普跌与少数事件/汽车/风电首板并存",
+    "temperature": null
+  },
+  {
+    "date": "2026-09-24",
+    "displayDate": "2026年9月24日",
+    "cycle": "主升结构内的指数退潮与短线抱团背离",
+    "substate": "大盘普跌、连板高度逆势修复",
+    "temperature": null
+  },
+  {
+    "date": "2026-09-23",
+    "displayDate": "2026年9月23日",
+    "cycle": "主升期向退潮初段切换",
+    "substate": "高位分歧、主线兑现与低位轮动并存",
+    "temperature": null
+  },
+  {
+    "date": "2026-09-22",
+    "displayDate": "2026年9月22日",
+    "cycle": "主升期",
+    "substate": "强分歧、高位抱团与主线收敛并存",
+    "temperature": null
+  },
+  {
+    "date": "2026-09-21",
+    "displayDate": "2026年9月21日",
+    "cycle": "修复转加强",
+    "substate": "多题材共振扩散、连板高度回升、盘中换手剧烈",
+    "temperature": 76
+  },
+  {
+    "date": "2026-09-04",
+    "displayDate": "2026年9月4日",
+    "cycle": "退潮期",
+    "substate": "弱修复冲高回落、低位轮动与高位核按钮并存",
+    "temperature": 25
+  },
+  {
+    "date": "2026-09-03",
+    "displayDate": "2026年9月3日",
+    "cycle": "退潮期",
+    "substate": "退潮加强、高位核按钮与局部题材抱团并存",
+    "temperature": 27
+  },
+  {
+    "date": "2026-09-02",
+    "displayDate": "2026年9月2日",
+    "cycle": "退潮初期",
+    "substate": "主升后段转弱、高位抱团与低位轮动并存",
+    "temperature": 34
+  },
+  {
+    "date": "2026-09-01",
+    "displayDate": "2026年9月1日",
+    "cycle": "主升后段",
+    "substate": "分歧后修复、农业回流、低位多题材扩散",
+    "temperature": 76
+  },
+  {
+    "date": "2026-08-31",
+    "displayDate": "2026年8月31日（周一）",
+    "cycle": "主升后段",
+    "substate": "指数修复、接力分歧、新题材爆发",
+    "temperature": 72
+  },
+  {
     "date": "2026-08-28",
     "displayDate": "2026年8月28日（周五）",
     "cycle": "主升后段",

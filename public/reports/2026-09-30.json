@@ -1,0 +1,107 @@
+{
+  "date": "2026-09-30",
+  "displayDate": "2026年9月30日",
+  "generatedAt": "2026-10-08T00:57:05+08:00",
+  "title": "2026-09-30《LINSC超短情绪复盘》",
+  "logicVersion": "V1.0-draft.9",
+  "conclusion": {
+    "cycle": "电风扇期",
+    "substate": "高位强分歧、医药低位抢跑",
+    "temperature": null,
+    "summary": "沪指偏稳、成交小幅增加，但高度集中且旧题材左尾扩大；至少高痛感，普通接力不随7板高度改善。",
+    "evidence": ["成交14297.69亿元，环比+2.08%，较60日均值低34.64%。", "上涨2251只、下跌2637只；涨停52只、跌停9只、连板12只、最高7板。", "昨日板原始56只中路畅科技今日停牌；55只有效样本平均收盘+1.33%，中位-0.67%，大面8只、跌停3只。", "雪龙集团、深物业A和万科A三个D-1可识别锚早盘均触跌停；冻结核心池不齐。"]
+  },
+  "market": {
+    "turnoverYi": 14297.69,
+    "turnoverPrevYi": 14006.65,
+    "turnoverChangeYi": 291.04,
+    "turnoverChangePct": 2.08,
+    "turnoverMA60Yi": 21874.64,
+    "turnoverVsMA60Yi": -7576.95,
+    "turnoverVsMA60Pct": -34.64,
+    "indexSummary": "上证+0.31%、深成指-0.11%、创业板-0.23%、科创50-2.51%。",
+    "up": 2251, "down": 2637, "flat": 352, "limitUp": 52, "limitDown": 9, "connected": 12, "highestBoard": 7,
+    "fiveDays": [
+      {"date":"2026-09-30","label":"09-30","turnoverYi":14297.69,"turnoverChangePct":2.08,"up":2251,"down":2637,"limitUp":52,"limitDown":9,"connected":12,"highestBoard":7,"coreEarlyLimitDown":null,"coreEarlyLimitDownLowerBound":3,"coreBigLoss":null,"killScore":null,"pain":"至少高痛感","marketEnvironment":"沪强科弱、有限放量","relayState":"高标独强、PCB回吐","state":"高位强分歧"},
+      {"date":"2026-09-29","label":"09-29","turnoverYi":14006.65,"turnoverChangePct":-17.26,"up":3143,"down":1749,"limitUp":56,"limitDown":11,"connected":10,"highestBoard":6,"coreEarlyLimitDown":4,"coreBigLoss":null,"killScore":null,"pain":"至少高痛感","marketEnvironment":"缩量反弹","relayState":"旧核心受伤","state":"高位强分歧"},
+      {"date":"2026-09-28","label":"09-28","turnoverYi":16928.88,"turnoverChangePct":2.95,"up":829,"down":4087,"limitUp":33,"limitDown":59,"connected":7,"highestBoard":5,"coreEarlyLimitDown":2,"coreBigLoss":null,"killScore":null,"pain":"未按draft.9回算","marketEnvironment":"放量普跌","relayState":"昨日板大面扩散","state":"退潮"},
+      {"date":"2026-09-24","label":"09-24","turnoverYi":16443.14,"turnoverChangePct":-6.29,"up":1030,"down":3873,"limitUp":52,"limitDown":12,"connected":13,"highestBoard":5,"coreEarlyLimitDown":null,"coreBigLoss":null,"killScore":null,"pain":"未按draft.9回算","marketEnvironment":"缩量普跌","relayState":"高标抱团","state":"分歧"},
+      {"date":"2026-09-23","label":"09-23","turnoverYi":17546.16,"turnoverChangePct":-17.38,"up":1710,"down":3225,"limitUp":51,"limitDown":13,"connected":12,"highestBoard":4,"coreEarlyLimitDown":null,"coreBigLoss":null,"killScore":null,"pain":"未按draft.9回算","marketEnvironment":"缩量回落","relayState":"高位分歧","state":"分歧"}
+    ]
+  },
+  "pain": {
+    "level": "至少高痛感", "score": null,
+    "summary": "D-1可识别的雪龙集团、深物业A、万科A三锚早盘均触跌停；正式冻结核心池缺失，不报完整分值和极高痛感。",
+    "stocks": [
+      {"name":"雪龙集团","role":"昨4板汽车链高度锚","auction":"开+0.05%","earlySession":"09:37:28触跌停，09:58:07打开","close":"-9.98%跌停","damage":"早盘和收盘持续负反馈","impact":"高位断板杀伤"},
+      {"name":"深物业A","role":"昨2板地产前排","auction":"开-9.25%","earlySession":"09:31:45触跌停，10:16:30打开","close":"3板涨停","damage":"早盘重伤后地天修复","impact":"高波动不等于低风险"},
+      {"name":"万科A","role":"昨首板地产容量锚","auction":"开-6.86%","earlySession":"09:32:06触跌停，09:35:51打开","close":"+4.41%","damage":"早盘重伤后修复","impact":"容量承接仍伴随大回撤"}
+    ],
+    "spread": "地产、汽车链核心早盘同时重伤；PCB昨日板另有澳弘和协和收盘跌停。"
+  },
+  "yesterdayFeedback": {
+    "sample":55,"rawSample":56,"excluded":[{"name":"路畅科技","reason":"9月30日停牌，成交量为0"}],"redOpen":29,"redOpenRate":52.73,"averageOpen":1.61,"redClose":27,"redCloseRate":49.09,"averageClose":1.33,"medianClose":-0.67,"openToClose":-0.16,"continuedLimit":12,"continuedLimitRate":21.82,"bigLoss":8,"bigLossRate":14.55,"limitDown":3,
+    "reading":"55/56有效样本，路畅科技停牌排除；均值+1.33%而中位-0.67%，8只大面、3只跌停，赚钱向少数强股集中。",
+    "fiveDays": [
+      {"date":"2026-09-30","label":"09-30","sample":55,"rawSample":56,"redOpen":29,"redOpenRate":52.73,"averageOpen":1.61,"redClose":27,"redCloseRate":49.09,"averageClose":1.33,"medianClose":-0.67,"openToClose":-0.16,"continuedLimit":12,"continuedLimitRate":21.82,"bigLoss":8,"bigLossRate":14.55,"limitDown":3,"pain":"均值被强者抬高"},
+      {"date":"2026-09-29","label":"09-29","sample":33,"redOpen":19,"redOpenRate":57.58,"averageOpen":1.9,"redClose":19,"redCloseRate":57.58,"averageClose":2.64,"medianClose":2.8,"openToClose":0.73,"continuedLimit":10,"continuedLimitRate":30.3,"bigLoss":3,"bigLossRate":9.09,"limitDown":3,"pain":"均值改善、旧核心仍伤"},
+      {"date":"2026-09-28","label":"09-28","sample":52,"redOpen":22,"redOpenRate":42.31,"averageOpen":0.38,"redClose":20,"redCloseRate":38.46,"averageClose":-1.76,"medianClose":-3.03,"openToClose":-2.05,"continuedLimit":7,"continuedLimitRate":13.46,"bigLoss":22,"bigLossRate":42.31,"limitDown":8,"pain":"大面扩散"},
+      {"date":"2026-09-24","label":"09-24","sample":51,"redOpen":25,"redOpenRate":49.02,"averageOpen":1.07,"redClose":26,"redCloseRate":50.98,"averageClose":0.55,"medianClose":0.26,"openToClose":-0.47,"continuedLimit":13,"continuedLimitRate":25.49,"bigLoss":17,"bigLossRate":33.33,"limitDown":1,"pain":"均值略正、左尾重"},
+      {"date":"2026-09-23","label":"09-23","sample":63,"redOpen":32,"redOpenRate":50.79,"averageOpen":1.29,"redClose":26,"redCloseRate":41.27,"averageClose":-0.17,"medianClose":-1.42,"openToClose":-1.47,"continuedLimit":12,"continuedLimitRate":19.05,"bigLoss":11,"bigLossRate":17.46,"limitDown":3,"pain":"高开兑现"}
+    ]
+  },
+  "ladder": [
+    {"board":7,"stocks":["新华传媒"]},
+    {"board":4,"stocks":["襄阳轴承"]},
+    {"board":3,"stocks":["深物业A","九阳股份","时代万恒","善水科技（20cm）"]},
+    {"board":2,"stocks":["紫竹高科","传艺科技","亚邦股份","上海洗霸","园林股份","均瑶健康"]}
+  ],
+  "anchors": [
+    {"name":"新华传媒","board":"7板","role":"市场高度锚","influence":"09:25封板，高度延续但普通后手难参与。"},
+    {"name":"雪龙集团","board":"昨日4板","role":"汽车链负反馈锚","influence":"早盘触跌停、收盘-9.98%，旧高标杀伤。"},
+    {"name":"深物业A","board":"3板","role":"地产前排波动锚","influence":"早盘触跌停后地天板，修复不抹平盘中风险。"},
+    {"name":"善水科技","board":"20cm 3板","role":"弹性高度锚","influence":"09:31首次封板、开板一次，个股强不等于全市场容错。"}
+  ],
+  "themes": [
+    {"name":"医药/创新药","strength":"当日最强宽度","stage":"新主线候选","messages":[{"source":"恒瑞医药9月29日公司公告","content":"HRS-1596大中华区外权益授权，3亿美元首付款与最高23亿美元附条件里程碑款；不等于其他医药公司的直接利好。"},{"source":"新华财经9月30日收评","content":"重组蛋白、免疫治疗、CRO与创新药方向走强；康希诺、泰诺麦博等20cm首板。"}],"branches":["创新药出海","生物制药","CRO/CDMO"],"limitStocks":["康希诺","泰诺麦博","美诺华","康辰药业","昭衍新药"],"logic":"公告作为事前板块参照，个股产品差异大，不能把同向价格视作共同催化。","expectationSpace":"10月8日至少两只前排有可参与正反馈且CRO与创新药容量承接，才确认持续。","persistence":"9月30日新扩散；旧2板津药药业-3.04%，非旧分支直线升级。","coreStocks":[{"name":"康希诺","role":"20cm新首板","performance":"09:38首封"},{"name":"泰诺麦博","role":"20cm新首板","performance":"09:57首封"}]},
+    {"name":"地产","strength":"早盘重伤后深V","stage":"政策预期轮动","messages":[{"source":"财政部、央行、金融监管总局9月29日通知","content":"符合条件的首套房商业贷款财政贴息自10月1日起实施。"},{"source":"工行9月30日公告","content":"公布落实进展，网页无可核盘中发布时间，不能解释盘中先后。"}],"branches":["地产开发","物业服务","容量股"],"limitStocks":["深物业A","中天服务","陆家嘴"],"logic":"政策预期交易仍在，但深物业A、万科A早盘都触跌停，收盘修复不等于低风险。","expectationSpace":"10月8日容量维持承接、低位物业和开发换手晋级，才保留方向。","persistence":"深物业A从9月28日首板至9月30日3板，伴随地天板波动。","coreStocks":[{"name":"深物业A","role":"3板前排","performance":"早盘触跌停后涨停"},{"name":"万科A","role":"容量锚","performance":"早盘触跌停后收+4.41%"}]},
+    {"name":"固态电池/电池","strength":"部分梯队延续","stage":"轮动中持续","messages":[{"source":"同花顺问财9月30日过滤涨停池","content":"时代万恒3板，紫竹高科、传艺科技、上海洗霸2板。"},{"source":"FTShare 9月30日收盘价格","content":"国轩高科当日+2.86%，昨日新首板并未整齐晋级。"}],"branches":["设备","材料","锂电池"],"limitStocks":["时代万恒","紫竹高科","传艺科技","上海洗霸"],"logic":"前排晋级但后排分化，不能与染料或机器人混作统一主线。","expectationSpace":"10月8日需换手前排带动同链新股与容量。","persistence":"时代万恒9月28日首板、29日2板、30日3板。","coreStocks":[{"name":"时代万恒","role":"3板锚","performance":"3连板"}]},
+    {"name":"机器人/汽车链","strength":"换锚与杀伤并存","stage":"分歧轮动","messages":[{"source":"同花顺问财9月30日过滤涨停池","content":"襄阳轴承4板、九阳股份3板，龙溪股份、凯迪股份、宁波东力首板。"},{"source":"FTShare 9月30日收盘及盘中事件","content":"昨日4板雪龙集团09:37触跌停，收盘-9.98%。"}],"branches":["汽车零部件","机器人"],"limitStocks":["襄阳轴承","九阳股份","龙溪股份","凯迪股份"],"logic":"新锚拉升与旧高标跌停并存，不构成整体容错改善。","expectationSpace":"节后需换手前排继续承接并带动同链新股。","persistence":"雪龙9月29日4板后跌停，襄阳9月30日升4板。","coreStocks":[{"name":"襄阳轴承","role":"新4板锚","performance":"开-8.79%后涨停"},{"name":"雪龙集团","role":"旧高度锚","performance":"收-9.98%跌停"}]},
+    {"name":"PCB/AI硬件","strength":"昨日回流今日兑现","stage":"隔日试错失败","messages":[{"source":"FTShare 9月29日至30日收盘价格","content":"澳弘电子、协和电子由昨日涨停至今日跌停，迅捷兴今日-5.02%。"},{"source":"新华财经9月30日收评","content":"元件、先进封装、PCB板块调整。"}],"branches":["PCB","电子元件","算力硬件"],"limitStocks":[],"logic":"昨日真实涨停批次形成明显左尾，9月29日回流没有跨日确认。","expectationSpace":"前排止跌、昨日板亏损收敛后才重新评估。","persistence":"9月29日多股回流，9月30日快速回吐。","coreStocks":[{"name":"澳弘电子","role":"昨日PCB前排","performance":"收-10.00%"},{"name":"协和电子","role":"昨日PCB前排","performance":"收-10.00%"}]}
+  ],
+  "themeTimeline": [
+    {"theme":"出版传媒","days":[{"date":"09-23","performance":"高位分歧","leaders":["新华文轩","新华传媒"]},{"date":"09-24","performance":"高度延续","leaders":["新华文轩","新华传媒"]},{"date":"09-28","performance":"新华文轩大面","leaders":["新华传媒"]},{"date":"09-29","performance":"新华文轩反包","leaders":["新华传媒","新华文轩"]},{"date":"09-30","performance":"一字7板高度延续","leaders":["新华传媒"]}]},
+    {"theme":"汽车/机器人","days":[{"date":"09-23","performance":"证据不足","leaders":[]},{"date":"09-24","performance":"局部活跃","leaders":[]},{"date":"09-28","performance":"雪龙3板","leaders":["雪龙集团","襄阳轴承"]},{"date":"09-29","performance":"雪龙4板","leaders":["雪龙集团","襄阳轴承"]},{"date":"09-30","performance":"襄阳4板、雪龙跌停","leaders":["襄阳轴承","九阳股份"]}]},
+    {"theme":"固态电池/电池","days":[{"date":"09-23","performance":"证据不足","leaders":[]},{"date":"09-24","performance":"证据不足","leaders":[]},{"date":"09-28","performance":"时代万恒首板","leaders":["时代万恒"]},{"date":"09-29","performance":"设备材料扩散","leaders":["时代万恒","国轩高科"]},{"date":"09-30","performance":"部分梯队晋级","leaders":["时代万恒","上海洗霸"]}]},
+    {"theme":"PCB/AI硬件","days":[{"date":"09-23","performance":"具体领涨证据不足","leaders":[]},{"date":"09-24","performance":"成长承压","leaders":[]},{"date":"09-28","performance":"元件偏弱","leaders":[]},{"date":"09-29","performance":"回流涨停","leaders":["澳弘电子","迅捷兴"]},{"date":"09-30","performance":"前排跌停","leaders":[]}]},
+    {"theme":"医药/创新药","days":[{"date":"09-23","performance":"非主线","leaders":[]},{"date":"09-24","performance":"非主线","leaders":[]},{"date":"09-28","performance":"津药首板","leaders":["津药药业"]},{"date":"09-29","performance":"津药2板","leaders":["津药药业"]},{"date":"09-30","performance":"新分支首板扩散","leaders":["康希诺","泰诺麦博"]}]},
+    {"theme":"地产","days":[{"date":"09-23","performance":"证据不足","leaders":[]},{"date":"09-24","performance":"证据不足","leaders":[]},{"date":"09-28","performance":"深物业首板","leaders":["深物业A"]},{"date":"09-29","performance":"深物业2板、万科首板","leaders":["深物业A","万科A"]},{"date":"09-30","performance":"先核后拉","leaders":["深物业A","万科A"]}]}
+  ],
+  "effects": {
+    "relayDifficulty":"困难；昨日板均值略正但中位负，旧高标、PCB及地产前排早盘杀伤。",
+    "profit":["新华传媒7板、襄阳轴承4板、善水科技20cm 3板。","医药新首板扩散；9月28日涨停批次两日后均值+4.59%，中位仅+0.89%。"],
+    "loss":["雪龙集团、澳弘电子、协和电子跌停，迅捷兴-5.02%。","9月24日涨停批次三交易日后均值-4.25%、中位-5.07%，26/52亏损至少5%。"],
+    "styles":[
+      {"style":"10cm连板","result":"高度集中、断板杀伤","reading":"新华7板、襄阳4板，雪龙昨4板今跌停。"},
+      {"style":"20cm弹性","result":"局部活跃又分化","reading":"善水科技3板、医药两首板，迅捷兴回吐。"},
+      {"style":"容量趋势","result":"有承接但盘中深回撤","reading":"万科早盘触跌停后收+4.41%。"},
+      {"style":"低价小票","result":"高波动","reading":"深物业A地天板，不等于低风险。"},
+      {"style":"二波","result":"仍待确认","reading":"新华文轩反包次日+3.68%，旧大面仍需计入。"},
+      {"style":"反包","result":"概念不可混同","reading":"日内地天板与多日断板反包分开。"},
+      {"style":"复牌股","result":"单股因素","reading":"园林股份问财标注复牌与重大重组、今日2板，后手可参与性需核验。"}
+    ]
+  },
+  "cycle": {
+    "main":"电风扇期", "substate":"高位强分歧、医药低位抢跑",
+    "signals":["成交环比+2.08%但低于MA60 34.64%。","昨日板55只有效样本均值+1.33%、中位-0.67%、8只大面。","至少3只D-1可识别核心早盘触跌停。","医药新扩散与PCB隔日失败并存。"],
+    "risk":"10月8日若旧核心继续被核、医药昨日板批量低开，取消新增接力许可。"
+  },
+  "prediction": {"baseline":"局部轮动、高位强分歧","confidence":"中低，跨国庆休市七天","firstChoice":"医药首板与容量同步承接后局部观察","secondChoice":"地产与机器人换手前排","avoid":"旧核心负反馈未止时追高或无证据抄底","positionTier":null,"stop":"旧核心再集中触跌停、医药首板高开兑现或地产前排再大幅杀跌"},
+  "oneToTwo": [],
+  "sources": {
+    "objective":["data/cache/ftshare/2026-09-30/objective.json（5910条、197页、61/61交易日）","data/cache/derived/2026-09-30/metrics.json（9月23至24日历史涨跌停行独立以收盘价回算）","data/cache/intraday/2026-09-30/evidence.json"],
+    "themes":["data/cache/wencai/2026-09-30/fallback.json（52只与价格口径一致）","https://www.cnfin.com/yw-lb/detail/20260930/4476748_1.html","https://static.cninfo.com.cn/finalpage/2026-09-29/1225586487.PDF","https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm","https://www.icbc.com.cn/page/1278663257876267008.html"],
+    "narratives":["data/cache/jiuyang/2026-09-30/normalized.json（有效同日卡0张，覆盖0/52；新抓5页主要为节后内容，已隔离；无已验证登录会话）"],
+    "note":"按V1.0-draft.9重生成；昨日板原始56只中路畅科技停牌，反馈有效样本55只；正式冻结核心池快照缺失，杀伤分仅报下限；韭研叙事不满足候选验收，正式1进2候选0只。9月30日视角下下一交易日为10月8日。"
+  }
+}

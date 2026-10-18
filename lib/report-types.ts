@@ -46,7 +46,7 @@ export type Report = {
   conclusion: {
     cycle: string;
     substate: string;
-    temperature: number;
+    temperature: number | null;
     summary: string;
     evidence: string[];
   };

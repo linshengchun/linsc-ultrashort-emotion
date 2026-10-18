@@ -15,6 +15,20 @@ const report = JSON.parse(await readFile(input, 'utf8'));
 const fmt = (value, suffix = '') => (value === null || value === undefined ? '—' : `${value}${suffix}`);
 const row = (cells) => `| ${cells.map((cell) => String(cell).replaceAll('|', '／').replaceAll('\n', ' ')).join(' | ')} |`;
 const bullets = (items) => items.map((item) => `- ${item}`).join('\n');
+const reportDateMs = Date.parse(`${date}T00:00:00Z`);
+const dateMs = (value) => {
+  const text = String(value ?? '').trim();
+  if (/^\d{4}-\d{2}-\d{2}$/.test(text)) return Date.parse(`${text}T00:00:00Z`);
+  const match = /^(\d{2})-(\d{2})$/.exec(text);
+  if (!match) return Number.NEGATIVE_INFINITY;
+  const month = Number(match[1]);
+  const day = Number(match[2]);
+  const year = Number(date.slice(0, 4));
+  return [year - 1, year, year + 1]
+    .map((candidate) => Date.UTC(candidate, month - 1, day))
+    .sort((a, b) => Math.abs(a - reportDateMs) - Math.abs(b - reportDateMs))[0];
+};
+const newestFirst = (items) => [...items].sort((a, b) => dateMs(b.date) - dateMs(a.date));
 
 const lines = [
   `# ${report.title}｜${report.displayDate}`,
@@ -36,7 +50,7 @@ const lines = [
   '',
   row(['日期', '成交额(亿)', '上涨', '下跌', '涨停', '跌停', '连板', '最高板', '子状态']),
   row(['---', '---:', '---:', '---:', '---:', '---:', '---:', '---:', '---']),
-  ...report.market.fiveDays.map((day) => row([`${day.date} ${day.label}`, fmt(day.turnoverYi), fmt(day.up), fmt(day.down), fmt(day.limitUp), fmt(day.limitDown), fmt(day.connected), fmt(day.highestBoard), day.state])),
+  ...newestFirst(report.market.fiveDays).map((day) => row([`${day.date} ${day.label}`, fmt(day.turnoverYi), fmt(day.up), fmt(day.down), fmt(day.limitUp), fmt(day.limitDown), fmt(day.connected), fmt(day.highestBoard), day.state])),
   '',
   `**周期定位：** ${report.cycle.main}；${report.cycle.substate}。${report.cycle.risk}`,
   '',
@@ -44,7 +58,7 @@ const lines = [
   '',
   row(['日期', '样本', '红开', '红开率', '平均开盘', '收红', '收红率', '平均收盘', '晋级涨停', '晋级率']),
   row(['---', '---:', '---:', '---:', '---:', '---:', '---:', '---:', '---:', '---:']),
-  ...report.yesterdayFeedback.fiveDays.map((day) => row([
+  ...newestFirst(report.yesterdayFeedback.fiveDays).map((day) => row([
     `${day.date} ${day.label}`,
     fmt(day.sample),
     fmt(day.redOpen),

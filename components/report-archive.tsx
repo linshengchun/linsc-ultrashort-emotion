@@ -6,7 +6,7 @@ import { Archive, FileText } from 'lucide-react';
 
 import { Badge } from '@/components/ui/badge';
 
-type Item = { date: string; displayDate: string; cycle: string; substate: string; temperature: number };
+type Item = { date: string; displayDate: string; cycle: string; substate: string; temperature: number | null };
 
 export function ReportArchive({ initial, reportsBaseUrl }: { initial: Item[]; reportsBaseUrl: string }) {
   const [remote, setRemote] = useState<Item[]>([]);
@@ -33,7 +33,7 @@ export function ReportArchive({ initial, reportsBaseUrl }: { initial: Item[]; re
           <Link key={item.date} href={localDates.has(item.date) ? `/reports/${item.date}` : `/reports/view?date=${item.date}`} className="flex items-center justify-between rounded-xl border p-3 transition hover:border-primary/40 hover:bg-muted/35">
             <div>
               <div className="text-sm font-medium">{item.date}</div>
-              <div className="mt-1 text-xs text-muted-foreground">{item.cycle} · {item.temperature}°</div>
+              <div className="mt-1 text-xs text-muted-foreground">{item.cycle} · {item.temperature === null ? "温度未量化" : `${item.temperature}°`}</div>
             </div>
             {index === 0 ? <Badge className="bg-red-100 text-red-800">最新</Badge> : <FileText className="size-4 text-muted-foreground" />}
           </Link>

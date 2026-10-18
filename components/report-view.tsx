@@ -42,7 +42,7 @@ export function ReportView({ report, markdown, embedded = false }: { report: Rep
             <div className="flex items-end justify-between gap-6 rounded-2xl border border-white/10 bg-white/5 p-4 lg:block lg:min-w-44">
               <div>
                 <div className="text-xs text-white/50">情绪温度</div>
-                <div className="mt-1 font-mono text-5xl font-semibold text-red-400">{report.conclusion.temperature}</div>
+                <div className="mt-1 font-mono text-5xl font-semibold text-red-400">{report.conclusion.temperature ?? "—"}</div>
               </div>
               <div className="mt-4 flex flex-wrap gap-2 lg:flex-col">
                 <Button asChild className="gap-2 bg-red-600 hover:bg-red-500">

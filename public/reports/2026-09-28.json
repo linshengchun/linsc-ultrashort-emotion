@@ -1,0 +1,118 @@
+{
+  "date": "2026-09-28",
+  "displayDate": "2026年9月28日",
+  "generatedAt": "2026-09-29T01:42:14+08:00",
+  "title": "2026-09-28《LINSC超短情绪复盘》",
+  "conclusion": {
+    "cycle": "指数退潮加深、短线高标孤立抱团",
+    "substate": "成长普跌与少数事件/汽车/风电首板并存",
+    "temperature": null,
+    "summary": "长假后首个交易日成交回升，但沪深成长指数大幅下挫、样本下跌4087只；高标新华传媒升至5板，昨日涨停样本平均收盘-1.76%、大面率42.31%，短线结构与大盘风险明显背离。",
+    "evidence": [
+      "LINSC样本成交额16928.88亿元，较9月24日增加485.74亿元（+2.95%）；低于60日均值24.42%。",
+      "样本上涨829只、下跌4087只；收盘涨停33只、跌停59只，连板7只、最高5板。",
+      "前一交易日涨停样本52只，红开22只（42.31%），平均收盘-1.76%、中位-3.03%，22只收盘跌幅不高于-5%，8只跌停。",
+      "draft.13的D∧E下限成立：大面率42.31%且中位收盘为负；前期核心样本中多只高辨识度票重伤，新华文轩红开后收盘-8.99%。"
+    ]
+  },
+  "market": {
+    "turnoverYi": 16928.88,
+    "turnoverPrevYi": 16443.14,
+    "turnoverChangeYi": 485.74,
+    "turnoverChangePct": 2.95,
+    "turnoverMA60Yi": 22398.51,
+    "turnoverVsMA60Yi": -5469.63,
+    "turnoverVsMA60Pct": -24.42,
+    "indexSummary": "上证指数-1.67%，深证成指-3.44%，创业板指-4.53%，科创50-4.06%；沪深成长方向领跌。",
+    "up": 829,
+    "down": 4087,
+    "limitUp": 33,
+    "limitDown": 59,
+    "connected": 7,
+    "highestBoard": 5,
+    "fiveDays": [
+      {"date":"2026-09-28","label":"09-28","turnoverYi":16928.88,"turnoverChangeYi":485.74,"turnoverChangePct":2.95,"up":829,"down":4087,"limitUp":33,"limitDown":59,"connected":7,"highestBoard":5,"coreEarlyLimitDown":2,"coreBigLoss":22,"killScore":null,"pain":"至少四级：撕心裂肺（≥7分）","marketEnvironment":"放量普跌、成长大跌","relayState":"高标孤立、昨日板左尾扩散","state":"指数退潮加深"},
+      {"date":"2026-09-24","label":"09-24","turnoverYi":16443.14,"turnoverChangeYi":-1103.02,"turnoverChangePct":-6.29,"up":1030,"down":3873,"limitUp":52,"limitDown":12,"connected":13,"highestBoard":5,"coreEarlyLimitDown":2,"coreBigLoss":9,"killScore":null,"pain":"三级：心如刀割（5—6分）","marketEnvironment":"缩量普跌、成长领跌","relayState":"高标抱团修复、后手左尾扩大","state":"指数退潮与短线抱团背离"},
+      {"date":"2026-09-23","label":"09-23","turnoverYi":17546.16,"turnoverChangeYi":-3690.43,"turnoverChangePct":-17.38,"up":1710,"down":3225,"limitUp":51,"limitDown":13,"connected":12,"highestBoard":4,"coreEarlyLimitDown":0,"coreBigLoss":9,"killScore":null,"pain":"三级：心如刀割（5—6分）","marketEnvironment":"缩量回落","relayState":"高位分歧、低位轮动","state":"高位兑现"},
+      {"date":"2026-09-22","label":"09-22","turnoverYi":21236.59,"turnoverChangeYi":1030.96,"turnoverChangePct":5.10,"up":2221,"down":2665,"limitUp":63,"limitDown":3,"connected":24,"highestBoard":6,"coreEarlyLimitDown":0,"coreBigLoss":6,"killScore":null,"pain":"三级：心如刀割（5—6分）","marketEnvironment":"放量滞涨","relayState":"高标加强、后排分歧","state":"强分歧"},
+      {"date":"2026-09-21","label":"09-21","turnoverYi":20205.63,"turnoverChangeYi":-462.20,"turnoverChangePct":-2.24,"up":4070,"down":873,"limitUp":102,"limitDown":2,"connected":22,"highestBoard":5,"coreEarlyLimitDown":null,"coreBigLoss":null,"killScore":null,"pain":"一级：怅然若失（1—2分）","marketEnvironment":"缩量普涨","relayState":"多题材扩散","state":"扩散"}
+    ]
+  },
+  "pain": {
+    "level": "至少四级：撕心裂肺（≥7分）",
+    "score": null,
+    "summary": "昨日板样本大面22/52（42.31%），中位收盘-3.03%，触发draft.13的D；前期高辨识度核心中泰慕士、天威视讯收盘跌停，新华文轩红开+8.11%后收-8.99%，支持E，故给出四级下限。冻存核心池精确分值尚未回测，不报单点分数、不外推五级。",
+    "stocks": [
+      {"name":"泰慕士","role":"9月24日4板高标","auction":"开盘-10.00%","earlySession":"09:25已在跌停价，早盘无打开记录","close":"-10.00%","damage":"收盘跌停","impact":"高位旧核心无退出流动性，接力风险骤升"},
+      {"name":"天威视讯","role":"9月24日3板传媒梯队","auction":"开盘-8.07%","earlySession":"09:31:48触及跌停，早盘无打开记录","close":"-9.96%","damage":"收盘跌停","impact":"传媒中位梯队负反馈扩散"},
+      {"name":"新华文轩","role":"9月24日5板最高标/出版锚","auction":"开盘+8.11%","earlySession":"历史分钟路径不支持回放，以开盘和收盘确认红开大幅回撤","close":"-8.99%","damage":"收盘大面、红开闷杀","impact":"强势高标先手溢价快速反转，均值掩盖持仓痛感"},
+      {"name":"内蒙新华、集泰股份、泉阳泉、厦工股份、三星电气、华脉科技","role":"昨日涨停样本","auction":"竞价/时点仅列有证据个股","earlySession":"内蒙新华09:33:10、华脉科技09:40:04触及跌停；其他个股不从日线推断路径","close":"均收盘跌停","damage":"昨日涨停样本内共8只收盘跌停","impact":"亏损扩散跨传媒、纺织、材料、区域题材等分支"}
+    ],
+    "spread": "大面覆盖22只、实际跌停8只，且伤害跨前高标与多个题材；虽然涨停33只、仍有少数5板和局部反包，但不足以抵消昨日板持仓左尾。"
+  },
+  "yesterdayFeedback": {
+    "sample": 52,
+    "redOpen": 22,
+    "redOpenRate": 42.31,
+    "averageOpen": 0.38,
+    "redClose": 20,
+    "redCloseRate": 38.46,
+    "averageClose": -1.76,
+    "medianClose": -3.03,
+    "continuedLimit": 7,
+    "continuedLimitRate": 13.46,
+    "bigLoss": 22,
+    "bigLossRate": 42.31,
+    "limitDown": 8,
+    "reading": "长假后首日昨日板样本由9月24日52只构成；红开率仅42.31%，平均收盘-1.76%、中位-3.03%，22只收盘大面、8只跌停，仅7只晋级。强高标不能代表多数接力安全。",
+    "fiveDays": [
+      {"date":"2026-09-28","label":"09-28","sample":52,"redOpen":22,"redOpenRate":42.31,"averageOpen":0.38,"redClose":20,"redCloseRate":38.46,"averageClose":-1.76,"medianClose":-3.03,"continuedLimit":7,"continuedLimitRate":13.46,"bigLoss":22,"bigLossRate":42.31,"limitDown":8,"pain":"至少四级；大面扩散、核心负反馈"},
+      {"date":"2026-09-24","label":"09-24","sample":51,"redOpen":25,"redOpenRate":49.02,"averageOpen":1.07,"redClose":26,"redCloseRate":50.98,"averageClose":0.55,"medianClose":0.26,"continuedLimit":13,"continuedLimitRate":25.49,"bigLoss":9,"bigLossRate":17.65,"limitDown":1,"pain":"三级；均值正但核心左尾明显"},
+      {"date":"2026-09-23","label":"09-23","sample":63,"redOpen":25,"redOpenRate":39.68,"averageOpen":1.29,"redClose":37,"redCloseRate":58.73,"averageClose":-0.17,"medianClose":-1.42,"continuedLimit":12,"continuedLimitRate":19.05,"bigLoss":9,"bigLossRate":14.29,"limitDown":3,"pain":"前排跌停、普遍低开"},
+      {"date":"2026-09-22","label":"09-22","sample":102,"redOpen":65,"redOpenRate":63.73,"averageOpen":2.44,"redClose":61,"redCloseRate":59.80,"averageClose":2.49,"medianClose":1.34,"continuedLimit":24,"continuedLimitRate":23.53,"bigLoss":6,"bigLossRate":5.88,"limitDown":0,"pain":"均值正、左尾扩大"},
+      {"date":"2026-09-21","label":"09-21","sample":78,"redOpen":56,"redOpenRate":71.79,"averageOpen":2.10,"redClose":53,"redCloseRate":67.95,"averageClose":3.26,"medianClose":1.65,"continuedLimit":22,"continuedLimitRate":28.21,"bigLoss":2,"bigLossRate":2.56,"limitDown":0,"pain":"先手收益强"}
+    ]
+  },
+  "ladder": [
+    {"board":5,"stocks":["新华传媒"]},
+    {"board":3,"stocks":["金辰股份","雪龙集团","福建水泥"]},
+    {"board":2,"stocks":["襄阳轴承","大业股份","吉鑫科技"]},
+    {"board":1,"stocks":["博纳影业","跨境通","中新赛克","会稽山","国新健康","九阳股份","丽珠集团","五方光电","泰尔股份","深物业A","浙江新能","众泰汽车","深华发A","新筑股份","时代万恒","江淮汽车","东瑞股份","巨力索具","永信至诚","启明信息","津药药业","道道全","善水科技","宏柏新材","醋化股份","通达创智"]}
+  ],
+  "anchors": [
+    {"name":"新华传媒","board":"5板","role":"最高板/出版传媒情绪锚","influence":"逆势维持高度，但一只高标无法扭转昨日涨停样本广泛亏损。"},
+    {"name":"金辰股份/雪龙集团/福建水泥","board":"3板","role":"中位分支承接","influence":"分别映射设备/封装、商用车热管理、福建区域；方向分散，尚无单一主线共振。"},
+    {"name":"吉鑫科技","board":"2板","role":"风电设备辨识度","influence":"收盘前首封并连板，板块催化有公开收评交叉支持，但强势出现较晚。"},
+    {"name":"泰慕士/天威视讯","board":"昨日核心跌停","role":"高位退潮负反馈","influence":"一只竞价跌停、一只开盘后快速触及跌停，旧梯队持仓退出困难。"},
+    {"name":"津药药业","board":"首板","role":"食欲素事件映射","influence":"韭研事件卡12:30发布，目标股13:02首封，时间顺序可核；只作次日低位候选。"}
+  ],
+  "themes": [
+    {"name":"汽车整车/汽车链与机器人","strength":"局部逆势承接","stage":"低位轮动","messages":[{"source":"新华财经9月28日收评","content":"汽车整车板块低开高走，江淮汽车、众泰汽车涨停，东风股份、北汽蓝谷和安凯客车跟涨。"},{"source":"同花顺问财涨停映射","content":"江淮汽车、众泰汽车封板；襄阳轴承、大业股份分别处机器人/轴承链，雪龙集团映射商用车热管理。"}],"branches":["汽车整车与华为合作叙事","机器人轴承与人形机器人","商用车热管理"],"limitStocks":["江淮汽车","众泰汽车","襄阳轴承","大业股份","雪龙集团"],"logic":"盘面由整车强势与机器人/商用车分支扩散构成，首板与2—3板有梯队，但大盘普跌下仍偏个股事件驱动。","expectationSpace":"需要整车前排保持承接并由机器人或零部件新增涨停扩散；若只剩单股抱团或开盘兑现，不视为主线。","persistence":"09-24装备与机器人局部活跃；09-28汽车整车逆势、襄阳轴承和大业股份晋级，跨日延续仍待确认。","coreStocks":[{"name":"江淮汽车","role":"整车首板","performance":"10:22首封"},{"name":"大业股份","role":"机器人连板","performance":"2连板"},{"name":"雪龙集团","role":"商用车热管理","performance":"3连板"}]},
+    {"name":"食欲素/医药事件线","strength":"午后单股催化","stage":"首日事件试错","messages":[{"source":"韭研公社个股事件卡","content":"津药药业相关帖子12:30发布，事件卡将其映射至食欲素方向；正文属作者观点与转载，不等同公司公告。"},{"source":"同花顺问财涨停原因","content":"津药药业首板映射食欲素、药品注册、氨基酸制剂和国际化布局，13:02首次封板。"}],"branches":["食欲素靶点叙事","药品注册与老品种映射","医药创新药"],"limitStocks":["津药药业","丽珠集团","国新健康"],"logic":"可确认的韭研事件卡覆盖仅津药药业1/33优先股；帖子时间先于首封，但尚无同题材涨停宽度佐证，因果与持续性不能外推。","expectationSpace":"若津药药业次日有溢价、医药同方向出现助攻且弱市跌停不再扩散，才保留小仓观察；若独自高开冲高回落，视为一次性事件交易。","persistence":"09-24医疗方向有局部活跃；09-28医药整体不是最强宽度线，津药药业为事件型孤立首板。","coreStocks":[{"name":"津药药业","role":"事件映射前排","performance":"13:02首封，首板"},{"name":"丽珠集团","role":"医药首板","performance":"09:32首封，非同一事件确认"}]},
+    {"name":"AI安全/网络安全","strength":"首板扩散、强度有限","stage":"低位新分支观察","messages":[{"source":"同花顺问财涨停原因","content":"中新赛克、永信至诚、启明信息均出现网络安全、AI安全或数据安全映射并封首板。"},{"source":"韭研公社页面采集","content":"相关优先股覆盖不完整，未取得这些个股的直接事件卡；不以零散主题帖子补充具体催化。"}],"branches":["AI安全","数据安全","车联网网络安全"],"limitStocks":["中新赛克","永信至诚","启明信息"],"logic":"三只首板提供有限宽度，但题材首日缺少经验证的直接传播链；全市场环境弱，封板数量不构成大盘企稳证据。","expectationSpace":"次日需至少两只同题材主动承接并有核心换手确认，否则按孤立低位轮动看待。","persistence":"09-28首见局部扩散，跨日持续性未验证。","coreStocks":[{"name":"中新赛克","role":"数据安全首板","performance":"09:30首封"},{"name":"永信至诚","role":"AI安全首板","performance":"11:04首封"}]},
+    {"name":"出版传媒/文化消费","strength":"高标独强、旧核心补跌","stage":"抱团分化","messages":[{"source":"东方财富Choice9月28日涨停复盘","content":"公开口径统计35只涨停，新华传媒5连板。"},{"source":"9月24日LINSC报告与9月28日客观行情","content":"此前出版传媒高标新华文轩当日收盘-8.99%，与新华传媒继续晋级形成强烈内部背离。"}],"branches":["出版发行与文化传媒","影视内容","数据与传媒国资"],"limitStocks":["新华传媒","博纳影业"],"logic":"市场高度仍在传媒，但同题材旧高标新华文轩大面、板块扩散偏弱，属于新核心抱团与旧核心退潮并存。","expectationSpace":"新华传媒继续强势且有中低位出版/文化票助攻才维持观察；若仅高标一字强、旧核心继续走弱，不外推板块转强。","persistence":"09-21至09-24出版梯队扩散；09-28新华传媒升至5板，但新华文轩遭大幅兑现。","coreStocks":[{"name":"新华传媒","role":"5板高度锚","performance":"09:25封板"},{"name":"新华文轩","role":"前期5板核心","performance":"红开后收-8.99%"}]}
+  ],
+  "themeTimeline": [
+    {"theme":"汽车/机器人/装备","days":[{"date":"09-24","performance":"机器人与风电装备局部活跃","leaders":["奥佳华","洛轴股份","吉鑫科技"]},{"date":"09-28","performance":"整车逆势、机器人和商用车支线晋级","leaders":["江淮汽车","众泰汽车","大业股份","雪龙集团"]}]},
+    {"theme":"医药/食欲素","days":[{"date":"09-24","performance":"医药非主线、个股分化","leaders":["奥佳华"]},{"date":"09-28","performance":"津药药业午后事件首板，板块宽度有限","leaders":["津药药业","丽珠集团"]}]},
+    {"theme":"出版传媒","days":[{"date":"09-21","performance":"名称扩散","leaders":["新华传媒","内蒙新华"]},{"date":"09-22","performance":"AI与传媒共振","leaders":["新华文轩","新华传媒"]},{"date":"09-23","performance":"高位分歧","leaders":["新华文轩","新华传媒"]},{"date":"09-24","performance":"高标延续至5板","leaders":["新华文轩","新华传媒","天威视讯"]},{"date":"09-28","performance":"新高标晋级、旧核心大幅补跌","leaders":["新华传媒"]}]},
+    {"theme":"AI硬件/电子元件","days":[{"date":"09-24","performance":"成长股已显著承压","leaders":["康强电子","金辰股份"]},{"date":"09-28","performance":"元件、CPO、铜缆和通信设备下跌居前","leaders":["—"]}]}
+  ],
+  "effects": {
+    "relayDifficulty":"极难；痛感至少四级，当日只宜防守，不因5板高度或单一题材首板给予普遍接力许可。",
+    "profit":["新华传媒逆势走出5板，提供少数连板溢价。","汽车整车、机器人/商用车局部连板；吉鑫科技延续风电2板。","津药药业午后有可追溯到12:30帖子时间的事件映射。"],
+    "loss":["LINSC样本下跌4087只、上涨829只；创业板指-4.53%。","昨日涨停样本22/52收盘大面、8只实际跌停，平均收盘-1.76%。","新华文轩、泰慕士、天威视讯等前期辨识度核心遭大幅兑现。"],
+    "styles":[{"style":"最高板接力","result":"孤立抱团","reading":"新华传媒5板继续，但传媒旧核心重伤。"},{"style":"昨日涨停持有","result":"弱","reading":"平均-1.76%、中位-3.03%，大面率42.31%。"},{"style":"汽车/机器人","result":"局部较强","reading":"整车、2—3板分支提供结构机会，尚未形成统一主线。"},{"style":"科技成长","result":"显著偏弱","reading":"指数和元件、CPO、通信设备同步承压。"}]
+  },
+  "cycle":{"main":"指数退潮加深、短线高标孤立抱团","substate":"成长普跌与少数事件/汽车/风电首板并存","signals":["成交额较节前交易日回升2.95%，但仍低于60日均值24.42%。","样本下跌4087只，创业板指-4.53%。","昨日涨停样本平均收盘-1.76%、中位-3.03%，8只跌停。","涨停33只、最高5板，宽度和高度明显分裂。"],"risk":"若新华传媒等少数高标断板，同时汽车与事件首板无助攻，市场可能由指数退潮转为全面短线退潮；成长股跌停扩散是主要反证。"},
+  "prediction":{"baseline":"指数弱势与高标抱团并行，次日更可能高位分化、汽车/机器人和事件首板小范围轮动","confidence":"中低","firstChoice":"新华传媒高位承接仅观察，不追一致；重点看汽车整车是否扩散","secondChoice":"津药药业事件首板需溢价与医药助攻同时确认","avoid":"高位缩量一致、昨日大面核心无承接抄底、成长股弱势反抽","positionTier":0,"stop":"高位锚两只低于预期、或跌停继续扩散时停止新增接力"},
+  "oneToTwo":[
+    {"rank":"观察候选1","name":"津药药业","firstLimitTime":"13:02","seal":"最大封单约5.69亿元；韭研个股事件卡12:30发布","theme":"食欲素/医药事件线","speculationLogic":"异动解析：韭研公社12:30个股帖直接映射津药药业与食欲素；帖文为作者研究/转载表达，不代表公司公告。问财将目标日涨停原因列为食欲素、药品注册、氨基酸制剂及国际化布局。帖子吹票逻辑：拉斯克奖相关叙事与食欲素靶点引发市场讨论，目标股13:02首封，时间上帖子早于午后封板；但当前只有1/33只优先股有直接事件卡，正文对公司业务和产业进度的论证未独立核实，题材已反映在涨停价格中。","forecast":"仅列相对观察优先级：若次日竞价不过热、医药方向至少一只主动助攻且津药药业换手承接，再观察回封；高开兑现、无同题材跟随或大盘跌停扩散则放弃，不把帖子或涨停当作晋级保证。"}
+  ],
+  "sources":{
+    "objective":["FTShare目标日收盘终态缓存：5907条、197页，lastHasMore=false，tradeDate与目标日一致。","确定性指标缓存：61/61交易日，MA60可用；样本按draft.13排除ST及北交所。","当日涨停经FTShare与问财交叉为33只，跌停59只按有效限价收盘校验；广义媒体口径35只，范围更广。","昨日涨停样本为9月24日校正后52只，反馈均值、中位数、跌停和大面由逐股收盘数据计算。"],
+    "themes":["同花顺问财9月28日过滤后涨停原因33只，封板梯队和题材用于映射，不替代公告核验。","新华财经/东方财富9月28日收评记录指数、板块与汽车整车表现。","东方财富Choice涨停复盘确认35只广义口径涨停及新华传媒5连板。"],
+    "narratives":["韭研公社缓存5/5页，事件卡1张，优先股直接覆盖1/33；无登录态。","津药药业个股事件卡发布时间12:30、首封13:02；该卡仅证明市场叙事与可知时序，不证明催化或公司业务事实。"],
+    "note":"周期截止2026-09-28收盘；未引用9月29日结果。痛感按draft.13规则给至少四级下限，精确分数及冻结核心池历史校准未执行；不构成投资建议。"
+  }
+}

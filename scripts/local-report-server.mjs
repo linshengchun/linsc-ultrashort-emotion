@@ -41,12 +41,13 @@ const pythonExecutable = () => {
 };
 
 const runPipeline = async (date) => {
-  await command(process.execPath, ['scripts/fetch-objective.mjs', '--date', date], '行情取数');
+  await command(process.execPath, ['scripts/prepare-data-cache.mjs', '--date', date, '--for-report'], '数据缓存准备');
   await command(process.execPath, ['scripts/generate-report.mjs', '--date', date, '--provider', 'codex'], 'Codex报告生成');
   await command(process.execPath, ['scripts/validate-reports.mjs'], '报告结构校验');
   await command(process.execPath, ['scripts/build-report-index.mjs'], '报告索引更新');
   const python = pythonExecutable();
   await command(python, ['scripts/render-report-pdf.py', '--date', date, '--output', path.join('public', 'reports', `${date}.pdf`)], 'PDF生成');
+  await command(python, ['scripts/upload-reports.py', '--date', date], '服务器上传');
 };
 
 createServer(async (request, response) => {

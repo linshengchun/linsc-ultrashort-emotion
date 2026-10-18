@@ -1,0 +1,4756 @@
+{
+  "date": "2026-10-14",
+  "displayDate": "2026年10月14日",
+  "generatedAt": "2026-10-14T17:13:57.572Z",
+  "title": "2026-10-14《LINSC超短情绪复盘》",
+  "logicVersion": "V1.0-draft.9",
+  "conclusion": {
+    "cycle": "主跌期",
+    "substate": "指数缩量下跌、后手兑现；传媒局部修复",
+    "temperature": null,
+    "summary": "旧核心集中跌停有所缓和，传媒容量和前排出现局部修复；但大盘缩量下跌、昨日板高开兑现，尚非整体接力修复。局部机会与系统风险分开，不把低开自动当机会。",
+    "evidence": [
+      "同范围成交14059.56亿元，较前日下降15.62%，低于此前60日均量32.65%。",
+      "昨日板67只全部有效，开盘后均值-1.98%、中位-2.50%，17只收盘跌幅至少5%。",
+      "中文/芒果/果麦低开后收红，慈文/新经典晋级4板；丽人高开后收跌8.93%。"
+    ]
+  },
+  "market": {
+    "sample": 5027,
+    "turnoverYi": 14059.56,
+    "turnoverPrevYi": 16662.93,
+    "turnoverChangeYi": -2603.38,
+    "turnoverChangePct": -15.62,
+    "turnoverMA60Yi": 20875.72,
+    "turnoverVsMA60Yi": -6816.16,
+    "turnoverVsMA60Pct": -32.65,
+    "up": 882,
+    "down": 4064,
+    "flat": 81,
+    "limitUp": 36,
+    "limitDown": 13,
+    "brokenLimit": 24,
+    "connected": 13,
+    "highestBoard": 4,
+    "indexes": [
+      {
+        "symbol": "000001.SH",
+        "name": "上证指数",
+        "close": 3767.2271,
+        "changePct": -0.88
+      },
+      {
+        "symbol": "399001.SZ",
+        "name": "深证成指",
+        "close": 12110.591,
+        "changePct": -1.97
+      },
+      {
+        "symbol": "399006.SZ",
+        "name": "创业板指",
+        "close": 2866.763,
+        "changePct": -3.1
+      },
+      {
+        "symbol": "000688.SH",
+        "name": "科创50",
+        "close": 1380.2577,
+        "changePct": -3.29
+      }
+    ],
+    "fiveDays": [
+      {
+        "date": "2026-10-14",
+        "turnoverYi": 14059.56,
+        "turnoverChangeYi": -2603.38,
+        "turnoverChangePct": -15.62,
+        "up": 882,
+        "down": 4064,
+        "flat": 81,
+        "limitUp": 36,
+        "limitDown": 13,
+        "brokenLimit": 24,
+        "connected": 13,
+        "highestBoard": 4,
+        "coreEarlyLimitDownLowerBound": 1,
+        "coreBigLossLowerBound": 8,
+        "killScore": null,
+        "pain": "至少高",
+        "state": "指数缩量下跌；传媒局部修复"
+      },
+      {
+        "date": "2026-10-13",
+        "turnoverYi": 16662.93,
+        "turnoverChangeYi": 1373.85,
+        "turnoverChangePct": 8.99,
+        "up": 2714,
+        "down": 2166,
+        "flat": 146,
+        "limitUp": 67,
+        "limitDown": 8,
+        "brokenLimit": 19,
+        "connected": 10,
+        "highestBoard": 3,
+        "coreEarlyLimitDownLowerBound": 5,
+        "coreBigLossLowerBound": 6,
+        "killScore": null,
+        "pain": "极高/下限",
+        "state": "指数修复、核心退潮"
+      },
+      {
+        "date": "2026-10-12",
+        "turnoverYi": 15289.08,
+        "turnoverChangeYi": -3613.06,
+        "turnoverChangePct": -19.11,
+        "up": 1078,
+        "down": 3877,
+        "flat": 71,
+        "limitUp": 46,
+        "limitDown": 20,
+        "brokenLimit": 25,
+        "connected": 18,
+        "highestBoard": 10,
+        "coreEarlyLimitDownLowerBound": 2,
+        "coreBigLossLowerBound": 7,
+        "killScore": null,
+        "pain": "至少中/受限",
+        "state": "缩量退潮、传媒延续"
+      },
+      {
+        "date": "2026-10-09",
+        "turnoverYi": 18902.14,
+        "turnoverChangeYi": 2178.7,
+        "turnoverChangePct": 13.03,
+        "up": 2905,
+        "down": 2012,
+        "flat": 109,
+        "limitUp": 69,
+        "limitDown": 9,
+        "brokenLimit": 13,
+        "connected": 12,
+        "highestBoard": 9,
+        "coreEarlyLimitDownLowerBound": null,
+        "coreBigLossLowerBound": null,
+        "killScore": null,
+        "pain": "中档暂判",
+        "state": "修复尝试"
+      },
+      {
+        "date": "2026-10-08",
+        "turnoverYi": 16723.44,
+        "turnoverChangeYi": 2425.75,
+        "turnoverChangePct": 16.97,
+        "up": 1580,
+        "down": 3336,
+        "flat": 110,
+        "limitUp": 42,
+        "limitDown": 14,
+        "brokenLimit": 32,
+        "connected": 10,
+        "highestBoard": 8,
+        "coreEarlyLimitDownLowerBound": 2,
+        "coreBigLossLowerBound": null,
+        "killScore": null,
+        "pain": "至少高",
+        "state": "高位分歧"
+      }
+    ],
+    "scopeCorrection": "排除退市空行情；路畅/星帅前日停牌，单列复牌，不接续普通连板。"
+  },
+  "pain": {
+    "level": "高痛感（已核证据，非完整名单评分）",
+    "score": null,
+    "coreSnapshotStatus": "只依据13日及以前静态证据重建；原历史池完整性未获证明，不伪称实时冻结",
+    "known": 33,
+    "validKnown": 32,
+    "lowerBounds": {
+      "earlyLimitDown": 1,
+      "earlySevere": 1,
+      "earlySevereA": 1,
+      "closeLimitDown": 0,
+      "closeBigLoss": 8,
+      "redOpenKillA": 1
+    },
+    "signals": {
+      "A1": false,
+      "A2": false,
+      "B": false,
+      "C": false,
+      "D": true,
+      "E": true
+    },
+    "signalCoverage": "A1/A2/B仅指已核名单观测值，未证明完整池为零；高痛感由已确认的昨日板亏损与核心伤害支持。",
+    "extremeConfirmed": false,
+    "extremeConditions": [
+      "昨日涨停收盘跌幅至少5%的比例为25.37%"
+    ],
+    "stocks": [
+      {
+        "code": "605303.SH",
+        "name": "园林股份",
+        "level": "A",
+        "roleDate": "2026-10-08",
+        "lastQualifiedTradeDate": "2026-10-08",
+        "validThrough": "2026-10-15",
+        "mainTheme": "独立题材",
+        "roleTags": [
+          "连续3板辨识度核心"
+        ],
+        "basis": "连续3板辨识度核心",
+        "evidencePaths": [
+          "data/reports/2026-10-08.json"
+        ],
+        "valid": true,
+        "excluded": null,
+        "openPct": -0.2525,
+        "closePct": -5.0505,
+        "openToClosePct": -4.8101,
+        "auctionPct": null,
+        "earlyDownTimes": [],
+        "firstDown": null,
+        "lastDown": null,
+        "downBreakTimes": [],
+        "limitDown": false,
+        "earlySevereConfirmed": false
+      },
+      {
+        "code": "002866.SZ",
+        "name": "传艺科技",
+        "level": "A",
+        "roleDate": "2026-10-08",
+        "lastQualifiedTradeDate": "2026-10-08",
+        "validThrough": "2026-10-15",
+        "mainTheme": "电池",
+        "roleTags": [
+          "电池3板前排"
+        ],
+        "basis": "电池3板前排",
+        "evidencePaths": [
+          "data/reports/2026-10-08.json"
+        ],
+        "valid": true,
+        "excluded": null,
+        "openPct": -4.8144,
+        "closePct": -7.2506,
+        "openToClosePct": -2.5594,
+        "auctionPct": null,
+        "earlyDownTimes": [],
+        "firstDown": null,
+        "lastDown": null,
+        "downBreakTimes": [],
+        "limitDown": false,
+        "earlySevereConfirmed": false
+      },
+      {
+        "code": "000678.SZ",
+        "name": "襄阳轴承",
+        "level": "A",
+        "roleDate": "2026-09-30",
+        "lastQualifiedTradeDate": "2026-09-30",
+        "validThrough": "2026-10-14",
+        "mainTheme": "汽车",
+        "roleTags": [
+          "此前4板汽车高度锚"
+        ],
+        "basis": "此前4板汽车高度锚",
+        "evidencePaths": [
+          "data/reports/2026-09-30.json"
+        ],
+        "valid": true,
+        "excluded": null,
+        "openPct": -2.0777,
+        "closePct": -5.3297,
+        "openToClosePct": -3.321,
+        "auctionPct": null,
+        "earlyDownTimes": [],
+        "firstDown": null,
+        "lastDown": null,
+        "downBreakTimes": [],
+        "limitDown": false,
+        "earlySevereConfirmed": false
+      },
+      {
+        "code": "000011.SZ",
+        "name": "深物业A",
+        "level": "A",
+        "roleDate": "2026-09-30",
+        "lastQualifiedTradeDate": "2026-09-30",
+        "validThrough": "2026-10-14",
+        "mainTheme": "地产",
+        "roleTags": [
+          "此前3板地产前排"
+        ],
+        "basis": "此前3板地产前排",
+        "evidencePaths": [
+          "data/reports/2026-09-30.json"
+        ],
+        "valid": true,
+        "excluded": null,
+        "openPct": -4.4293,
+        "closePct": -7.9216,
+        "openToClosePct": -3.6542,
+        "auctionPct": null,
+        "earlyDownTimes": [],
+        "firstDown": null,
+        "lastDown": null,
+        "downBreakTimes": [],
+        "limitDown": false,
+        "earlySevereConfirmed": false
+      },
+      {
+        "code": "688806.SH",
+        "name": "泰诺麦博-U",
+        "level": "B",
+        "roleDate": "2026-09-30",
+        "lastQualifiedTradeDate": "2026-09-30",
+        "validThrough": "2026-10-14",
+        "mainTheme": "医药",
+        "roleTags": [
+          "20cm医药前排"
+        ],
+        "basis": "20cm医药前排",
+        "evidencePaths": [
+          "data/reports/2026-09-30.json"
+        ],
+        "valid": true,
+        "excluded": null,
+        "openPct": -1.8505,
+        "closePct": -8.5269,
+        "openToClosePct": -6.8022,
+        "auctionPct": null,
+        "earlyDownTimes": [],
+        "firstDown": null,
+        "lastDown": null,
+        "downBreakTimes": [],
+        "limitDown": false,
+        "earlySevereConfirmed": false
+      },
+      {
+        "code": "603906.SH",
+        "name": "龙蟠科技",
+        "level": "B",
+        "roleDate": "2026-10-08",
+        "lastQualifiedTradeDate": "2026-10-08",
+        "validThrough": "2026-10-15",
+        "mainTheme": "电池",
+        "roleTags": [
+          "电池2板分支锚"
+        ],
+        "basis": "电池2板分支锚",
+        "evidencePaths": [
+          "data/reports/2026-10-08.json"
+        ],
+        "valid": true,
+        "excluded": null,
+        "openPct": -0.6085,
+        "closePct": -5.6795,
+        "openToClosePct": -5.102,
+        "auctionPct": null,
+        "earlyDownTimes": [],
+        "firstDown": null,
+        "lastDown": null,
+        "downBreakTimes": [],
+        "limitDown": false,
+        "earlySevereConfirmed": false
+      },
+      {
+        "code": "300364.SZ",
+        "name": "中文在线",
+        "level": "B",
+        "roleDate": "2026-10-09",
+        "lastQualifiedTradeDate": "2026-10-13",
+        "validThrough": "2026-10-20",
+        "mainTheme": "AI影视",
+        "roleTags": [
+          "当日20cm弹性锚"
+        ],
+        "basis": "前日报告第五/六模块明确传媒容量锚",
+        "evidencePaths": [
+          "data/reports/2026-10-09.json",
+          "data/reports/2026-10-13.md"
+        ],
+        "valid": true,
+        "excluded": null,
+        "openPct": -2.8416,
+        "closePct": 3.4644,
+        "openToClosePct": 6.4904,
+        "auctionPct": null,
+        "earlyDownTimes": [],
+        "firstDown": null,
+        "lastDown": null,
+        "downBreakTimes": [],
+        "limitDown": false,
+        "earlySevereConfirmed": false
+      },
+      {
+        "code": "300413.SZ",
+        "name": "芒果超媒",
+        "level": "B",
+        "roleDate": "2026-10-09",
+        "lastQualifiedTradeDate": "2026-10-13",
+        "validThrough": "2026-10-20",
+        "mainTheme": "AI影视",
+        "roleTags": [
+          "平台容量及20cm锚"
+        ],
+        "basis": "前日报告第五/六模块明确传媒容量锚",
+        "evidencePaths": [
+          "data/reports/2026-10-09.json",
+          "data/reports/2026-10-13.md"
+        ],
+        "valid": true,
+        "excluded": null,
+        "openPct": -5.4167,
+        "closePct": 6.8333,
+        "openToClosePct": 12.9515,
+        "auctionPct": null,
+        "earlyDownTimes": [],
+        "firstDown": null,
+        "lastDown": null,
+        "downBreakTimes": [],
+        "limitDown": false,
+        "earlySevereConfirmed": false
+      },
+      {
+        "code": "002343.SZ",
+        "name": "慈文传媒",
+        "level": "A",
+        "roleDate": "2026-10-13",
+        "lastQualifiedTradeDate": "2026-10-13",
+        "validThrough": "2026-10-20",
+        "mainTheme": "传媒",
+        "roleTags": [
+          "2026-10-13连续3板高度"
+        ],
+        "basis": "前日问财及原始收盘价格；不用14日表现选角色",
+        "evidencePaths": [
+          "data/cache/wencai/2026-10-13/fallback.json",
+          "data/cache/ftshare/2026-10-13/objective.json"
+        ],
+        "valid": true,
+        "excluded": null,
+        "openPct": 9.6467,
+        "closePct": 10.0543,
+        "openToClosePct": 0.3717,
+        "auctionPct": 9.6467,
+        "earlyDownTimes": [],
+        "firstDown": null,
+        "lastDown": null,
+        "downBreakTimes": [],
+        "limitDown": false,
+        "earlySevereConfirmed": false
+      },
+      {
+        "code": "301052.SZ",
+        "name": "果麦文化",
+        "level": "B",
+        "roleDate": "2026-10-12",
+        "lastQualifiedTradeDate": "2026-10-12",
+        "validThrough": "2026-10-19",
+        "mainTheme": "传媒",
+        "roleTags": [
+          "昨日新增20cm锚"
+        ],
+        "basis": "D-1正式报告第五/六模块明确角色，非D跌幅倒推",
+        "evidencePaths": [
+          "data/reports/2026-10-12.md"
+        ],
+        "valid": true,
+        "excluded": null,
+        "openPct": -6.2185,
+        "closePct": 14.4874,
+        "openToClosePct": 22.0789,
+        "auctionPct": null,
+        "earlyDownTimes": [],
+        "firstDown": null,
+        "lastDown": null,
+        "downBreakTimes": [],
+        "limitDown": false,
+        "earlySevereConfirmed": false
+      },
+      {
+        "code": "688517.SH",
+        "name": "金冠电气",
+        "level": "B",
+        "roleDate": "2026-10-12",
+        "lastQualifiedTradeDate": "2026-10-12",
+        "validThrough": "2026-10-19",
+        "mainTheme": "电网",
+        "roleTags": [
+          "昨日新增20cm锚"
+        ],
+        "basis": "D-1正式报告第五/六模块明确角色，非D跌幅倒推",
+        "evidencePaths": [
+          "data/reports/2026-10-12.md"
+        ],
+        "valid": true,
+        "excluded": null,
+        "openPct": 0.939,
+        "closePct": -5.5869,
+        "openToClosePct": -6.4651,
+        "auctionPct": null,
+        "earlyDownTimes": [],
+        "firstDown": null,
+        "lastDown": null,
+        "downBreakTimes": [],
+        "limitDown": false,
+        "earlySevereConfirmed": false
+      },
+      {
+        "code": "603096.SH",
+        "name": "新经典",
+        "level": "A",
+        "roleDate": "2026-10-13",
+        "lastQualifiedTradeDate": "2026-10-13",
+        "validThrough": "2026-10-20",
+        "mainTheme": "传媒",
+        "roleTags": [
+          "2026-10-13连续3板高度"
+        ],
+        "basis": "前日问财及原始收盘价格；不用14日表现选角色",
+        "evidencePaths": [
+          "data/cache/wencai/2026-10-13/fallback.json",
+          "data/cache/ftshare/2026-10-13/objective.json"
+        ],
+        "valid": true,
+        "excluded": null,
+        "openPct": 4.9118,
+        "closePct": 10.0143,
+        "openToClosePct": 4.8636,
+        "auctionPct": null,
+        "earlyDownTimes": [],
+        "firstDown": null,
+        "lastDown": null,
+        "downBreakTimes": [],
+        "limitDown": false,
+        "earlySevereConfirmed": false
+      },
+      {
+        "code": "605136.SH",
+        "name": "丽人丽妆",
+        "level": "A",
+        "roleDate": "2026-10-13",
+        "lastQualifiedTradeDate": "2026-10-13",
+        "validThrough": "2026-10-20",
+        "mainTheme": "消费",
+        "roleTags": [
+          "2026-10-13连续3板高度"
+        ],
+        "basis": "前日问财及原始收盘价格；不用14日表现选角色",
+        "evidencePaths": [
+          "data/cache/wencai/2026-10-13/fallback.json",
+          "data/cache/ftshare/2026-10-13/objective.json"
+        ],
+        "valid": true,
+        "excluded": null,
+        "openPct": 9.9825,
+        "closePct": -8.9317,
+        "openToClosePct": -17.1975,
+        "auctionPct": 0,
+        "earlyDownTimes": [],
+        "firstDown": null,
+        "lastDown": null,
+        "downBreakTimes": [],
+        "limitDown": false,
+        "earlySevereConfirmed": false
+      },
+      {
+        "code": "605577.SH",
+        "name": "龙版传媒",
+        "level": "A",
+        "roleDate": "2026-10-13",
+        "lastQualifiedTradeDate": "2026-10-13",
+        "validThrough": "2026-10-20",
+        "mainTheme": "传媒",
+        "roleTags": [
+          "2026-10-13连续3板高度"
+        ],
+        "basis": "前日问财及原始收盘价格；不用14日表现选角色",
+        "evidencePaths": [
+          "data/cache/wencai/2026-10-13/fallback.json",
+          "data/cache/ftshare/2026-10-13/objective.json"
+        ],
+        "valid": true,
+        "excluded": null,
+        "openPct": -10,
+        "closePct": -3.3163,
+        "openToClosePct": 7.4263,
+        "auctionPct": -10,
+        "earlyDownTimes": [
+          "09:25:01",
+          "09:43:31",
+          "09:44:40",
+          "09:45:31"
+        ],
+        "firstDown": "09:25:01",
+        "lastDown": "09:45:31",
+        "downBreakTimes": [
+          "09:43:19",
+          "09:44:28",
+          "09:45:04",
+          "09:45:37"
+        ],
+        "limitDown": false,
+        "earlySevereConfirmed": true
+      }
+    ]
+  },
+  "yesterdayFeedback": {
+    "date": "2026-10-14",
+    "label": "10-14",
+    "rawSample": 67,
+    "sample": 67,
+    "redOpen": 37,
+    "redOpenRate": 55.22,
+    "averageOpen": 2.06,
+    "redClose": 25,
+    "redCloseRate": 37.31,
+    "averageClose": -0.01,
+    "medianClose": -1.7,
+    "openToClose": -1.98,
+    "continuedLimit": 13,
+    "continuedLimitRate": 19.4,
+    "bigLoss": 17,
+    "bigLossRate": 25.37,
+    "limitDown": 1,
+    "p25": -4.99,
+    "worst10": -7.74,
+    "loss7": 4,
+    "loss9": 1,
+    "excluded": [],
+    "groups": {
+      "ten": {
+        "sample": 63,
+        "redOpen": 34,
+        "redOpenRate": 53.97,
+        "averageOpen": 1.88,
+        "redClose": 23,
+        "redCloseRate": 36.51,
+        "averageClose": -0.23,
+        "medianClose": -2.02,
+        "openToClose": -2.03,
+        "continuedLimit": 13,
+        "continuedLimitRate": 20.63,
+        "bigLoss": 17,
+        "bigLossRate": 26.98,
+        "limitDown": 1,
+        "p25": -5.19,
+        "worst10": -7.74,
+        "loss7": 4,
+        "loss9": 1
+      },
+      "twenty": {
+        "sample": 4,
+        "redOpen": 3,
+        "redOpenRate": 75,
+        "averageOpen": 4.87,
+        "redClose": 2,
+        "redCloseRate": 50,
+        "averageClose": 3.54,
+        "medianClose": 1.41,
+        "openToClose": -1.17,
+        "continuedLimit": 0,
+        "continuedLimitRate": 0,
+        "bigLoss": 0,
+        "bigLossRate": 0,
+        "limitDown": 0,
+        "p25": -1.98,
+        "worst10": -2.82,
+        "loss7": 0,
+        "loss9": 0
+      },
+      "first": {
+        "sample": 57,
+        "redOpen": 31,
+        "redOpenRate": 54.39,
+        "averageOpen": 2.21,
+        "redClose": 21,
+        "redCloseRate": 36.84,
+        "averageClose": -0.15,
+        "medianClose": -1.7,
+        "openToClose": -2.29,
+        "continuedLimit": 9,
+        "continuedLimitRate": 15.79,
+        "bigLoss": 14,
+        "bigLossRate": 24.56,
+        "limitDown": 0,
+        "p25": -4.87,
+        "worst10": -6.88,
+        "loss7": 2,
+        "loss9": 0
+      },
+      "connected": {
+        "sample": 10,
+        "redOpen": 6,
+        "redOpenRate": 60,
+        "averageOpen": 1.19,
+        "redClose": 4,
+        "redCloseRate": 40,
+        "averageClose": 0.82,
+        "medianClose": -1.93,
+        "openToClose": -0.18,
+        "continuedLimit": 4,
+        "continuedLimitRate": 40,
+        "bigLoss": 3,
+        "bigLossRate": 30,
+        "limitDown": 1,
+        "p25": -5.19,
+        "worst10": -10.01,
+        "loss7": 2,
+        "loss9": 1
+      }
+    },
+    "openingGroups": [
+      {
+        "name": "低开",
+        "sample": 25,
+        "aboveOpen": 9,
+        "mean": -1.61,
+        "median": -2.75,
+        "loss5": 4,
+        "codes": [
+          "000558.SZ",
+          "000995.SZ",
+          "001229.SZ",
+          "001231.SZ",
+          "002172.SZ",
+          "002184.SZ",
+          "002430.SZ",
+          "002549.SZ",
+          "002587.SZ",
+          "002623.SZ",
+          "002640.SZ",
+          "002862.SZ",
+          "002878.SZ",
+          "002980.SZ",
+          "600199.SH",
+          "600281.SH",
+          "600712.SH",
+          "600802.SH",
+          "600831.SH",
+          "600851.SH",
+          "600853.SH",
+          "603042.SH",
+          "603353.SH",
+          "605577.SH",
+          "688655.SH"
+        ]
+      },
+      {
+        "name": "高开",
+        "sample": 37,
+        "aboveOpen": 9,
+        "mean": -2.44,
+        "median": -1.43,
+        "loss5": 9,
+        "codes": [
+          "000530.SZ",
+          "000668.SZ",
+          "000715.SZ",
+          "000823.SZ",
+          "000833.SZ",
+          "001318.SZ",
+          "002322.SZ",
+          "002343.SZ",
+          "002579.SZ",
+          "002639.SZ",
+          "002693.SZ",
+          "002696.SZ",
+          "002748.SZ",
+          "002811.SZ",
+          "002917.SZ",
+          "002949.SZ",
+          "003037.SZ",
+          "300107.SZ",
+          "301010.SZ",
+          "301041.SZ",
+          "600202.SH",
+          "600228.SH",
+          "600391.SH",
+          "600593.SH",
+          "600693.SH",
+          "601188.SH",
+          "603001.SH",
+          "603096.SH",
+          "603099.SH",
+          "603188.SH",
+          "603328.SH",
+          "603386.SH",
+          "603767.SH",
+          "603968.SH",
+          "605058.SH",
+          "605136.SH",
+          "605258.SH"
+        ]
+      },
+      {
+        "name": "平开",
+        "sample": 5,
+        "aboveOpen": 1,
+        "mean": -0.42,
+        "median": -1.55,
+        "loss5": 1,
+        "codes": [
+          "600237.SH",
+          "600847.SH",
+          "603466.SH",
+          "603956.SH",
+          "603980.SH"
+        ]
+      }
+    ],
+    "fiveDays": [
+      {
+        "date": "2026-10-14",
+        "label": "10-14",
+        "rawSample": 67,
+        "sample": 67,
+        "redOpen": 37,
+        "redOpenRate": 55.22,
+        "averageOpen": 2.06,
+        "redClose": 25,
+        "redCloseRate": 37.31,
+        "averageClose": -0.01,
+        "medianClose": -1.7,
+        "openToClose": -1.98,
+        "continuedLimit": 13,
+        "continuedLimitRate": 19.4,
+        "bigLoss": 17,
+        "bigLossRate": 25.37,
+        "limitDown": 1,
+        "p25": -4.99,
+        "worst10": -7.74,
+        "loss7": 4,
+        "loss9": 1,
+        "excluded": [],
+        "groups": {
+          "ten": {
+            "sample": 63,
+            "redOpen": 34,
+            "redOpenRate": 53.97,
+            "averageOpen": 1.88,
+            "redClose": 23,
+            "redCloseRate": 36.51,
+            "averageClose": -0.23,
+            "medianClose": -2.02,
+            "openToClose": -2.03,
+            "continuedLimit": 13,
+            "continuedLimitRate": 20.63,
+            "bigLoss": 17,
+            "bigLossRate": 26.98,
+            "limitDown": 1,
+            "p25": -5.19,
+            "worst10": -7.74,
+            "loss7": 4,
+            "loss9": 1
+          },
+          "twenty": {
+            "sample": 4,
+            "redOpen": 3,
+            "redOpenRate": 75,
+            "averageOpen": 4.87,
+            "redClose": 2,
+            "redCloseRate": 50,
+            "averageClose": 3.54,
+            "medianClose": 1.41,
+            "openToClose": -1.17,
+            "continuedLimit": 0,
+            "continuedLimitRate": 0,
+            "bigLoss": 0,
+            "bigLossRate": 0,
+            "limitDown": 0,
+            "p25": -1.98,
+            "worst10": -2.82,
+            "loss7": 0,
+            "loss9": 0
+          },
+          "first": {
+            "sample": 57,
+            "redOpen": 31,
+            "redOpenRate": 54.39,
+            "averageOpen": 2.21,
+            "redClose": 21,
+            "redCloseRate": 36.84,
+            "averageClose": -0.15,
+            "medianClose": -1.7,
+            "openToClose": -2.29,
+            "continuedLimit": 9,
+            "continuedLimitRate": 15.79,
+            "bigLoss": 14,
+            "bigLossRate": 24.56,
+            "limitDown": 0,
+            "p25": -4.87,
+            "worst10": -6.88,
+            "loss7": 2,
+            "loss9": 0
+          },
+          "connected": {
+            "sample": 10,
+            "redOpen": 6,
+            "redOpenRate": 60,
+            "averageOpen": 1.19,
+            "redClose": 4,
+            "redCloseRate": 40,
+            "averageClose": 0.82,
+            "medianClose": -1.93,
+            "openToClose": -0.18,
+            "continuedLimit": 4,
+            "continuedLimitRate": 40,
+            "bigLoss": 3,
+            "bigLossRate": 30,
+            "limitDown": 1,
+            "p25": -5.19,
+            "worst10": -10.01,
+            "loss7": 2,
+            "loss9": 1
+          }
+        }
+      },
+      {
+        "date": "2026-10-13",
+        "label": "10-13",
+        "rawSample": 46,
+        "sample": 45,
+        "redOpen": 18,
+        "redOpenRate": 40,
+        "averageOpen": 0.77,
+        "redClose": 22,
+        "redCloseRate": 48.89,
+        "averageClose": 1.13,
+        "medianClose": -0.28,
+        "openToClose": 0.43,
+        "continuedLimit": 10,
+        "continuedLimitRate": 22.22,
+        "bigLoss": 6,
+        "bigLossRate": 13.33,
+        "limitDown": 2,
+        "p25": -3.75,
+        "worst10": -8.11,
+        "loss7": 3,
+        "loss9": 2,
+        "excluded": [
+          {
+            "code": "600825.SH",
+            "name": "新华传媒",
+            "status": "Suspended",
+            "volume": 0
+          }
+        ],
+        "groups": {
+          "ten": {
+            "sample": 38,
+            "redOpen": 16,
+            "redOpenRate": 42.11,
+            "averageOpen": 1.29,
+            "redClose": 17,
+            "redCloseRate": 44.74,
+            "averageClose": 1.02,
+            "medianClose": -0.58,
+            "openToClose": -0.22,
+            "continuedLimit": 10,
+            "continuedLimitRate": 26.32,
+            "bigLoss": 5,
+            "bigLossRate": 13.16,
+            "limitDown": 2,
+            "p25": -3.87,
+            "worst10": -8.65,
+            "loss7": 3,
+            "loss9": 2
+          },
+          "twenty": {
+            "sample": 7,
+            "redOpen": 2,
+            "redOpenRate": 28.57,
+            "averageOpen": -2.05,
+            "redClose": 5,
+            "redCloseRate": 71.43,
+            "averageClose": 1.71,
+            "medianClose": 0.57,
+            "openToClose": 3.97,
+            "continuedLimit": 0,
+            "continuedLimitRate": 0,
+            "bigLoss": 1,
+            "bigLossRate": 14.29,
+            "limitDown": 0,
+            "p25": -1.03,
+            "worst10": -5.97,
+            "loss7": 0,
+            "loss9": 0
+          }
+        }
+      },
+      {
+        "date": "2026-10-12",
+        "label": "10-12",
+        "rawSample": 69,
+        "sample": 69,
+        "redOpen": 48,
+        "redOpenRate": 69.57,
+        "averageOpen": 2.75,
+        "redClose": 41,
+        "redCloseRate": 59.42,
+        "averageClose": 1.81,
+        "medianClose": 1.45,
+        "openToClose": -0.86,
+        "continuedLimit": 18,
+        "continuedLimitRate": 26.09,
+        "bigLoss": 10,
+        "bigLossRate": 14.49,
+        "limitDown": 3,
+        "p25": -3.25,
+        "worst10": -8.82,
+        "loss7": 5,
+        "loss9": 4,
+        "excluded": [],
+        "groups": {
+          "ten": {
+            "sample": 62,
+            "redOpen": 44,
+            "redOpenRate": 70.97,
+            "averageOpen": 2.77,
+            "redClose": 36,
+            "redCloseRate": 58.06,
+            "averageClose": 1.76,
+            "medianClose": 1.07,
+            "openToClose": -0.93,
+            "continuedLimit": 18,
+            "continuedLimitRate": 29.03,
+            "bigLoss": 10,
+            "bigLossRate": 16.13,
+            "limitDown": 3,
+            "p25": -3.48,
+            "worst10": -8.82,
+            "loss7": 5,
+            "loss9": 4
+          },
+          "twenty": {
+            "sample": 7,
+            "redOpen": 4,
+            "redOpenRate": 57.14,
+            "averageOpen": 2.56,
+            "redClose": 5,
+            "redCloseRate": 71.43,
+            "averageClose": 2.24,
+            "medianClose": 3.84,
+            "openToClose": -0.19,
+            "continuedLimit": 0,
+            "continuedLimitRate": 0,
+            "bigLoss": 0,
+            "bigLossRate": 0,
+            "limitDown": 0,
+            "p25": -0.1,
+            "worst10": -4.58,
+            "loss7": 0,
+            "loss9": 0
+          }
+        }
+      },
+      {
+        "date": "2026-10-09",
+        "label": "10-09",
+        "rawSample": 42,
+        "sample": 42,
+        "redOpen": 29,
+        "redOpenRate": 69.05,
+        "averageOpen": 2.69,
+        "redClose": 26,
+        "redCloseRate": 61.9,
+        "averageClose": 2.61,
+        "medianClose": 1.93,
+        "openToClose": -0.06,
+        "continuedLimit": 12,
+        "continuedLimitRate": 28.57,
+        "bigLoss": 3,
+        "bigLossRate": 7.14,
+        "limitDown": 1,
+        "p25": -2.37,
+        "worst10": -6.79,
+        "loss7": 2,
+        "loss9": 1,
+        "excluded": [],
+        "groups": {
+          "ten": {
+            "sample": 38,
+            "redOpen": 27,
+            "redOpenRate": 71.05,
+            "averageOpen": 2.75,
+            "redClose": 23,
+            "redCloseRate": 60.53,
+            "averageClose": 2.43,
+            "medianClose": 2,
+            "openToClose": -0.27,
+            "continuedLimit": 11,
+            "continuedLimitRate": 28.95,
+            "bigLoss": 3,
+            "bigLossRate": 7.89,
+            "limitDown": 1,
+            "p25": -2.37,
+            "worst10": -7.29,
+            "loss7": 2,
+            "loss9": 1
+          },
+          "twenty": {
+            "sample": 4,
+            "redOpen": 2,
+            "redOpenRate": 50,
+            "averageOpen": 2.14,
+            "redClose": 3,
+            "redCloseRate": 75,
+            "averageClose": 4.28,
+            "medianClose": 0.8,
+            "openToClose": 1.91,
+            "continuedLimit": 1,
+            "continuedLimitRate": 25,
+            "bigLoss": 0,
+            "bigLossRate": 0,
+            "limitDown": 0,
+            "p25": -0.98,
+            "worst10": -4.47,
+            "loss7": 0,
+            "loss9": 0
+          }
+        }
+      },
+      {
+        "date": "2026-10-08",
+        "label": "10-08",
+        "rawSample": 52,
+        "sample": 51,
+        "redOpen": 29,
+        "redOpenRate": 56.86,
+        "averageOpen": 1.49,
+        "redClose": 20,
+        "redCloseRate": 39.22,
+        "averageClose": 0.1,
+        "medianClose": -1.85,
+        "openToClose": -1.31,
+        "continuedLimit": 10,
+        "continuedLimitRate": 19.61,
+        "bigLoss": 11,
+        "bigLossRate": 21.57,
+        "limitDown": 0,
+        "p25": -3.82,
+        "worst10": -8.56,
+        "loss7": 5,
+        "loss9": 2,
+        "excluded": [
+          {
+            "code": "002388.SZ",
+            "name": "新亚制程",
+            "status": "Suspended",
+            "volume": 0
+          }
+        ],
+        "groups": {
+          "ten": {
+            "sample": 47,
+            "redOpen": 26,
+            "redOpenRate": 55.32,
+            "averageOpen": 1.3,
+            "redClose": 19,
+            "redCloseRate": 40.43,
+            "averageClose": 0.28,
+            "medianClose": -1.61,
+            "openToClose": -0.94,
+            "continuedLimit": 10,
+            "continuedLimitRate": 21.28,
+            "bigLoss": 10,
+            "bigLossRate": 21.28,
+            "limitDown": 0,
+            "p25": -3.49,
+            "worst10": -7.98,
+            "loss7": 4,
+            "loss9": 1
+          },
+          "twenty": {
+            "sample": 4,
+            "redOpen": 3,
+            "redOpenRate": 75,
+            "averageOpen": 3.67,
+            "redClose": 1,
+            "redCloseRate": 25,
+            "averageClose": -2.1,
+            "medianClose": -3.45,
+            "openToClose": -5.65,
+            "continuedLimit": 0,
+            "continuedLimitRate": 0,
+            "bigLoss": 1,
+            "bigLossRate": 25,
+            "limitDown": 0,
+            "p25": -5.79,
+            "worst10": -11.48,
+            "loss7": 1,
+            "loss9": 1
+          }
+        }
+      }
+    ],
+    "reading": "高开和低开两组开盘后平均均下跌；传媒容量的低开修复是局部，不延伸为普遍低吸机会。"
+  },
+  "ladder": [
+    {
+      "board": 4,
+      "stocks": [
+        "百洋股份",
+        "慈文传媒",
+        "新经典"
+      ]
+    },
+    {
+      "board": 3,
+      "stocks": [
+        "醋化股份"
+      ]
+    },
+    {
+      "board": 2,
+      "stocks": [
+        "冰山冷热",
+        "荣丰控股",
+        "超声电子",
+        "阳光乳业",
+        "哈空调",
+        "金奥博",
+        "龙江交通",
+        "万里股份",
+        "航发科技"
+      ]
+    }
+  ],
+  "ladder20": [],
+  "anchors": [
+    {
+      "name": "新华传媒",
+      "board": "前10板、停牌",
+      "role": "旧高度锚",
+      "influence": "保留角色，停牌不算跌停或晋级失败。"
+    },
+    {
+      "name": "慈文传媒/新经典",
+      "board": "4板",
+      "role": "传媒有效高度",
+      "influence": "均有日内价格空间，仍不等于无条件可参与。"
+    },
+    {
+      "name": "中文在线/芒果超媒/果麦文化",
+      "board": "非连板",
+      "role": "传媒容量",
+      "influence": "低开收红支持局部修复，不能覆盖全市场亏损。"
+    },
+    {
+      "name": "丽人丽妆",
+      "board": "昨3板、断板",
+      "role": "高位负反馈",
+      "influence": "开涨停、收-8.93%，开盘后-17.20%。"
+    }
+  ],
+  "themes": [
+    {
+      "name": "传媒/IP/AI应用",
+      "strength": "局部修复，未恢复为全市场主升",
+      "stage": "局部修复，未恢复为全市场主升",
+      "limitStocks": [
+        "慈文传媒",
+        "新经典",
+        "引力传媒",
+        "中国科传",
+        "新华文轩",
+        "掌阅科技",
+        "富春股份",
+        "电魂网络"
+      ],
+      "messages": [
+        {
+          "source": "同日板块原文",
+          "content": "讨论短剧海外下载增长、IP改编与AI制作降本，分开对应内容制作、平台、投放营销；这是产业预期，不是每家公司已兑现的收入。"
+        },
+        {
+          "source": "同日个股解析及价格",
+          "content": "引力对应品牌短剧营销、字节/火山引擎合作与AI素材工具；慈文、新经典4板，中文、芒果、果麦低开收红，新华文轩反包。"
+        }
+      ],
+      "branches": [],
+      "logic": "前日固定传媒6只收红3、晋级2，开盘后均值+2.46%；容量也改善，支持局部修复。但龙版早盘跌停、奥拓收跌5.38%，不能只留赢家。引力普通首板与文轩/掌阅反包分开。",
+      "expectationSpace": "先看高度与容量共同留住利润，再看新首板换手延续；AI降本不等于同等利润增长，故事扩散过快也可能提前透支。",
+      "coreStocks": [
+        {
+          "name": "慈文传媒",
+          "role": "本方向观察锚",
+          "performance": "须结合后手收益与同链反馈，不作无条件买点"
+        },
+        {
+          "name": "新经典",
+          "role": "本方向观察锚",
+          "performance": "须结合后手收益与同链反馈，不作无条件买点"
+        },
+        {
+          "name": "中文在线",
+          "role": "本方向观察锚",
+          "performance": "须结合后手收益与同链反馈，不作无条件买点"
+        },
+        {
+          "name": "芒果超媒",
+          "role": "本方向观察锚",
+          "performance": "须结合后手收益与同链反馈，不作无条件买点"
+        },
+        {
+          "name": "果麦文化",
+          "role": "本方向观察锚",
+          "performance": "须结合后手收益与同链反馈，不作无条件买点"
+        }
+      ]
+    },
+    {
+      "name": "PCB/覆铜板",
+      "strength": "小市值前排延续，后手分化",
+      "stage": "小市值前排延续，后手分化",
+      "limitStocks": [
+        "超声电子",
+        "宝鼎科技"
+      ],
+      "messages": [
+        {
+          "source": "同日午间原文",
+          "content": "把超声、宝鼎等的业绩预期与覆铜板景气对应，讨论材料涨价和高端板需求；原文部分盘中涨停描述不等于最终收封。"
+        },
+        {
+          "source": "当日问财及盘后信息差",
+          "content": "宝鼎三季报预增、超声业绩预期为具体映射；盘后提及松下材料调价，产品范围和幅度不能推广到所有板厂。"
+        }
+      ],
+      "branches": [],
+      "logic": "前日固定8只开盘后均值-0.55%，仅超声晋级；宝鼎一字首板，澳弘触板后收涨6.11%、协和收涨2.10%，不是2连板。小市值相对强不能代表科技容量整体修复。",
+      "expectationSpace": "后续须从一字与个别业绩股扩散到有换手的持续承接；上游涨价可能压缩下游利润，业绩窗口利好被定价后也有兑现风险。",
+      "coreStocks": [
+        {
+          "name": "超声电子",
+          "role": "本方向观察锚",
+          "performance": "须结合后手收益与同链反馈，不作无条件买点"
+        },
+        {
+          "name": "宝鼎科技",
+          "role": "本方向观察锚",
+          "performance": "须结合后手收益与同链反馈，不作无条件买点"
+        }
+      ]
+    },
+    {
+      "name": "冰雪/制冷文旅",
+      "strength": "次日分化，先手强于后手",
+      "stage": "次日分化，先手强于后手",
+      "limitStocks": [
+        "冰山冷热",
+        "龙江交通",
+        "哈空调"
+      ],
+      "messages": [
+        {
+          "source": "前日冰雪原文延续",
+          "content": "景区扩容、制冷设备与交通保障是13日已存在的叙事，不写成14日新披露。"
+        },
+        {
+          "source": "同日盘后个股信息差",
+          "content": "补充冰山制冷设备、哈空调空冷业务及龙江交通旅游季保畅的具体映射；共同地域或国资不等于彼此订单。"
+        }
+      ],
+      "branches": [],
+      "logic": "冰山一字2板、龙江换手2板；晶雪虽收涨14.14%，开盘后却跌3.60%。前日固定8只开盘后均值-2.17%，天府、龙建、长白山转弱，不能用幸存者认定整链主升。",
+      "expectationSpace": "景区与设备端须重新形成合力，后排不继续兑现才重评持续性；客流、设备订单和业绩传导分别验证。",
+      "coreStocks": [
+        {
+          "name": "冰山冷热",
+          "role": "本方向观察锚",
+          "performance": "须结合后手收益与同链反馈，不作无条件买点"
+        },
+        {
+          "name": "龙江交通",
+          "role": "本方向观察锚",
+          "performance": "须结合后手收益与同链反馈，不作无条件买点"
+        },
+        {
+          "name": "晶雪节能",
+          "role": "本方向观察锚",
+          "performance": "须结合后手收益与同链反馈，不作无条件买点"
+        }
+      ]
+    },
+    {
+      "name": "煤炭/红利与化工涨价",
+      "strength": "防御轮动与产品事件分别观察",
+      "stage": "防御轮动与产品事件分别观察",
+      "limitStocks": [
+        "郑州煤电",
+        "安泰集团",
+        "醋化股份"
+      ],
+      "messages": [
+        {
+          "source": "同日午间煤炭原文",
+          "content": "讨论冬储补库、港口供需与红利资产防御，映射郑州煤电；煤价受需求和供应影响，不把短期报价上行当长期利润保证。"
+        },
+        {
+          "source": "前日化工原文与当日板池",
+          "content": "醋化乙腈、安赛蜜涨价叙事延续至3板；安泰焦炭/H型钢与郑州动力煤业务不同，不能合成同一公司事件。"
+        }
+      ],
+      "branches": [],
+      "logic": "郑州首板、安泰近期曾涨停归反包/二波；醋化独立3板。煤炭偏防御轮动，不能当传媒接力已全面扩散的证明。",
+      "expectationSpace": "报价、产销和成本共同决定利润；价格回落、放量不涨或板块不跟随即限制预期。",
+      "coreStocks": [
+        {
+          "name": "郑州煤电",
+          "role": "本方向观察锚",
+          "performance": "须结合后手收益与同链反馈，不作无条件买点"
+        },
+        {
+          "name": "醋化股份",
+          "role": "本方向观察锚",
+          "performance": "须结合后手收益与同链反馈，不作无条件买点"
+        }
+      ]
+    },
+    {
+      "name": "工业AI、重组与其他具体事件",
+      "strength": "新分支与独立事件，不合并主线",
+      "stage": "新分支与独立事件，不合并主线",
+      "limitStocks": [
+        "泰禾智能",
+        "金奥博",
+        "荣丰控股",
+        "路畅科技",
+        "星帅尔",
+        "航发科技"
+      ],
+      "messages": [
+        {
+          "source": "同日工业AI原文",
+          "content": "以老干妈智能质检传播，映射辣椒分选、AI视觉设备；文中指出泰禾/美亚与该客户直接供货尚未核实，不能写成新增客户订单。"
+        },
+        {
+          "source": "当日问财与盘后个股信息差",
+          "content": "金奥博收购军工装备、星帅尔收购PCB刀具、荣丰控制权、路畅控制权/复牌与航发发动机业务各自归类。"
+        }
+      ],
+      "branches": [],
+      "logic": "泰禾首板体现AI向工业应用扩展，但不因同属AI就共享传媒的跨日收益。路畅、星帅前日停牌单列特殊首板；荣丰13日已复牌交易，14日正常连续2板。",
+      "expectationSpace": "先核事件条款、参与窗口和持续承接；供应商猜测、收购完成及利润兑现均不能提前当事实。",
+      "coreStocks": [
+        {
+          "name": "泰禾智能",
+          "role": "本方向观察锚",
+          "performance": "须结合后手收益与同链反馈，不作无条件买点"
+        },
+        {
+          "name": "金奥博",
+          "role": "本方向观察锚",
+          "performance": "须结合后手收益与同链反馈，不作无条件买点"
+        }
+      ]
+    },
+    {
+      "name": "旧电池/医药与高位亏损",
+      "strength": "跌停缓解，但亏损未出清",
+      "stage": "跌停缓解，但亏损未出清",
+      "limitStocks": [
+        "莱美药业",
+        "中恒集团",
+        "万里股份"
+      ],
+      "messages": [
+        {
+          "source": "事前角色与当日价格",
+          "content": "紫竹收跌1.84%、华北收平，较昨日跌停缓和；传艺仍跌7.25%，丽人开涨停后收跌8.93%，旧持仓并未普遍脱险。"
+        },
+        {
+          "source": "同日问财及盘后个股信息差",
+          "content": "莱美纳米炭铁临床叙事、中恒药物技术与万里储能业务分别对应；莱美近期曾涨停，归反包，不让单个新板替旧主线恢复背书。"
+        }
+      ],
+      "branches": [],
+      "logic": "弱点从集中跌停转为盘中兑现与个股分化，不能仍机械沿用13日极高痛感，也不能因此上调全面主升。",
+      "expectationSpace": "重要核心止跌只是第一步，后手能否保住利润和连续承接仍需验证。",
+      "coreStocks": [
+        {
+          "name": "紫竹高科",
+          "role": "本方向观察锚",
+          "performance": "须结合后手收益与同链反馈，不作无条件买点"
+        },
+        {
+          "name": "华北制药",
+          "role": "本方向观察锚",
+          "performance": "须结合后手收益与同链反馈，不作无条件买点"
+        },
+        {
+          "name": "丽人丽妆",
+          "role": "本方向观察锚",
+          "performance": "须结合后手收益与同链反馈，不作无条件买点"
+        }
+      ]
+    }
+  ],
+  "themeTimeline": [
+    {
+      "theme": "出版传媒",
+      "days": [
+        {
+          "date": "10-08",
+          "performance": "新华传媒8板一字、新华文轩跌停",
+          "leaders": [
+            "新华传媒"
+          ]
+        },
+        {
+          "date": "10-09",
+          "performance": "9板一字与午后AI影视宽度并存；新华文轩反包",
+          "leaders": [
+            "新华传媒",
+            "新华文轩",
+            "中文在线"
+          ]
+        },
+        {
+          "date": "10-12",
+          "performance": "传媒固定15股全红、11晋级；果麦新20cm",
+          "leaders": [
+            "新华传媒",
+            "慈文传媒",
+            "掌阅科技",
+            "果麦文化"
+          ]
+        },
+        {
+          "date": "10-13",
+          "performance": "慈文/新经典/龙版3板，旧容量和2板大分化",
+          "leaders": [
+            "慈文传媒",
+            "新经典",
+            "龙版传媒"
+          ]
+        },
+        {
+          "date": "10-14",
+          "performance": "慈文/新经典4板，文轩反包；中文/芒果容量改善，龙版与后排仍分化",
+          "leaders": [
+            "慈文传媒",
+            "新经典",
+            "新华文轩"
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "汽车/机器人",
+      "days": [
+        {
+          "date": "10-08",
+          "performance": "九阳4板，襄阳-5.04%、雪龙跌停",
+          "leaders": [
+            "九阳股份"
+          ]
+        },
+        {
+          "date": "10-09",
+          "performance": "九阳5板换手；襄阳止血、雪龙仍-5.79%",
+          "leaders": [
+            "九阳股份"
+          ]
+        },
+        {
+          "date": "10-12",
+          "performance": "九阳6，襄阳跌停、雪龙大面，赛力斯新板",
+          "leaders": [
+            "九阳股份",
+            "赛力斯"
+          ]
+        },
+        {
+          "date": "10-13",
+          "performance": "九阳断6板后修复，襄阳未继续跌停",
+          "leaders": [
+            "九阳股份"
+          ]
+        },
+        {
+          "date": "10-14",
+          "performance": "九阳收+0.11%，襄阳-5.33%；旧方向未整体转强",
+          "leaders": [
+            "九阳股份"
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "电池/固态",
+      "days": [
+        {
+          "date": "10-08",
+          "performance": "时代4板、紫竹传艺洗霸3板",
+          "leaders": [
+            "时代万恒",
+            "紫竹高科",
+            "传艺科技",
+            "上海洗霸"
+          ]
+        },
+        {
+          "date": "10-09",
+          "performance": "时代5、紫竹4；传艺/洗霸/龙蟠断板",
+          "leaders": [
+            "时代万恒",
+            "紫竹高科",
+            "领湃科技"
+          ]
+        },
+        {
+          "date": "10-12",
+          "performance": "时代6；紫竹/领湃断板、龙蟠大面",
+          "leaders": [
+            "时代万恒"
+          ]
+        },
+        {
+          "date": "10-13",
+          "performance": "时代断6板、紫竹传艺跌停，旧3板洗霸大面",
+          "leaders": []
+        },
+        {
+          "date": "10-14",
+          "performance": "紫竹/华北止跌但传艺-7.25%；万里2板不能替旧核心解套",
+          "leaders": [
+            "万里股份"
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "PCB/科技硬件",
+      "days": [
+        {
+          "date": "10-08",
+          "performance": "澳弘-9.58%，科技跌停扩散",
+          "leaders": []
+        },
+        {
+          "date": "10-09",
+          "performance": "澳弘反包、金安跌停，未全修复",
+          "leaders": [
+            "澳弘电子"
+          ]
+        },
+        {
+          "date": "10-12",
+          "performance": "金安继续跌停；暂未确认整体回归",
+          "leaders": []
+        },
+        {
+          "date": "10-13",
+          "performance": "超声/澳弘/协和回流，迅捷兴20cm；新旧分组",
+          "leaders": [
+            "超声电子",
+            "澳弘电子",
+            "迅捷兴"
+          ]
+        },
+        {
+          "date": "10-14",
+          "performance": "超声2板、宝鼎一字首板，澳弘收+6.11%未封住",
+          "leaders": [
+            "超声电子",
+            "宝鼎科技"
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "医药",
+      "days": [
+        {
+          "date": "10-08",
+          "performance": "华北和联环首板、旧前排受损",
+          "leaders": [
+            "华北制药",
+            "联环药业"
+          ]
+        },
+        {
+          "date": "10-09",
+          "performance": "华北2板；泰诺反弹、康希诺仍弱",
+          "leaders": [
+            "华北制药",
+            "中红医疗"
+          ]
+        },
+        {
+          "date": "10-12",
+          "performance": "华北3、莱美首板，泰诺再大面",
+          "leaders": [
+            "华北制药",
+            "莱美药业"
+          ]
+        },
+        {
+          "date": "10-13",
+          "performance": "华北3板断后跌停，新双成首板",
+          "leaders": [
+            "双成药业"
+          ]
+        },
+        {
+          "date": "10-14",
+          "performance": "华北收平，莱美反包首板、中恒新首板；泰诺-8.53%",
+          "leaders": [
+            "莱美药业",
+            "中恒集团"
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "地产",
+      "days": [
+        {
+          "date": "10-08",
+          "performance": "陆家嘴2板，深物业/万科转弱",
+          "leaders": [
+            "陆家嘴"
+          ]
+        },
+        {
+          "date": "10-09",
+          "performance": "陆家嘴-8.72%断板；旧容量未共振",
+          "leaders": []
+        },
+        {
+          "date": "10-12",
+          "performance": "陆家嘴/万科大面，旧方向退出",
+          "leaders": []
+        },
+        {
+          "date": "10-13",
+          "performance": "旧地产非优先方向，未确认整链恢复",
+          "leaders": []
+        },
+        {
+          "date": "10-14",
+          "performance": "旧地产深物业-7.92%；粤宏远新首板不等于整链修复",
+          "leaders": [
+            "粤宏远A"
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "新电网/光储充",
+      "days": [
+        {
+          "date": "10-08",
+          "performance": "—",
+          "leaders": []
+        },
+        {
+          "date": "10-09",
+          "performance": "远程首板；天顺跌停",
+          "leaders": [
+            "远程股份"
+          ]
+        },
+        {
+          "date": "10-12",
+          "performance": "远程2、金冠/首航20cm及电网新板",
+          "leaders": [
+            "远程股份",
+            "金冠电气",
+            "首航新能"
+          ]
+        },
+        {
+          "date": "10-13",
+          "performance": "金冠低开修复不连板，前日新方向未普遍晋级",
+          "leaders": []
+        },
+        {
+          "date": "10-14",
+          "performance": "金冠收-5.59%，原新方向未普遍延续",
+          "leaders": []
+        }
+      ]
+    }
+  ],
+  "effects": {
+    "relayDifficulty": "困难：普遍追高不利，传媒局部条件观察",
+    "experience": "高痛感、局部分化",
+    "profit": [
+      "传媒容量低开修复、慈文/新经典4板及新AI应用首板。"
+    ],
+    "loss": [
+      "昨日板高开兑现、冰雪后排及旧核心继续亏损。"
+    ],
+    "styles": [
+      {
+        "style": "10cm连板",
+        "result": "高位分化，追高困难",
+        "reading": "昨63只10cm开盘后均值-2.03%；慈文/新经典4板有价格空间，百洋一字4板，丽人开盘后-17.20%。"
+      },
+      {
+        "style": "20cm弹性",
+        "result": "账面红不等于后手赚钱",
+        "reading": "昨4只均收+3.54%却开盘后-1.17%，0晋级；晶雪高开18.40%后收14.14%，富春为新首板，隔日未验证。"
+      },
+      {
+        "style": "容量趋势",
+        "result": "传媒局部改善",
+        "reading": "中文开盘后+6.49%、芒果+12.95%、果麦+22.08%；只支持该方向，不代表科技权重共同改善。"
+      },
+      {
+        "style": "低价小票",
+        "result": "低价不解决参与限制",
+        "reading": "按D收盘不高于10元：冰山6.30、慈文8.10、富春6.88；冰山一字，慈文与富春有日内价格空间但不是事先保证买到。"
+      },
+      {
+        "style": "二波",
+        "result": "强反包与失败样本共存",
+        "reading": "文轩、掌阅及安泰近期曾涨停，单列非连续强度；10月9日固定批次后手中位仍-0.49%。"
+      },
+      {
+        "style": "反包",
+        "result": "传媒可观察，不外推所有旧股",
+        "reading": "文轩低开后涨停但22次开板；莱美近期涨停后再封。10月12日固定批次持到14日后手中位-1.51%。"
+      },
+      {
+        "style": "复牌股",
+        "result": "特殊单列",
+        "reading": "路畅/星帅前日停牌，14日不硬接普通2板；荣丰13日已交易，14日2板有效；停牌日无可参与收益。"
+      }
+    ],
+    "cohorts": [
+      {
+        "formationDate": "2026-10-09",
+        "rawSample": 69,
+        "fixedSample": 68,
+        "excluded": [
+          "600825.SH"
+        ],
+        "event": {
+          "sample": 68,
+          "mean": 1.9,
+          "median": 0.92,
+          "positive": 35,
+          "loss5": 19
+        },
+        "after": {
+          "sample": 68,
+          "mean": -0.71,
+          "median": -0.49,
+          "positive": 32,
+          "loss5": 22
+        },
+        "noEntry": [
+          "新经典",
+          "丽人丽妆",
+          "德才股份"
+        ],
+        "participation": "一字日线排除为必要条件；其余样本有成交但不等于实际可买，分时机会未全面验证。",
+        "paths": [
+          {
+            "date": "2026-10-12",
+            "mean": 1.69,
+            "median": 1.33
+          },
+          {
+            "date": "2026-10-13",
+            "mean": 1.79,
+            "median": 1.11
+          },
+          {
+            "date": "2026-10-14",
+            "mean": 1.9,
+            "median": 0.92
+          }
+        ],
+        "rows": [
+          {
+            "code": "000420.SZ",
+            "name": "吉林化纤",
+            "event": -4.986876640419946,
+            "after": -11.70731707317072,
+            "maxFavorable": 2.1951219512195363,
+            "maxAdverse": -11.95121951219511,
+            "peakGap": 13.902439024390256,
+            "noEntry": false
+          },
+          {
+            "code": "000546.SZ",
+            "name": "金圆股份",
+            "event": -10.482180293501042,
+            "after": -11.95876288659794,
+            "maxFavorable": 6.185567010309301,
+            "maxAdverse": -11.95876288659794,
+            "peakGap": 18.144329896907234,
+            "noEntry": false
+          },
+          {
+            "code": "000710.SZ",
+            "name": "贝瑞基因",
+            "event": -6.548672566371694,
+            "after": -6.382978723404253,
+            "maxFavorable": 9.042553191489366,
+            "maxAdverse": -6.8262411347517755,
+            "peakGap": 15.425531914893615,
+            "noEntry": false
+          },
+          {
+            "code": "000736.SZ",
+            "name": "中交发展",
+            "event": -10.940499040307106,
+            "after": -7.5697211155378525,
+            "maxFavorable": 1.9920318725099584,
+            "maxAdverse": -7.968127490039834,
+            "peakGap": 9.561752988047807,
+            "noEntry": false
+          },
+          {
+            "code": "000892.SZ",
+            "name": "欢瑞世纪",
+            "event": 5.7731958762886615,
+            "after": -1.1560693641618602,
+            "maxFavorable": 4.046242774566466,
+            "maxAdverse": -7.321772639691726,
+            "peakGap": 5.202312138728341,
+            "noEntry": false
+          },
+          {
+            "code": "001300.SZ",
+            "name": "三柏硕",
+            "event": -20.05383580080754,
+            "after": -27.339449541284424,
+            "maxFavorable": 0,
+            "maxAdverse": -27.522935779816528,
+            "peakGap": 27.339449541284417,
+            "noEntry": false
+          },
+          {
+            "code": "001330.SZ",
+            "name": "博纳影业",
+            "event": 7.890961262553797,
+            "after": 0.2666666666666595,
+            "maxFavorable": 5.466666666666664,
+            "maxAdverse": -7.9999999999999964,
+            "peakGap": 5.200000000000007,
+            "noEntry": false
+          },
+          {
+            "code": "001336.SZ",
+            "name": "楚环科技",
+            "event": -25.704225352112676,
+            "after": -28.655959425190204,
+            "maxFavorable": 0.9298393913778513,
+            "maxAdverse": -28.655959425190204,
+            "peakGap": 29.585798816568047,
+            "noEntry": false
+          },
+          {
+            "code": "002058.SZ",
+            "name": "紫竹高科",
+            "event": -8.551554828150575,
+            "after": -4.893617021276587,
+            "maxFavorable": 13.40425531914895,
+            "maxAdverse": -7.659574468085106,
+            "peakGap": 18.29787234042552,
+            "noEntry": false
+          },
+          {
+            "code": "002181.SZ",
+            "name": "粤传媒",
+            "event": 9.584664536741183,
+            "after": 9.35175345377257,
+            "maxFavorable": 14.240170031880982,
+            "maxAdverse": -2.2316684378320906,
+            "peakGap": 4.888416578108406,
+            "noEntry": false
+          },
+          {
+            "code": "002212.SZ",
+            "name": "天融信",
+            "event": -2.3809523809523725,
+            "after": -4.7741935483870845,
+            "maxFavorable": 1.6774193548387162,
+            "maxAdverse": -5.161290322580636,
+            "peakGap": 6.451612903225805,
+            "noEntry": false
+          },
+          {
+            "code": "002242.SZ",
+            "name": "九阳股份",
+            "event": 16.920026437541313,
+            "after": 6.3100961538461675,
+            "maxFavorable": 10.456730769230749,
+            "maxAdverse": -10.757211538461553,
+            "peakGap": 4.146634615384596,
+            "noEntry": false
+          },
+          {
+            "code": "002317.SZ",
+            "name": "众生药业",
+            "event": 5.963122793252262,
+            "after": 6.338582677165383,
+            "maxFavorable": 9.291338582677188,
+            "maxAdverse": -4.015748031496047,
+            "peakGap": 2.952755905511805,
+            "noEntry": false
+          },
+          {
+            "code": "002343.SZ",
+            "name": "慈文传媒",
+            "event": 33.22368421052631,
+            "after": 22.171945701357455,
+            "maxFavorable": 22.171945701357455,
+            "maxAdverse": -0.452488687782826,
+            "peakGap": 0,
+            "noEntry": false
+          },
+          {
+            "code": "002480.SZ",
+            "name": "新筑股份",
+            "event": -3.1666666666666843,
+            "after": -0.6837606837606924,
+            "maxFavorable": 11.623931623931627,
+            "maxAdverse": -1.025641025641022,
+            "peakGap": 12.307692307692328,
+            "noEntry": false
+          },
+          {
+            "code": "002675.SZ",
+            "name": "东诚药业",
+            "event": -0.14398848092153083,
+            "after": -0.28756290438534116,
+            "maxFavorable": 1.2221423436376666,
+            "maxAdverse": -3.3788641265276698,
+            "peakGap": 1.5097052480230042,
+            "noEntry": false
+          },
+          {
+            "code": "002692.SZ",
+            "name": "远程股份",
+            "event": -6.72268907563025,
+            "after": -10.843373493975905,
+            "maxFavorable": 15.662650602409611,
+            "maxAdverse": -10.843373493975905,
+            "peakGap": 26.506024096385524,
+            "noEntry": false
+          },
+          {
+            "code": "002696.SZ",
+            "name": "百洋股份",
+            "event": 33.1967213114754,
+            "after": 26.623376623376615,
+            "maxFavorable": 26.623376623376615,
+            "maxAdverse": -0.12987012987012436,
+            "peakGap": 0,
+            "noEntry": false
+          },
+          {
+            "code": "002733.SZ",
+            "name": "雄韬股份",
+            "event": -10.58710298363813,
+            "after": -13.741875580315687,
+            "maxFavorable": 5.896007428040861,
+            "maxAdverse": -14.06685236768801,
+            "peakGap": 19.637883008356546,
+            "noEntry": false
+          },
+          {
+            "code": "002805.SZ",
+            "name": "丰元股份",
+            "event": -11.368312757201648,
+            "after": -10.4935064935065,
+            "maxFavorable": 11.064935064935044,
+            "maxAdverse": -10.4935064935065,
+            "peakGap": 21.558441558441547,
+            "noEntry": false
+          },
+          {
+            "code": "002811.SZ",
+            "name": "郑中设计",
+            "event": 12.499999999999979,
+            "after": 10.576923076923084,
+            "maxFavorable": 17.040598290598297,
+            "maxAdverse": -4.967948717948712,
+            "peakGap": 6.463675213675223,
+            "noEntry": false
+          },
+          {
+            "code": "002912.SZ",
+            "name": "中新赛克",
+            "event": 0.9807355516637584,
+            "after": -2.46955345060893,
+            "maxFavorable": 5.006765899864685,
+            "maxAdverse": -6.055480378890388,
+            "peakGap": 7.476319350473609,
+            "noEntry": false
+          },
+          {
+            "code": "002979.SZ",
+            "name": "雷赛智能",
+            "event": -2.015113350125941,
+            "after": 0.29465930018417463,
+            "maxFavorable": 5.156537753222845,
+            "maxAdverse": -4.29097605893185,
+            "peakGap": 4.861878453038666,
+            "noEntry": false
+          },
+          {
+            "code": "300364.SZ",
+            "name": "中文在线",
+            "event": 8.622803432774816,
+            "after": 6.70413488558812,
+            "maxFavorable": 11.922922521075874,
+            "maxAdverse": -3.613006824568432,
+            "peakGap": 5.218787635487756,
+            "noEntry": false
+          },
+          {
+            "code": "300369.SZ",
+            "name": "绿盟科技",
+            "event": 5.944391179290531,
+            "after": -3.9965247610773136,
+            "maxFavorable": 2.3457862728062606,
+            "maxAdverse": -12.076455256298868,
+            "peakGap": 6.3423110338835675,
+            "noEntry": false
+          },
+          {
+            "code": "300413.SZ",
+            "name": "芒果超媒",
+            "event": 11.478260869565226,
+            "after": 11.478260869565226,
+            "maxFavorable": 17.91304347826088,
+            "maxAdverse": -3.4347826086956523,
+            "peakGap": 6.43478260869565,
+            "noEntry": false
+          },
+          {
+            "code": "300530.SZ",
+            "name": "领湃科技",
+            "event": -2.941176470588225,
+            "after": -1.19760479041916,
+            "maxFavorable": 12.081718915110962,
+            "maxAdverse": -6.269813314547379,
+            "peakGap": 13.279323705530107,
+            "noEntry": false
+          },
+          {
+            "code": "300821.SZ",
+            "name": "东岳硅材",
+            "event": 5.014577259475228,
+            "after": 1.179775280898876,
+            "maxFavorable": 15.617977528089888,
+            "maxAdverse": -3.9325842696629087,
+            "peakGap": 14.438202247190993,
+            "noEntry": false
+          },
+          {
+            "code": "300981.SZ",
+            "name": "中红医疗",
+            "event": -1.5410958904109595,
+            "after": -6.807131280388967,
+            "maxFavorable": 4.983792544570509,
+            "maxAdverse": -16.085899513776326,
+            "peakGap": 11.79092382495947,
+            "noEntry": false
+          },
+          {
+            "code": "600127.SH",
+            "name": "金健米业",
+            "event": -2.766798418972327,
+            "after": -10.109622411693064,
+            "maxFavorable": 1.7052375152253108,
+            "maxAdverse": -23.81242387332523,
+            "peakGap": 11.81485992691838,
+            "noEntry": false
+          },
+          {
+            "code": "600207.SH",
+            "name": "安彩高科",
+            "event": -5.357142857142838,
+            "after": -3.6363636363636265,
+            "maxFavorable": 12.00000000000001,
+            "maxAdverse": -4.545454545454541,
+            "peakGap": 15.636363636363635,
+            "noEntry": false
+          },
+          {
+            "code": "600241.SH",
+            "name": "时代万恒",
+            "event": 12.329931972789133,
+            "after": 5.849358974358987,
+            "maxFavorable": 13.221153846153854,
+            "maxAdverse": -3.685897435897445,
+            "peakGap": 7.371794871794873,
+            "noEntry": false
+          },
+          {
+            "code": "600354.SH",
+            "name": "敦煌种业",
+            "event": -10.81081081081081,
+            "after": -10.899999999999999,
+            "maxFavorable": 6.800000000000006,
+            "maxAdverse": -15.399999999999991,
+            "peakGap": 17.7,
+            "noEntry": false
+          },
+          {
+            "code": "600371.SH",
+            "name": "万向德农",
+            "event": -10.487641950567795,
+            "after": -14.102564102564097,
+            "maxFavorable": 5.576923076923057,
+            "maxAdverse": -18.974358974358974,
+            "peakGap": 19.679487179487165,
+            "noEntry": false
+          },
+          {
+            "code": "600400.SH",
+            "name": "红豆股份",
+            "event": 7.286432160804002,
+            "after": 9.487179487179475,
+            "maxFavorable": 10.769230769230775,
+            "maxAdverse": -2.564102564102577,
+            "peakGap": 1.2820512820513077,
+            "noEntry": false
+          },
+          {
+            "code": "600408.SH",
+            "name": "安泰集团",
+            "event": 7.407407407407418,
+            "after": 7.692307692307687,
+            "maxFavorable": 7.9575596816976235,
+            "maxAdverse": -9.814323607427056,
+            "peakGap": 0.26525198938994216,
+            "noEntry": false
+          },
+          {
+            "code": "600478.SH",
+            "name": "科力远",
+            "event": -8.23529411764705,
+            "after": -9.826589595375735,
+            "maxFavorable": 0.770712909441218,
+            "maxAdverse": -10.019267822736044,
+            "peakGap": 10.597302504816962,
+            "noEntry": false
+          },
+          {
+            "code": "600621.SH",
+            "name": "华鑫股份",
+            "event": 3.245856353591159,
+            "after": 3.3172080165860374,
+            "maxFavorable": 8.293020041465105,
+            "maxAdverse": -0.8293020041465149,
+            "peakGap": 4.97581202487906,
+            "noEntry": false
+          },
+          {
+            "code": "600629.SH",
+            "name": "华建集团",
+            "event": -0.4994450610432799,
+            "after": -4.014989293361881,
+            "maxFavorable": 0.37473233404710093,
+            "maxAdverse": -7.28051391862955,
+            "peakGap": 4.389721627408985,
+            "noEntry": false
+          },
+          {
+            "code": "600715.SH",
+            "name": "文投控股",
+            "event": 6.818181818181812,
+            "after": 1.621621621621605,
+            "maxFavorable": 5.405405405405395,
+            "maxAdverse": -7.027027027027044,
+            "peakGap": 3.783783783783792,
+            "noEntry": false
+          },
+          {
+            "code": "600812.SH",
+            "name": "华北制药",
+            "event": -0.9950248756219082,
+            "after": -9.954751131221718,
+            "maxFavorable": 0,
+            "maxAdverse": -17.194570135746588,
+            "peakGap": 9.954751131221723,
+            "noEntry": false
+          },
+          {
+            "code": "600843.SH",
+            "name": "上工申贝",
+            "event": 0.8557457212713837,
+            "after": 2.8678304239401653,
+            "maxFavorable": 12.842892768079818,
+            "maxAdverse": -2.244389027431415,
+            "peakGap": 9.975062344139664,
+            "noEntry": false
+          },
+          {
+            "code": "600865.SH",
+            "name": "百大集团",
+            "event": -1.0425716768027726,
+            "after": -2.9812606473594516,
+            "maxFavorable": 4.344122657580929,
+            "maxAdverse": -7.921635434412266,
+            "peakGap": 7.325383304940375,
+            "noEntry": false
+          },
+          {
+            "code": "600882.SH",
+            "name": "妙可蓝多",
+            "event": -7.761476573592063,
+            "after": -9.34883720930233,
+            "maxFavorable": 0,
+            "maxAdverse": -9.674418604651148,
+            "peakGap": 9.348837209302332,
+            "noEntry": false
+          },
+          {
+            "code": "601069.SH",
+            "name": "西部黄金",
+            "event": -5.838041431261775,
+            "after": -6.994047619047617,
+            "maxFavorable": 1.1532738095238138,
+            "maxAdverse": -9.598214285714269,
+            "peakGap": 8.147321428571434,
+            "noEntry": false
+          },
+          {
+            "code": "601086.SH",
+            "name": "国芳集团",
+            "event": -15.729585006693448,
+            "after": -17.71241830065361,
+            "maxFavorable": 1.5032679738562038,
+            "maxAdverse": -20.849673202614383,
+            "peakGap": 19.2156862745098,
+            "noEntry": false
+          },
+          {
+            "code": "601118.SH",
+            "name": "海南橡胶",
+            "event": -3.7709497206704023,
+            "after": -4.3055555555555625,
+            "maxFavorable": 9.444444444444455,
+            "maxAdverse": -4.861111111111116,
+            "peakGap": 13.750000000000018,
+            "noEntry": false
+          },
+          {
+            "code": "601519.SH",
+            "name": "大智慧",
+            "event": 2.399127589967298,
+            "after": 5.505617977528088,
+            "maxFavorable": 9.438202247191008,
+            "maxAdverse": -0.22471910112360494,
+            "peakGap": 3.9325842696629176,
+            "noEntry": false
+          },
+          {
+            "code": "601566.SH",
+            "name": "九牧王",
+            "event": 0.9861932938856066,
+            "after": 0.7874015748031482,
+            "maxFavorable": 5.118110236220463,
+            "maxAdverse": -7.578740157480313,
+            "peakGap": 4.330708661417318,
+            "noEntry": false
+          },
+          {
+            "code": "601595.SH",
+            "name": "上海电影",
+            "event": 17.58286176232824,
+            "after": 12.79565723148508,
+            "maxFavorable": 16.711903838697182,
+            "maxAdverse": -3.955021326095387,
+            "peakGap": 3.9162466072121,
+            "noEntry": false
+          },
+          {
+            "code": "601811.SH",
+            "name": "新华文轩",
+            "event": 11.190817790530861,
+            "after": 8.848314606741582,
+            "maxFavorable": 15.215355805243448,
+            "maxAdverse": -10.1123595505618,
+            "peakGap": 6.3670411985018704,
+            "noEntry": false
+          },
+          {
+            "code": "601929.SH",
+            "name": "吉视传媒",
+            "event": 5.600000000000005,
+            "after": 1.5384615384615552,
+            "maxFavorable": 10.000000000000009,
+            "maxAdverse": -2.692307692307694,
+            "peakGap": 8.46153846153846,
+            "noEntry": false
+          },
+          {
+            "code": "603067.SH",
+            "name": "振华股份",
+            "event": 3.5452611675726775,
+            "after": 4.284694120447519,
+            "maxFavorable": 8.02189954772674,
+            "maxAdverse": -5.593906212806477,
+            "peakGap": 3.73720542727922,
+            "noEntry": false
+          },
+          {
+            "code": "603096.SH",
+            "name": "新经典",
+            "event": 33.12175418349683,
+            "after": 21.038824763903463,
+            "maxFavorable": 21.038824763903463,
+            "maxAdverse": 0,
+            "peakGap": 0,
+            "noEntry": true
+          },
+          {
+            "code": "603101.SH",
+            "name": "汇嘉时代",
+            "event": -4.005006257822286,
+            "after": -7.590361445783145,
+            "maxFavorable": 5.903614457831319,
+            "maxAdverse": -8.072289156626521,
+            "peakGap": 13.493975903614459,
+            "noEntry": false
+          },
+          {
+            "code": "603155.SH",
+            "name": "新亚强",
+            "event": 1.8146467919637033,
+            "after": 0,
+            "maxFavorable": 8.020369191597677,
+            "maxAdverse": -5.792488860598355,
+            "peakGap": 8.020369191597684,
+            "noEntry": false
+          },
+          {
+            "code": "603216.SH",
+            "name": "梦天家居",
+            "event": 8.713692946058082,
+            "after": 8.713692946058082,
+            "maxFavorable": 12.03319502074689,
+            "maxAdverse": -1.8257261410788428,
+            "peakGap": 3.319502074688798,
+            "noEntry": false
+          },
+          {
+            "code": "603232.SH",
+            "name": "格尔软件",
+            "event": 4.946996466431086,
+            "after": 4.885226603884663,
+            "maxFavorable": 9.947027663331397,
+            "maxAdverse": -0.41200706297820355,
+            "peakGap": 5.061801059446742,
+            "noEntry": false
+          },
+          {
+            "code": "603533.SH",
+            "name": "掌阅科技",
+            "event": 17.610062893081757,
+            "after": 10.650887573964507,
+            "maxFavorable": 10.650887573964507,
+            "maxAdverse": -6.730769230769241,
+            "peakGap": 0,
+            "noEntry": false
+          },
+          {
+            "code": "605058.SH",
+            "name": "澳弘电子",
+            "event": 20.11246485473288,
+            "after": 28.211284513805523,
+            "maxFavorable": 32.91316526610646,
+            "maxAdverse": -2.741096438575419,
+            "peakGap": 4.7018807523009425,
+            "noEntry": false
+          },
+          {
+            "code": "605136.SH",
+            "name": "丽人丽妆",
+            "event": 10.169491525423746,
+            "after": 0.19267822736028783,
+            "maxFavorable": 21.001926782273593,
+            "maxAdverse": -0.9633911368015613,
+            "peakGap": 20.809248554913296,
+            "noEntry": true
+          },
+          {
+            "code": "605168.SH",
+            "name": "三人行",
+            "event": -9.040307101727452,
+            "after": -7.675823105396451,
+            "maxFavorable": 0.5260081823495133,
+            "maxAdverse": -8.377167348529124,
+            "peakGap": 8.201831287745959,
+            "noEntry": false
+          },
+          {
+            "code": "605177.SH",
+            "name": "东亚药业",
+            "event": -14.704842700600917,
+            "after": -14.704842700600917,
+            "maxFavorable": 0,
+            "maxAdverse": -17.63874160480734,
+            "peakGap": 14.704842700600915,
+            "noEntry": false
+          },
+          {
+            "code": "605188.SH",
+            "name": "国光连锁",
+            "event": 1.8063583815028927,
+            "after": 0.2846975088967918,
+            "maxFavorable": 3.6298932384341454,
+            "maxAdverse": -5.907473309608557,
+            "peakGap": 3.345195729537368,
+            "noEntry": false
+          },
+          {
+            "code": "605287.SH",
+            "name": "德才股份",
+            "event": 21.702339472374298,
+            "after": 10.633484162895911,
+            "maxFavorable": 13.981900452488683,
+            "maxAdverse": -3.8461538461538547,
+            "peakGap": 3.3484162895927643,
+            "noEntry": true
+          },
+          {
+            "code": "605399.SH",
+            "name": "晨光新材",
+            "event": -11.944869831546722,
+            "after": -14.814814814814826,
+            "maxFavorable": 3.5555555555555562,
+            "maxAdverse": -16.29629629629631,
+            "peakGap": 18.370370370370377,
+            "noEntry": false
+          },
+          {
+            "code": "605577.SH",
+            "name": "龙版传媒",
+            "event": 16.975308641975317,
+            "after": 6.341189674522996,
+            "maxFavorable": 19.360269360269335,
+            "maxAdverse": -1.0101010101010166,
+            "peakGap": 13.019079685746343,
+            "noEntry": false
+          },
+          {
+            "code": "688152.SH",
+            "name": "麒麟信安",
+            "event": -3.2061068702289974,
+            "after": -1.3339261894175003,
+            "maxFavorable": 6.447309915518007,
+            "maxAdverse": -3.9573143619386353,
+            "peakGap": 7.781236104935521,
+            "noEntry": false
+          }
+        ],
+        "nonOneWord": {
+          "sample": 65,
+          "mean": -1.23
+        },
+        "extremes": {
+          "favorable": 8.84,
+          "adverse": -7.81,
+          "peakGap": 9.55
+        }
+      },
+      {
+        "formationDate": "2026-10-12",
+        "rawSample": 46,
+        "fixedSample": 45,
+        "excluded": [
+          "600825.SH"
+        ],
+        "event": {
+          "sample": 45,
+          "mean": 1.08,
+          "median": -1.51,
+          "positive": 20,
+          "loss5": 13
+        },
+        "after": {
+          "sample": 45,
+          "mean": 0.32,
+          "median": -1.51,
+          "positive": 20,
+          "loss5": 13
+        },
+        "noEntry": [
+          "慈文传媒",
+          "新经典"
+        ],
+        "participation": "一字日线排除为必要条件；其余样本有成交但不等于实际可买，分时机会未全面验证。",
+        "paths": [
+          {
+            "date": "2026-10-13",
+            "mean": 1.13,
+            "median": -0.28
+          },
+          {
+            "date": "2026-10-14",
+            "mean": 1.08,
+            "median": -1.51
+          }
+        ],
+        "rows": [
+          {
+            "code": "000892.SZ",
+            "name": "欢瑞世纪",
+            "event": -3.93258426966292,
+            "after": -3.571428571428581,
+            "maxFavorable": 1.5037593984962516,
+            "maxAdverse": -9.586466165413544,
+            "peakGap": 5.075187969924828,
+            "noEntry": false
+          },
+          {
+            "code": "001231.SZ",
+            "name": "农心科技",
+            "event": -1.015228426395931,
+            "after": -5.621742367833205,
+            "maxFavorable": 4.877140729709617,
+            "maxAdverse": -5.621742367833205,
+            "peakGap": 10.498883097542818,
+            "noEntry": false
+          },
+          {
+            "code": "001330.SZ",
+            "name": "博纳影业",
+            "event": -1.9556714471968717,
+            "after": -2.9677419354838808,
+            "maxFavorable": 2.0645161290322678,
+            "maxAdverse": -10.967741935483865,
+            "peakGap": 5.032258064516136,
+            "noEntry": false
+          },
+          {
+            "code": "002242.SZ",
+            "name": "九阳股份",
+            "event": 6.3100961538461675,
+            "after": 11.820480404551216,
+            "maxFavorable": 16.18204804045511,
+            "maxAdverse": -4.171934260429843,
+            "peakGap": 4.361567635903898,
+            "noEntry": false
+          },
+          {
+            "code": "002264.SZ",
+            "name": "新华都",
+            "event": -4.176904176904184,
+            "after": -6.0240963855421885,
+            "maxFavorable": 3.0120481927710774,
+            "maxAdverse": -7.710843373493981,
+            "peakGap": 9.036144578313273,
+            "noEntry": false
+          },
+          {
+            "code": "002343.SZ",
+            "name": "慈文传媒",
+            "event": 21.076233183856495,
+            "after": 10.05434782608694,
+            "maxFavorable": 10.05434782608694,
+            "maxAdverse": 0,
+            "peakGap": 0,
+            "noEntry": true
+          },
+          {
+            "code": "002441.SZ",
+            "name": "众业达",
+            "event": -7.166123778501632,
+            "after": -6.249999999999978,
+            "maxFavorable": 0.8771929824561431,
+            "maxAdverse": -7.127192982456121,
+            "peakGap": 7.127192982456125,
+            "noEntry": false
+          },
+          {
+            "code": "002531.SZ",
+            "name": "天顺风能",
+            "event": -10.640870616686826,
+            "after": -9.768009768009778,
+            "maxFavorable": 9.645909645909633,
+            "maxAdverse": -10.989010989010994,
+            "peakGap": 19.413919413919423,
+            "noEntry": false
+          },
+          {
+            "code": "002576.SZ",
+            "name": "通达动力",
+            "event": -8.960796515245795,
+            "after": -7.1111111111111125,
+            "maxFavorable": 0.25396825396823974,
+            "maxAdverse": -7.746031746031745,
+            "peakGap": 7.365079365079358,
+            "noEntry": false
+          },
+          {
+            "code": "002591.SZ",
+            "name": "恒大高新",
+            "event": -10.195530726256985,
+            "after": -5.022156573116687,
+            "maxFavorable": 2.954209748892178,
+            "maxAdverse": -5.317577548005891,
+            "peakGap": 7.976366322008865,
+            "noEntry": false
+          },
+          {
+            "code": "002692.SZ",
+            "name": "远程股份",
+            "event": -15.267175572519086,
+            "after": -22.91666666666665,
+            "maxFavorable": 0,
+            "maxAdverse": -22.91666666666665,
+            "peakGap": 22.916666666666654,
+            "noEntry": false
+          },
+          {
+            "code": "002696.SZ",
+            "name": "百洋股份",
+            "event": 21.118012422360245,
+            "after": 14.16861826697895,
+            "maxFavorable": 14.16861826697895,
+            "maxAdverse": -7.494145199063218,
+            "peakGap": 0,
+            "noEntry": false
+          },
+          {
+            "code": "002908.SZ",
+            "name": "德生科技",
+            "event": -5.735660847880297,
+            "after": -1.5625,
+            "maxFavorable": 3.125,
+            "maxAdverse": -1.822916666666663,
+            "peakGap": 4.687499999999994,
+            "noEntry": false
+          },
+          {
+            "code": "002990.SZ",
+            "name": "盛视科技",
+            "event": 9.115281501340466,
+            "after": 10.657966286025022,
+            "maxFavorable": 13.286206271524371,
+            "maxAdverse": -2.483233641471816,
+            "peakGap": 2.628239985499361,
+            "noEntry": false
+          },
+          {
+            "code": "300006.SZ",
+            "name": "莱美药业",
+            "event": 20.426829268292714,
+            "after": 16.176470588235304,
+            "maxFavorable": 16.176470588235304,
+            "maxAdverse": -3.6764705882353033,
+            "peakGap": 0,
+            "noEntry": false
+          },
+          {
+            "code": "300829.SZ",
+            "name": "金丹科技",
+            "event": -4.710920770877958,
+            "after": 0.4514672686230181,
+            "maxFavorable": 11.738148984198649,
+            "maxAdverse": -2.483069977426622,
+            "peakGap": 11.286681715575618,
+            "noEntry": false
+          },
+          {
+            "code": "301052.SZ",
+            "name": "果麦文化",
+            "event": 11.782080735149346,
+            "after": 9.026888604353411,
+            "maxFavorable": 14.276568501920629,
+            "maxAdverse": -10.691421254801536,
+            "peakGap": 5.249679897567221,
+            "noEntry": false
+          },
+          {
+            "code": "301419.SZ",
+            "name": "阿莱德",
+            "event": -1.4884696016771448,
+            "after": -0.4870817450232767,
+            "maxFavorable": 5.612028801355362,
+            "maxAdverse": -3.0072003388394664,
+            "peakGap": 6.099110546378638,
+            "noEntry": false
+          },
+          {
+            "code": "301658.SZ",
+            "name": "首航新能",
+            "event": -11.061946902654874,
+            "after": -3.7125748502993994,
+            "maxFavorable": 5.389221556886237,
+            "maxAdverse": -4.071856287425135,
+            "peakGap": 9.101796407185631,
+            "noEntry": false
+          },
+          {
+            "code": "600192.SH",
+            "name": "长城电工",
+            "event": -1.513240857503162,
+            "after": -1.513240857503162,
+            "maxFavorable": 7.944514501891553,
+            "maxAdverse": -2.90037831021438,
+            "peakGap": 9.45775535939471,
+            "noEntry": false
+          },
+          {
+            "code": "600241.SH",
+            "name": "时代万恒",
+            "event": 2.086553323029383,
+            "after": 2.086553323029383,
+            "maxFavorable": 9.196290571870168,
+            "maxAdverse": -7.109737248840819,
+            "peakGap": 7.109737248840804,
+            "noEntry": false
+          },
+          {
+            "code": "600560.SH",
+            "name": "金自天正",
+            "event": -2.474062250598552,
+            "after": -2.474062250598552,
+            "maxFavorable": 3.75099760574622,
+            "maxAdverse": -5.347166799680769,
+            "peakGap": 6.225059856344768,
+            "noEntry": false
+          },
+          {
+            "code": "600693.SH",
+            "name": "东百集团",
+            "event": 9.033989266547415,
+            "after": -0.8943089430894391,
+            "maxFavorable": 9.999999999999986,
+            "maxAdverse": -13.983739837398367,
+            "peakGap": 10.894308943089428,
+            "noEntry": false
+          },
+          {
+            "code": "600812.SH",
+            "name": "华北制药",
+            "event": -9.954751131221718,
+            "after": -8.993902439024403,
+            "maxFavorable": 0,
+            "maxAdverse": -16.310975609756085,
+            "peakGap": 8.9939024390244,
+            "noEntry": false
+          },
+          {
+            "code": "600831.SH",
+            "name": "广电网络",
+            "event": 3.5805626598465423,
+            "after": 2.5316455696202445,
+            "maxFavorable": 8.860759493670889,
+            "maxAdverse": -2.0253164556962022,
+            "peakGap": 6.329113924050624,
+            "noEntry": false
+          },
+          {
+            "code": "600851.SH",
+            "name": "海欣股份",
+            "event": 6.7441860465116354,
+            "after": 5.638665132336018,
+            "maxFavorable": 15.880322209436137,
+            "maxAdverse": -4.7180667433832095,
+            "peakGap": 10.241657077100111,
+            "noEntry": false
+          },
+          {
+            "code": "601127.SH",
+            "name": "赛力斯",
+            "event": -4.195940671350506,
+            "after": -3.7450980392156774,
+            "maxFavorable": 5.882352941176472,
+            "maxAdverse": -6.117647058823517,
+            "peakGap": 9.627450980392151,
+            "noEntry": false
+          },
+          {
+            "code": "601595.SH",
+            "name": "上海电影",
+            "event": 6.909224549797854,
+            "after": 7.980697847067542,
+            "maxFavorable": 11.729769858945804,
+            "maxAdverse": -5.345211581291764,
+            "peakGap": 3.7490720118782495,
+            "noEntry": false
+          },
+          {
+            "code": "601811.SH",
+            "name": "新华文轩",
+            "event": 1.0869565217391353,
+            "after": 0.9991311902693534,
+            "maxFavorable": 6.907037358818435,
+            "maxAdverse": -16.59426585577759,
+            "peakGap": 5.907906168549086,
+            "noEntry": false
+          },
+          {
+            "code": "601929.SH",
+            "name": "吉视传媒",
+            "event": -3.9999999999999925,
+            "after": -5.035971223021562,
+            "maxFavorable": 2.8776978417266452,
+            "maxAdverse": -8.992805755395672,
+            "peakGap": 7.913669064748201,
+            "noEntry": false
+          },
+          {
+            "code": "603032.SH",
+            "name": "德新科技",
+            "event": -9.794319294809018,
+            "after": -6.969696969696971,
+            "maxFavorable": 5.858585858585852,
+            "maxAdverse": -7.070707070707083,
+            "peakGap": 12.828282828282816,
+            "noEntry": false
+          },
+          {
+            "code": "603096.SH",
+            "name": "新经典",
+            "event": 21.038824763903463,
+            "after": 10.014306151645203,
+            "maxFavorable": 10.014306151645203,
+            "maxAdverse": 0,
+            "peakGap": 0,
+            "noEntry": true
+          },
+          {
+            "code": "603230.SH",
+            "name": "内蒙新华",
+            "event": -9.774436090225569,
+            "after": -5.781584582441123,
+            "maxFavorable": 0.8565310492505418,
+            "maxAdverse": -13.990007137758742,
+            "peakGap": 6.638115631691662,
+            "noEntry": false
+          },
+          {
+            "code": "603232.SH",
+            "name": "格尔软件",
+            "event": -4.603854389721629,
+            "after": 0.11235955056179137,
+            "maxFavorable": 3.6516853932584192,
+            "maxAdverse": -1.4044943820224698,
+            "peakGap": 3.539325842696624,
+            "noEntry": false
+          },
+          {
+            "code": "603336.SH",
+            "name": "宏辉果蔬",
+            "event": -5.837320574162675,
+            "after": -3.529411764705881,
+            "maxFavorable": 6.2745098039215685,
+            "maxAdverse": -3.627450980392144,
+            "peakGap": 9.803921568627445,
+            "noEntry": false
+          },
+          {
+            "code": "603500.SH",
+            "name": "祥和实业",
+            "event": -4.981884057970998,
+            "after": -4.89573889392565,
+            "maxFavorable": 2.0852221214868516,
+            "maxAdverse": -5.1677243880326245,
+            "peakGap": 6.980961015412497,
+            "noEntry": false
+          },
+          {
+            "code": "603528.SH",
+            "name": "多伦科技",
+            "event": -5.81560283687943,
+            "after": -9.041095890410954,
+            "maxFavorable": 6.301369863013706,
+            "maxAdverse": -9.041095890410954,
+            "peakGap": 15.342465753424653,
+            "noEntry": false
+          },
+          {
+            "code": "603533.SH",
+            "name": "掌阅科技",
+            "event": 6.933523945675479,
+            "after": 11.226765799256523,
+            "maxFavorable": 11.226765799256523,
+            "maxAdverse": -3.0483271375464693,
+            "peakGap": 0,
+            "noEntry": false
+          },
+          {
+            "code": "603968.SH",
+            "name": "醋化股份",
+            "event": 21.0727969348659,
+            "after": 21.53846153846155,
+            "maxFavorable": 21.53846153846155,
+            "maxAdverse": 0,
+            "peakGap": 0,
+            "noEntry": false
+          },
+          {
+            "code": "603992.SH",
+            "name": "松霖科技",
+            "event": 17.526265520534846,
+            "after": 17.582417582417563,
+            "maxFavorable": 17.582417582417563,
+            "maxAdverse": -3.105590062111796,
+            "peakGap": 0,
+            "noEntry": false
+          },
+          {
+            "code": "605136.SH",
+            "name": "丽人丽妆",
+            "event": 0.19267822736028783,
+            "after": -8.85188431200702,
+            "maxFavorable": 10.078878177037698,
+            "maxAdverse": -9.903593339176176,
+            "peakGap": 18.9307624890447,
+            "noEntry": false
+          },
+          {
+            "code": "605287.SH",
+            "name": "德才股份",
+            "event": 10.633484162895911,
+            "after": 0.5758946935417342,
+            "maxFavorable": 3.6199095022624306,
+            "maxAdverse": -12.587412587412583,
+            "peakGap": 3.0440148087206946,
+            "noEntry": false
+          },
+          {
+            "code": "605577.SH",
+            "name": "龙版传媒",
+            "event": 6.341189674522996,
+            "after": -3.316326530612257,
+            "maxFavorable": 8.52040816326529,
+            "maxAdverse": -10.000000000000009,
+            "peakGap": 11.836734693877542,
+            "noEntry": false
+          },
+          {
+            "code": "688004.SH",
+            "name": "博汇科技",
+            "event": 0.10738255033557742,
+            "after": 1.8296013107591547,
+            "maxFavorable": 22.064445658110344,
+            "maxAdverse": -1.3380666302566846,
+            "peakGap": 20.234844347351196,
+            "noEntry": false
+          },
+          {
+            "code": "688517.SH",
+            "name": "金冠电气",
+            "event": -5.0519357884797,
+            "after": 0.04975124378108209,
+            "maxFavorable": 13.184079601990039,
+            "maxAdverse": -1.8407960199005036,
+            "peakGap": 13.134328358208958,
+            "noEntry": false
+          }
+        ],
+        "nonOneWord": {
+          "sample": 43,
+          "mean": -0.13
+        },
+        "extremes": {
+          "favorable": 8.02,
+          "adverse": -6.65,
+          "peakGap": 7.7
+        }
+      },
+      {
+        "formationDate": "2026-10-13",
+        "rawSample": 67,
+        "fixedSample": 67,
+        "excluded": [],
+        "event": {
+          "sample": 67,
+          "mean": -0.01,
+          "median": -1.7,
+          "positive": 25,
+          "loss5": 17
+        },
+        "after": {
+          "sample": 67,
+          "mean": -1.98,
+          "median": -2.5,
+          "positive": 19,
+          "loss5": 14
+        },
+        "noEntry": [
+          "冰山冷热",
+          "荣丰控股",
+          "百洋股份"
+        ],
+        "participation": "一字日线排除为必要条件；其余样本有成交但不等于实际可买，分时机会未全面验证。",
+        "paths": [
+          {
+            "date": "2026-10-14",
+            "mean": -0.01,
+            "median": -1.7
+          }
+        ],
+        "rows": [
+          {
+            "code": "000530.SZ",
+            "name": "冰山冷热",
+            "event": 9.947643979057585,
+            "after": 0,
+            "maxFavorable": 0,
+            "maxAdverse": 0,
+            "peakGap": 0,
+            "noEntry": true
+          },
+          {
+            "code": "000558.SZ",
+            "name": "天府文旅",
+            "event": -4.166666666666652,
+            "after": -3.4120734908136496,
+            "maxFavorable": 1.5748031496062964,
+            "maxAdverse": -3.6745406824147064,
+            "peakGap": 4.986876640419939,
+            "noEntry": false
+          },
+          {
+            "code": "000668.SZ",
+            "name": "荣丰控股",
+            "event": 10.019455252918274,
+            "after": 0,
+            "maxFavorable": 0,
+            "maxAdverse": 0,
+            "peakGap": 0,
+            "noEntry": true
+          },
+          {
+            "code": "000715.SZ",
+            "name": "中兴商业",
+            "event": -6.055363321799312,
+            "after": -8.739495798319318,
+            "maxFavorable": 1.5126050420168013,
+            "maxAdverse": -9.411764705882353,
+            "peakGap": 10.25210084033613,
+            "noEntry": false
+          },
+          {
+            "code": "000823.SZ",
+            "name": "超声电子",
+            "event": 9.991039426523308,
+            "after": 0,
+            "maxFavorable": 0,
+            "maxAdverse": -1.7922606924643647,
+            "peakGap": 0,
+            "noEntry": false
+          },
+          {
+            "code": "000833.SZ",
+            "name": "粤桂股份",
+            "event": -0.04842615012106144,
+            "after": -3.776223776223764,
+            "maxFavorable": 3.589743589743599,
+            "maxAdverse": -6.666666666666654,
+            "peakGap": 7.365967365967362,
+            "noEntry": false
+          },
+          {
+            "code": "000995.SZ",
+            "name": "皇台酒业",
+            "event": -0.8163265306122325,
+            "after": 0.16488046166529546,
+            "maxFavorable": 10.8821104699093,
+            "maxAdverse": -1.8961253091508756,
+            "peakGap": 10.717230008244009,
+            "noEntry": false
+          },
+          {
+            "code": "001229.SZ",
+            "name": "魅视科技",
+            "event": 0.4070881226053702,
+            "after": 1.62384876393602,
+            "maxFavorable": 6.592341250605904,
+            "maxAdverse": -1.1875908870576768,
+            "peakGap": 4.968492486669886,
+            "noEntry": false
+          },
+          {
+            "code": "001231.SZ",
+            "name": "农心科技",
+            "event": -10.010649627263046,
+            "after": -3.1703590527119907,
+            "maxFavorable": 2.2536287242169717,
+            "maxAdverse": -3.1703590527119907,
+            "peakGap": 5.423987776928949,
+            "noEntry": false
+          },
+          {
+            "code": "001318.SZ",
+            "name": "阳光乳业",
+            "event": 9.978617248752686,
+            "after": 0,
+            "maxFavorable": 0,
+            "maxAdverse": -4.990278677900206,
+            "peakGap": 0,
+            "noEntry": false
+          },
+          {
+            "code": "002172.SZ",
+            "name": "澳洋健康",
+            "event": -4.560810810810811,
+            "after": -2.753872633390708,
+            "maxFavorable": 2.0654044750430423,
+            "maxAdverse": -4.647160068846823,
+            "peakGap": 4.81927710843374,
+            "noEntry": false
+          },
+          {
+            "code": "002184.SZ",
+            "name": "海得控制",
+            "event": -6.142728093947591,
+            "after": -5.545454545454531,
+            "maxFavorable": 0.27272727272726893,
+            "maxAdverse": -5.909090909090908,
+            "peakGap": 5.818181818181792,
+            "noEntry": false
+          },
+          {
+            "code": "002322.SZ",
+            "name": "理工能科",
+            "event": -4.587155963302758,
+            "after": -4.8054919908466776,
+            "maxFavorable": 1.6781083142639153,
+            "maxAdverse": -5.034324942791757,
+            "peakGap": 6.483600305110607,
+            "noEntry": false
+          },
+          {
+            "code": "002343.SZ",
+            "name": "慈文传媒",
+            "event": 10.05434782608694,
+            "after": 0.3717472118959009,
+            "maxFavorable": 0.3717472118959009,
+            "maxAdverse": -3.5935563816604676,
+            "peakGap": 0,
+            "noEntry": false
+          },
+          {
+            "code": "002430.SZ",
+            "name": "杭氧股份",
+            "event": -7.994186046511631,
+            "after": -7.048458149779724,
+            "maxFavorable": 0,
+            "maxAdverse": -7.488986784140961,
+            "peakGap": 7.0484581497797265,
+            "noEntry": false
+          },
+          {
+            "code": "002549.SZ",
+            "name": "凯美特气",
+            "event": -4.561403508771944,
+            "after": -4.360056258790445,
+            "maxFavorable": 1.828410689170168,
+            "maxAdverse": -4.430379746835444,
+            "peakGap": 6.188466947960626,
+            "noEntry": false
+          },
+          {
+            "code": "002579.SZ",
+            "name": "中京电子",
+            "event": 0.7303712720633015,
+            "after": -3.498542274052474,
+            "maxFavorable": 1.9825072886297201,
+            "maxAdverse": -4.489795918367346,
+            "peakGap": 5.481049562682201,
+            "noEntry": false
+          },
+          {
+            "code": "002587.SZ",
+            "name": "奥拓电子",
+            "event": -5.38194444444443,
+            "after": -2.5044722719141377,
+            "maxFavorable": 0.5366726296958779,
+            "maxAdverse": -2.8622540250447304,
+            "peakGap": 3.0411449016100196,
+            "noEntry": false
+          },
+          {
+            "code": "002623.SZ",
+            "name": "亚玛顿",
+            "event": 2.028081123244929,
+            "after": 3.0462184873949694,
+            "maxFavorable": 7.773109243697474,
+            "maxAdverse": -1.7857142857142905,
+            "peakGap": 4.726890756302506,
+            "noEntry": false
+          },
+          {
+            "code": "002639.SZ",
+            "name": "雪人集团",
+            "event": 4.180945853324181,
+            "after": -4.940587867417145,
+            "maxFavorable": 0,
+            "maxAdverse": -5.941213258286437,
+            "peakGap": 4.940587867417148,
+            "noEntry": false
+          },
+          {
+            "code": "002640.SZ",
+            "name": "跨境通",
+            "event": -3.856041131105392,
+            "after": -2.6041666666666408,
+            "maxFavorable": 1.3020833333333481,
+            "maxAdverse": -3.124999999999989,
+            "peakGap": 3.90624999999999,
+            "noEntry": false
+          },
+          {
+            "code": "002693.SZ",
+            "name": "双成药业",
+            "event": -5.329457364341083,
+            "after": -6.8636796949475665,
+            "maxFavorable": 0,
+            "maxAdverse": -7.435653002859855,
+            "peakGap": 6.863679694947565,
+            "noEntry": false
+          },
+          {
+            "code": "002696.SZ",
+            "name": "百洋股份",
+            "event": 10.045146726862297,
+            "after": 0,
+            "maxFavorable": 0,
+            "maxAdverse": 0,
+            "peakGap": 0,
+            "noEntry": true
+          },
+          {
+            "code": "002748.SZ",
+            "name": "世龙实业",
+            "event": -5.267175572519078,
+            "after": -9.811046511627897,
+            "maxFavorable": 1.6715116279069742,
+            "maxAdverse": -10.029069767441856,
+            "peakGap": 11.48255813953488,
+            "noEntry": false
+          },
+          {
+            "code": "002811.SZ",
+            "name": "郑中设计",
+            "event": 2.1213616181549044,
+            "after": 0,
+            "maxFavorable": 5.845410628019332,
+            "maxAdverse": -4.347826086956497,
+            "peakGap": 5.845410628019332,
+            "noEntry": false
+          },
+          {
+            "code": "002862.SZ",
+            "name": "实丰文化",
+            "event": -0.18808777429467627,
+            "after": 1.07936507936508,
+            "maxFavorable": 3.9999999999999813,
+            "maxAdverse": -2.857142857142869,
+            "peakGap": 2.920634920634904,
+            "noEntry": false
+          },
+          {
+            "code": "002878.SZ",
+            "name": "元隆雅图",
+            "event": 1.1863224005582707,
+            "after": 5.07246376811592,
+            "maxFavorable": 14.20289855072463,
+            "maxAdverse": -1.3043478260869712,
+            "peakGap": 9.130434782608706,
+            "noEntry": false
+          },
+          {
+            "code": "002917.SZ",
+            "name": "金奥博",
+            "event": 10.000000000000009,
+            "after": 2.8911564625850428,
+            "maxFavorable": 2.8911564625850428,
+            "maxAdverse": -1.7006802721088343,
+            "peakGap": 0,
+            "noEntry": false
+          },
+          {
+            "code": "002949.SZ",
+            "name": "华阳国际",
+            "event": -7.891061452513981,
+            "after": -11.357526881720437,
+            "maxFavorable": 2.620967741935476,
+            "maxAdverse": -12.163978494623661,
+            "peakGap": 13.978494623655923,
+            "noEntry": false
+          },
+          {
+            "code": "002980.SZ",
+            "name": "华盛昌",
+            "event": -5.10986643688065,
+            "after": -3.327188130980596,
+            "maxFavorable": 1.439733122640674,
+            "maxAdverse": -4.837152137652523,
+            "peakGap": 4.7669212536212795,
+            "noEntry": false
+          },
+          {
+            "code": "003037.SZ",
+            "name": "三和管桩",
+            "event": -2.0155038759689825,
+            "after": -5.1051051051051015,
+            "maxFavorable": 5.855855855855863,
+            "maxAdverse": -6.156156156156156,
+            "peakGap": 10.960960960960954,
+            "noEntry": false
+          },
+          {
+            "code": "300107.SZ",
+            "name": "建新股份",
+            "event": 4.5191193511007866,
+            "after": 2.499999999999969,
+            "maxFavorable": 12.72727272727272,
+            "maxAdverse": -1.022727272727264,
+            "peakGap": 10.227272727272743,
+            "noEntry": false
+          },
+          {
+            "code": "301010.SZ",
+            "name": "晶雪节能",
+            "event": 14.135021097046408,
+            "after": -3.5994297933000685,
+            "maxFavorable": 1.104775481111897,
+            "maxAdverse": -12.68709907341411,
+            "peakGap": 4.704205274411971,
+            "noEntry": false
+          },
+          {
+            "code": "301041.SZ",
+            "name": "金百泽",
+            "event": -2.8151469855505873,
+            "after": -4.199410609037335,
+            "maxFavorable": 1.9155206286836979,
+            "maxAdverse": -5.108055009823175,
+            "peakGap": 6.114931237721037,
+            "noEntry": false
+          },
+          {
+            "code": "600199.SH",
+            "name": "金种子酒",
+            "event": -4.605263157894745,
+            "after": -1.3605442176870763,
+            "maxFavorable": 3.401360544217691,
+            "maxAdverse": -1.7687074829931926,
+            "peakGap": 4.761904761904768,
+            "noEntry": false
+          },
+          {
+            "code": "600202.SH",
+            "name": "哈空调",
+            "event": 10.01788908765655,
+            "after": 0,
+            "maxFavorable": 0,
+            "maxAdverse": -6.50406504065042,
+            "peakGap": 0,
+            "noEntry": false
+          },
+          {
+            "code": "600228.SH",
+            "name": "返利科技",
+            "event": -2.1696252465483234,
+            "after": -3.40798442064264,
+            "maxFavorable": 1.07108081791627,
+            "maxAdverse": -3.40798442064264,
+            "peakGap": 4.479065238558917,
+            "noEntry": false
+          },
+          {
+            "code": "600237.SH",
+            "name": "铜峰电子",
+            "event": -1.5503875968992054,
+            "after": -1.5503875968992054,
+            "maxFavorable": 2.657807308970117,
+            "maxAdverse": -1.6611295681062899,
+            "peakGap": 4.208194905869316,
+            "noEntry": false
+          },
+          {
+            "code": "600281.SH",
+            "name": "华阳新材",
+            "event": -4.81927710843374,
+            "after": -4.2424242424242475,
+            "maxFavorable": 0,
+            "maxAdverse": -4.646464646464665,
+            "peakGap": 4.24242424242425,
+            "noEntry": false
+          },
+          {
+            "code": "600391.SH",
+            "name": "航发科技",
+            "event": 10.005157297576051,
+            "after": 8.826530612244877,
+            "maxFavorable": 8.826530612244877,
+            "maxAdverse": 0,
+            "peakGap": 0,
+            "noEntry": false
+          },
+          {
+            "code": "600593.SH",
+            "name": "大连圣亚",
+            "event": 6.562311860325121,
+            "after": -1.3011152416356864,
+            "maxFavorable": 1.8773234200743616,
+            "maxAdverse": -4.516728624535304,
+            "peakGap": 3.178438661710044,
+            "noEntry": false
+          },
+          {
+            "code": "600693.SH",
+            "name": "东百集团",
+            "event": -0.8943089430894391,
+            "after": -1.6935483870967771,
+            "maxFavorable": 9.112903225806445,
+            "maxAdverse": -7.741935483870965,
+            "peakGap": 10.806451612903222,
+            "noEntry": false
+          },
+          {
+            "code": "600712.SH",
+            "name": "南宁百货",
+            "event": -6.768189509306277,
+            "after": -5.972696245733811,
+            "maxFavorable": 0,
+            "maxAdverse": -6.143344709897624,
+            "peakGap": 5.972696245733809,
+            "noEntry": false
+          },
+          {
+            "code": "600802.SH",
+            "name": "福建水泥",
+            "event": -6.424581005586583,
+            "after": -4.011461318051568,
+            "maxFavorable": 2.5787965616045794,
+            "maxAdverse": -5.157593123209181,
+            "peakGap": 6.5902578796561455,
+            "noEntry": false
+          },
+          {
+            "code": "600831.SH",
+            "name": "广电网络",
+            "event": -5.813953488372081,
+            "after": 0.7462686567164312,
+            "maxFavorable": 6.9651741293532465,
+            "maxAdverse": -3.731343283582078,
+            "peakGap": 6.218905472636808,
+            "noEntry": false
+          },
+          {
+            "code": "600847.SH",
+            "name": "万里股份",
+            "event": 9.978617248752663,
+            "after": 9.978617248752663,
+            "maxFavorable": 9.978617248752663,
+            "maxAdverse": -5.416963649322892,
+            "peakGap": 0,
+            "noEntry": false
+          },
+          {
+            "code": "600851.SH",
+            "name": "海欣股份",
+            "event": -2.959830866807611,
+            "after": 2.0000000000000018,
+            "maxFavorable": 11.888888888888903,
+            "maxAdverse": -0.8888888888888946,
+            "peakGap": 9.888888888888886,
+            "noEntry": false
+          },
+          {
+            "code": "600853.SH",
+            "name": "龙建股份",
+            "event": -4.383561643835609,
+            "after": -3.055555555555556,
+            "maxFavorable": 4.999999999999982,
+            "maxAdverse": -3.8888888888888973,
+            "peakGap": 8.055555555555541,
+            "noEntry": false
+          },
+          {
+            "code": "601188.SH",
+            "name": "龙江交通",
+            "event": 9.968847352024923,
+            "after": 2.3188405797101463,
+            "maxFavorable": 2.3188405797101463,
+            "maxAdverse": -2.0289855072463836,
+            "peakGap": 0,
+            "noEntry": false
+          },
+          {
+            "code": "603001.SH",
+            "name": "奥康国际",
+            "event": -4.869857262804366,
+            "after": -5.661948376353032,
+            "maxFavorable": 2.3313905079100694,
+            "maxAdverse": -6.494587843463773,
+            "peakGap": 7.993338884263106,
+            "noEntry": false
+          },
+          {
+            "code": "603042.SH",
+            "name": "华脉科技",
+            "event": -4.404466501240711,
+            "after": -2.898550724637672,
+            "maxFavorable": 2.07939508506616,
+            "maxAdverse": -2.898550724637672,
+            "peakGap": 4.977945809703848,
+            "noEntry": false
+          },
+          {
+            "code": "603096.SH",
+            "name": "新经典",
+            "event": 10.014306151645203,
+            "after": 4.863636363636337,
+            "maxFavorable": 4.863636363636337,
+            "maxAdverse": -1.636363636363647,
+            "peakGap": 0,
+            "noEntry": false
+          },
+          {
+            "code": "603099.SH",
+            "name": "长白山",
+            "event": -1.3958560523446129,
+            "after": -3.3974358974358965,
+            "maxFavorable": 2.4572649572649707,
+            "maxAdverse": -3.8461538461538436,
+            "peakGap": 5.85470085470086,
+            "noEntry": false
+          },
+          {
+            "code": "603188.SH",
+            "name": "亚邦股份",
+            "event": -5.67765567765568,
+            "after": -14.309484193011645,
+            "maxFavorable": 0,
+            "maxAdverse": -14.309484193011645,
+            "peakGap": 14.309484193011645,
+            "noEntry": false
+          },
+          {
+            "code": "603328.SH",
+            "name": "依顿电子",
+            "event": -0.6746626686656709,
+            "after": -1.1194029850746356,
+            "maxFavorable": 3.208955223880583,
+            "maxAdverse": -1.9402985074626788,
+            "peakGap": 4.328358208955218,
+            "noEntry": false
+          },
+          {
+            "code": "603353.SH",
+            "name": "和顺石油",
+            "event": -5.910290237467031,
+            "after": -5.736188210415016,
+            "maxFavorable": 0.18503832936824782,
+            "maxAdverse": -6.053396775046249,
+            "peakGap": 5.921226539783255,
+            "noEntry": false
+          },
+          {
+            "code": "603386.SH",
+            "name": "骏亚科技",
+            "event": 5.380652547223819,
+            "after": 2.8491620111731786,
+            "maxFavorable": 6.03351955307263,
+            "maxAdverse": -6.536312849161996,
+            "peakGap": 3.1843575418994505,
+            "noEntry": false
+          },
+          {
+            "code": "603466.SH",
+            "name": "风语筑",
+            "event": -0.44215180545320587,
+            "after": -0.44215180545320587,
+            "maxFavorable": 7.148120854826812,
+            "maxAdverse": -0.6632277081798033,
+            "peakGap": 7.590272660280029,
+            "noEntry": false
+          },
+          {
+            "code": "603767.SH",
+            "name": "中马传动",
+            "event": -5.40712468193385,
+            "after": -5.886075949367098,
+            "maxFavorable": 1.3924050632911245,
+            "maxAdverse": -6.518987341772153,
+            "peakGap": 7.2784810126582205,
+            "noEntry": false
+          },
+          {
+            "code": "603956.SH",
+            "name": "威派格",
+            "event": -4.539877300613493,
+            "after": -4.539877300613493,
+            "maxFavorable": 0.6134969325153117,
+            "maxAdverse": -5.766871165644172,
+            "peakGap": 5.153374233128812,
+            "noEntry": false
+          },
+          {
+            "code": "603968.SH",
+            "name": "醋化股份",
+            "event": 10.027855153203348,
+            "after": 4.844061048440618,
+            "maxFavorable": 4.844061048440618,
+            "maxAdverse": -3.2514930325149405,
+            "peakGap": 0,
+            "noEntry": false
+          },
+          {
+            "code": "603980.SH",
+            "name": "吉华集团",
+            "event": -5.529522024367384,
+            "after": -5.529522024367384,
+            "maxFavorable": 5.34208059981256,
+            "maxAdverse": -5.998125585754455,
+            "peakGap": 10.871602624179937,
+            "noEntry": false
+          },
+          {
+            "code": "605058.SH",
+            "name": "澳弘电子",
+            "event": 6.11028315946347,
+            "after": 2.3315234749281544,
+            "maxFavorable": 6.084318109230313,
+            "maxAdverse": -1.7885659533695142,
+            "peakGap": 3.7527946343021577,
+            "noEntry": false
+          },
+          {
+            "code": "605136.SH",
+            "name": "丽人丽妆",
+            "event": -8.931698774080555,
+            "after": -17.19745222929937,
+            "maxFavorable": 0,
+            "maxAdverse": -18.152866242038222,
+            "peakGap": 17.197452229299365,
+            "noEntry": false
+          },
+          {
+            "code": "605258.SH",
+            "name": "协和电子",
+            "event": 2.0961775585696563,
+            "after": -1.4285714285714346,
+            "maxFavorable": 1.928571428571435,
+            "maxAdverse": -4.523809523809518,
+            "peakGap": 3.3571428571428688,
+            "noEntry": false
+          },
+          {
+            "code": "605577.SH",
+            "name": "龙版传媒",
+            "event": -3.316326530612257,
+            "after": 7.426303854875282,
+            "maxFavorable": 20.57823129251699,
+            "maxAdverse": 0,
+            "peakGap": 13.151927437641714,
+            "noEntry": false
+          },
+          {
+            "code": "688655.SH",
+            "name": "迅捷兴",
+            "event": -1.6951546828647968,
+            "after": 0.6362979031091731,
+            "maxFavorable": 4.9602313810556575,
+            "maxAdverse": -1.2581344902386271,
+            "peakGap": 4.32393347794647,
+            "noEntry": false
+          }
+        ],
+        "nonOneWord": {
+          "sample": 64,
+          "mean": -2.07
+        },
+        "extremes": {
+          "favorable": 3.56,
+          "adverse": -4.49,
+          "peakGap": 5.53
+        }
+      }
+    ],
+    "openingGroups": [
+      {
+        "name": "低开",
+        "sample": 25,
+        "aboveOpen": 9,
+        "mean": -1.61,
+        "median": -2.75,
+        "loss5": 4,
+        "codes": [
+          "000558.SZ",
+          "000995.SZ",
+          "001229.SZ",
+          "001231.SZ",
+          "002172.SZ",
+          "002184.SZ",
+          "002430.SZ",
+          "002549.SZ",
+          "002587.SZ",
+          "002623.SZ",
+          "002640.SZ",
+          "002862.SZ",
+          "002878.SZ",
+          "002980.SZ",
+          "600199.SH",
+          "600281.SH",
+          "600712.SH",
+          "600802.SH",
+          "600831.SH",
+          "600851.SH",
+          "600853.SH",
+          "603042.SH",
+          "603353.SH",
+          "605577.SH",
+          "688655.SH"
+        ]
+      },
+      {
+        "name": "高开",
+        "sample": 37,
+        "aboveOpen": 9,
+        "mean": -2.44,
+        "median": -1.43,
+        "loss5": 9,
+        "codes": [
+          "000530.SZ",
+          "000668.SZ",
+          "000715.SZ",
+          "000823.SZ",
+          "000833.SZ",
+          "001318.SZ",
+          "002322.SZ",
+          "002343.SZ",
+          "002579.SZ",
+          "002639.SZ",
+          "002693.SZ",
+          "002696.SZ",
+          "002748.SZ",
+          "002811.SZ",
+          "002917.SZ",
+          "002949.SZ",
+          "003037.SZ",
+          "300107.SZ",
+          "301010.SZ",
+          "301041.SZ",
+          "600202.SH",
+          "600228.SH",
+          "600391.SH",
+          "600593.SH",
+          "600693.SH",
+          "601188.SH",
+          "603001.SH",
+          "603096.SH",
+          "603099.SH",
+          "603188.SH",
+          "603328.SH",
+          "603386.SH",
+          "603767.SH",
+          "603968.SH",
+          "605058.SH",
+          "605136.SH",
+          "605258.SH"
+        ]
+      },
+      {
+        "name": "平开",
+        "sample": 5,
+        "aboveOpen": 1,
+        "mean": -0.42,
+        "median": -1.55,
+        "loss5": 1,
+        "codes": [
+          "600237.SH",
+          "600847.SH",
+          "603466.SH",
+          "603956.SH",
+          "603980.SH"
+        ]
+      }
+    ],
+    "themeFeedback": [
+      {
+        "theme": "PCB/覆铜板与科技修复",
+        "sample": 8,
+        "red": 5,
+        "continued": 1,
+        "mean": 2.39,
+        "after": -0.55,
+        "rows": [
+          {
+            "code": "000823.SZ",
+            "name": "超声电子",
+            "openPct": 9.991039426523308,
+            "closePct": 9.991039426523308,
+            "openToClosePct": 0,
+            "continued": true,
+            "limitDown": false,
+            "twenty": false
+          },
+          {
+            "code": "002579.SZ",
+            "name": "中京电子",
+            "openPct": 4.382227632379787,
+            "closePct": 0.7303712720633015,
+            "openToClosePct": -3.498542274052463,
+            "continued": false,
+            "limitDown": false,
+            "twenty": false
+          },
+          {
+            "code": "301041.SZ",
+            "name": "金百泽",
+            "openPct": 1.4449427005480686,
+            "closePct": -2.815146985550576,
+            "openToClosePct": -4.199410609037335,
+            "continued": false,
+            "limitDown": false,
+            "twenty": true
+          },
+          {
+            "code": "603328.SH",
+            "name": "依顿电子",
+            "openPct": 0.4497751124437732,
+            "closePct": -0.6746626686656709,
+            "openToClosePct": -1.1194029850746245,
+            "continued": false,
+            "limitDown": false,
+            "twenty": false
+          },
+          {
+            "code": "603386.SH",
+            "name": "骏亚科技",
+            "openPct": 2.461362335432171,
+            "closePct": 5.380652547223819,
+            "openToClosePct": 2.849162011173201,
+            "continued": false,
+            "limitDown": false,
+            "twenty": false
+          },
+          {
+            "code": "605058.SH",
+            "name": "澳弘电子",
+            "openPct": 3.6926643484020527,
+            "closePct": 6.110283159463492,
+            "openToClosePct": 2.331523474928132,
+            "continued": false,
+            "limitDown": false,
+            "twenty": false
+          },
+          {
+            "code": "605258.SH",
+            "name": "协和电子",
+            "openPct": 3.5758323057953234,
+            "closePct": 2.0961775585696785,
+            "openToClosePct": -1.4285714285714346,
+            "continued": false,
+            "limitDown": false,
+            "twenty": false
+          },
+          {
+            "code": "688655.SH",
+            "name": "迅捷兴",
+            "openPct": -2.316711399915239,
+            "closePct": -1.695154682864819,
+            "openToClosePct": 0.6362979031091731,
+            "continued": false,
+            "limitDown": false,
+            "twenty": true
+          }
+        ]
+      },
+      {
+        "theme": "冰雪/制冷与文旅",
+        "sample": 8,
+        "red": 5,
+        "continued": 2,
+        "mean": 4.36,
+        "after": -2.17,
+        "rows": [
+          {
+            "code": "000530.SZ",
+            "name": "冰山冷热",
+            "openPct": 9.947643979057585,
+            "closePct": 9.947643979057585,
+            "openToClosePct": 0,
+            "continued": true,
+            "limitDown": false,
+            "twenty": false
+          },
+          {
+            "code": "000558.SZ",
+            "name": "天府文旅",
+            "openPct": -0.78125,
+            "closePct": -4.1666666666666625,
+            "openToClosePct": -3.4120734908136496,
+            "continued": false,
+            "limitDown": false,
+            "twenty": false
+          },
+          {
+            "code": "002639.SZ",
+            "name": "雪人集团",
+            "openPct": 9.59561343385882,
+            "closePct": 4.180945853324181,
+            "openToClosePct": -4.940587867417145,
+            "continued": false,
+            "limitDown": false,
+            "twenty": false
+          },
+          {
+            "code": "301010.SZ",
+            "name": "晶雪节能",
+            "openPct": 18.39662447257384,
+            "closePct": 14.13502109704643,
+            "openToClosePct": -3.5994297933000685,
+            "continued": false,
+            "limitDown": false,
+            "twenty": true
+          },
+          {
+            "code": "600593.SH",
+            "name": "大连圣亚",
+            "openPct": 7.967088099538433,
+            "closePct": 6.562311860325121,
+            "openToClosePct": -1.3011152416356753,
+            "continued": false,
+            "limitDown": false,
+            "twenty": false
+          },
+          {
+            "code": "600853.SH",
+            "name": "龙建股份",
+            "openPct": -1.3698630136986245,
+            "closePct": -4.383561643835609,
+            "openToClosePct": -3.055555555555556,
+            "continued": false,
+            "limitDown": false,
+            "twenty": false
+          },
+          {
+            "code": "601188.SH",
+            "name": "龙江交通",
+            "openPct": 7.476635514018692,
+            "closePct": 9.968847352024923,
+            "openToClosePct": 2.318840579710124,
+            "continued": true,
+            "limitDown": false,
+            "twenty": false
+          },
+          {
+            "code": "603099.SH",
+            "name": "长白山",
+            "openPct": 2.071973827699014,
+            "closePct": -1.3958560523446017,
+            "openToClosePct": -3.3974358974358854,
+            "continued": false,
+            "limitDown": false,
+            "twenty": false
+          }
+        ]
+      },
+      {
+        "theme": "传媒/IP/AI应用",
+        "sample": 6,
+        "red": 3,
+        "continued": 2,
+        "mean": 2.02,
+        "after": 2.46,
+        "rows": [
+          {
+            "code": "002343.SZ",
+            "name": "慈文传媒",
+            "openPct": 9.646739130434788,
+            "closePct": 10.05434782608694,
+            "openToClosePct": 0.3717472118959009,
+            "continued": true,
+            "limitDown": false,
+            "twenty": false
+          },
+          {
+            "code": "002587.SZ",
+            "name": "奥拓电子",
+            "openPct": -2.951388888888884,
+            "closePct": -5.381944444444442,
+            "openToClosePct": -2.5044722719141266,
+            "continued": false,
+            "limitDown": false,
+            "twenty": false
+          },
+          {
+            "code": "002878.SZ",
+            "name": "元隆雅图",
+            "openPct": -3.6985345429169536,
+            "closePct": 1.1863224005582707,
+            "openToClosePct": 5.072463768115942,
+            "continued": false,
+            "limitDown": false,
+            "twenty": false
+          },
+          {
+            "code": "603096.SH",
+            "name": "新经典",
+            "openPct": 4.911778731521221,
+            "closePct": 10.014306151645226,
+            "openToClosePct": 4.863636363636359,
+            "continued": true,
+            "limitDown": false,
+            "twenty": false
+          },
+          {
+            "code": "603466.SH",
+            "name": "风语筑",
+            "openPct": 0,
+            "closePct": -0.44215180545320587,
+            "openToClosePct": -0.44215180545320587,
+            "continued": false,
+            "limitDown": false,
+            "twenty": false
+          },
+          {
+            "code": "605577.SH",
+            "name": "龙版传媒",
+            "openPct": -10.000000000000009,
+            "closePct": -3.316326530612257,
+            "openToClosePct": 7.426303854875282,
+            "continued": false,
+            "limitDown": false,
+            "twenty": false
+          }
+        ]
+      }
+    ],
+    "lowOpenRetention": {
+      "sample": 24,
+      "mean": 0.49,
+      "median": -2.55,
+      "positive": 10,
+      "loss5": 7,
+      "rows": [
+        {
+          "code": "000892.SZ",
+          "name": "欢瑞世纪",
+          "after": -3.571428571428581
+        },
+        {
+          "code": "002242.SZ",
+          "name": "九阳股份",
+          "after": 11.820480404551216
+        },
+        {
+          "code": "002441.SZ",
+          "name": "众业达",
+          "after": -6.249999999999978
+        },
+        {
+          "code": "002531.SZ",
+          "name": "天顺风能",
+          "after": -9.768009768009778
+        },
+        {
+          "code": "002576.SZ",
+          "name": "通达动力",
+          "after": -7.1111111111111125
+        },
+        {
+          "code": "002591.SZ",
+          "name": "恒大高新",
+          "after": -5.022156573116687
+        },
+        {
+          "code": "002908.SZ",
+          "name": "德生科技",
+          "after": -1.5625
+        },
+        {
+          "code": "002990.SZ",
+          "name": "盛视科技",
+          "after": 10.657966286025022
+        },
+        {
+          "code": "300829.SZ",
+          "name": "金丹科技",
+          "after": 0.4514672686230181
+        },
+        {
+          "code": "301419.SZ",
+          "name": "阿莱德",
+          "after": -0.4870817450232767
+        },
+        {
+          "code": "301658.SZ",
+          "name": "首航新能",
+          "after": -3.7125748502993994
+        },
+        {
+          "code": "600812.SH",
+          "name": "华北制药",
+          "after": -8.993902439024403
+        },
+        {
+          "code": "601127.SH",
+          "name": "赛力斯",
+          "after": -3.7450980392156774
+        },
+        {
+          "code": "601595.SH",
+          "name": "上海电影",
+          "after": 7.980697847067542
+        },
+        {
+          "code": "603032.SH",
+          "name": "德新科技",
+          "after": -6.969696969696971
+        },
+        {
+          "code": "603230.SH",
+          "name": "内蒙新华",
+          "after": -5.781584582441123
+        },
+        {
+          "code": "603232.SH",
+          "name": "格尔软件",
+          "after": 0.11235955056179137
+        },
+        {
+          "code": "603336.SH",
+          "name": "宏辉果蔬",
+          "after": -3.529411764705881
+        },
+        {
+          "code": "603500.SH",
+          "name": "祥和实业",
+          "after": -4.89573889392565
+        },
+        {
+          "code": "603533.SH",
+          "name": "掌阅科技",
+          "after": 11.226765799256523
+        },
+        {
+          "code": "603968.SH",
+          "name": "醋化股份",
+          "after": 21.53846153846155
+        },
+        {
+          "code": "603992.SH",
+          "name": "松霖科技",
+          "after": 17.582417582417563
+        },
+        {
+          "code": "688004.SH",
+          "name": "博汇科技",
+          "after": 1.8296013107591547
+        },
+        {
+          "code": "688517.SH",
+          "name": "金冠电气",
+          "after": 0.04975124378108209
+        }
+      ]
+    }
+  },
+  "cycle": {
+    "main": "主跌期",
+    "substate": "传媒局部修复，整体接力仍弱",
+    "signals": [
+      "集中跌停较13日缓和，但昨日板17只收跌至少5%，普通后手仍亏。",
+      "传媒高度、容量与低位扩散改善，允许局部相对观察；不是整体进攻许可。"
+    ],
+    "risk": "传媒容量与4板转弱时撤回局部观察，核心继续大幅亏损则维持防守。"
+  },
+  "prediction": {
+    "nextTradingDate": "2026-10-15",
+    "baseline": "传媒局部许可；其他方向防守观察，非全面进攻",
+    "avoid": "把低开本身当买点、追一字后排、把盘后帖子倒作盘中催化",
+    "positionTier": null
+  },
+  "oneToTwo": [
+    {
+      "rank": "条件候选（非最高等级）",
+      "name": "引力传媒",
+      "code": "603598.SH",
+      "regime": "10cm",
+      "grade": "B",
+      "group": "普通新启动首板",
+      "firstLimitTime": "10:27:56",
+      "seal": "收盘封单2317.42万元；占当日成交额约2.01%，不是盘中峰值",
+      "theme": "AI短剧/营销服务",
+      "speculationLogic": "异动解析：同日解析把PineDrama下载增长的板块催化，与公司的品牌短剧营销、字节及火山引擎合作、自研AI创意工具对应。公司的映射是营销服务与素材生产，不等于拥有该短剧平台，也不是新披露订单。帖子吹票逻辑：另一篇板块联动文把出海、IP改编和AI工具分链讨论；盘后信息差继续列出短剧营销与核力AI应用。它们支持次日预期观察，不证明全部细节在首封前已传播，更不证明相关收入已经兑现。",
+      "forecast": "只在传媒局部承接继续成立时观察：慈文/新经典维持有效高度，中文/芒果/果麦容量不再同步兑现，同身位中国科传等没有明显挤出，个股换手后仍能承接。若高开快速回落、板块前排转弱或无实际参与机会则取消；不预设竞价阈值和涨停概率。",
+      "evidenceUrls": [
+        "https://www.jiuyangongshe.com/a/2guec66grx4",
+        "https://www.jiuyangongshe.com/a/jyht5nnxpc",
+        "https://www.jiuyangongshe.com/a/3y8c27dbzmx"
+      ],
+      "objective": {
+        "code": "603598.SH",
+        "name": "引力传媒",
+        "twenty": false,
+        "priorFiveLimits": [],
+        "type": "新启动首板",
+        "firstLimit": "10:27:56",
+        "breakCount": 1,
+        "turnoverYi": 11.53,
+        "turnoverRate": 20.21,
+        "sealYuan": "23174207.0000",
+        "reason": "AI短剧+全域营销+AI用研",
+        "exclusion": "传媒局部许可下的条件候选",
+        "candidateGroup": "10cm新启动扫描",
+        "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+      }
+    },
+    {
+      "rank": "20cm弹性观察（独立组）",
+      "name": "富春股份",
+      "code": "300299.SZ",
+      "regime": "20cm",
+      "grade": "B",
+      "group": "20cm新启动首板",
+      "firstLimitTime": "10:24:24",
+      "seal": "收盘封单1239.09万元；占当日成交额约1.01%，不称封单强",
+      "theme": "游戏IP/短剧映射",
+      "speculationLogic": "异动解析：午间文章记录其20cm涨停与AI应用、游戏方向联动；同日盘后信息差进一步映射参股影视公司的短剧出品及精品游戏IP授权。业务映射来自实际正文，但参股不等于并表收入，盘后补充不能反作上午启动原因。帖子吹票逻辑：板块联动与盘后学习内容继续把短剧出海、AI降本和游戏IP扩展到同一方向；这是相关叙事延伸，不证明公司新获订单或已形成AI短剧收入。",
+      "forecast": "与10cm不排同一名次。先看传媒容量与游戏方向共同承接，再看自身开板3次后的换手能否延续；高开急跌、板块退潮、换手无承接即放弃。20cm昨日板只有4只且无晋级，不能把首板涨幅当隔日确定收益。",
+      "evidenceUrls": [
+        "https://www.jiuyangongshe.com/a/2guecaq548g",
+        "https://www.jiuyangongshe.com/a/3y8c27dbzmx",
+        "https://www.jiuyangongshe.com/a/20cfja0uyfr"
+      ],
+      "objective": {
+        "code": "300299.SZ",
+        "name": "富春股份",
+        "twenty": true,
+        "priorFiveLimits": [],
+        "type": "新启动首板",
+        "firstLimit": "10:24:24",
+        "breakCount": 3,
+        "turnoverYi": 12.29,
+        "turnoverRate": 27.05,
+        "sealYuan": "12390893.7600",
+        "reason": "游戏出海+精品IP+扭亏为盈",
+        "exclusion": "传媒局部许可下的20cm弹性观察",
+        "candidateGroup": "20cm弹性观察",
+        "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+      }
+    }
+  ],
+  "firstBoardScan": [
+    {
+      "code": "002552.SZ",
+      "name": "宝鼎科技",
+      "twenty": false,
+      "priorFiveLimits": [],
+      "type": "新启动首板",
+      "firstLimit": "09:25:00",
+      "breakCount": 0,
+      "turnoverYi": 2.21,
+      "turnoverRate": 1.31,
+      "sealYuan": "273801560.0000",
+      "reason": "业绩预增+覆铜板+黄金采选",
+      "exclusion": "不满足本次传媒局部许可及个股有效叙事/参与确认，不作正式候选",
+      "candidateGroup": "10cm新启动扫描",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "002860.SZ",
+      "name": "星帅尔",
+      "twenty": false,
+      "priorFiveLimits": [],
+      "type": "复牌特殊首板",
+      "firstLimit": "09:25:00",
+      "breakCount": 0,
+      "turnoverYi": 0.51,
+      "turnoverRate": 0.73,
+      "sealYuan": "244565487.0400",
+      "reason": "资产收购+精密刀具+家电零部件",
+      "exclusion": "前日停牌，不能接续普通连板",
+      "candidateGroup": "复牌单独观察",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "605189.SH",
+      "name": "富春染织",
+      "twenty": false,
+      "priorFiveLimits": [],
+      "type": "新启动首板",
+      "firstLimit": "09:25:01",
+      "breakCount": 0,
+      "turnoverYi": 0.97,
+      "turnoverRate": 2.5,
+      "sealYuan": "243912782.2200",
+      "reason": "业绩预增+筒子纱+染料+PEEK材料",
+      "exclusion": "不满足本次传媒局部许可及个股有效叙事/参与确认，不作正式候选",
+      "candidateGroup": "10cm新启动扫描",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "002469.SZ",
+      "name": "三维化学",
+      "twenty": false,
+      "priorFiveLimits": [],
+      "type": "新启动首板",
+      "firstLimit": "09:31:57",
+      "breakCount": 1,
+      "turnoverYi": 1.69,
+      "turnoverRate": 3.96,
+      "sealYuan": "48798267.0000",
+      "reason": "异辛酸项目+储能工程+硫磺回收",
+      "exclusion": "不满足本次传媒局部许可及个股有效叙事/参与确认，不作正式候选",
+      "candidateGroup": "10cm新启动扫描",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "600097.SH",
+      "name": "开创国际",
+      "twenty": false,
+      "priorFiveLimits": [],
+      "type": "新启动首板",
+      "firstLimit": "09:31:38",
+      "breakCount": 3,
+      "turnoverYi": 1.39,
+      "turnoverRate": 5.71,
+      "sealYuan": "18453840.0000",
+      "reason": "远洋捕捞+金枪鱼+南极磷虾",
+      "exclusion": "不满足本次传媒局部许可及个股有效叙事/参与确认，不作正式候选",
+      "candidateGroup": "10cm新启动扫描",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "603258.SH",
+      "name": "电魂网络",
+      "twenty": false,
+      "priorFiveLimits": [],
+      "type": "新启动首板",
+      "firstLimit": "09:37:46",
+      "breakCount": 0,
+      "turnoverYi": 1.77,
+      "turnoverRate": 4.63,
+      "sealYuan": "72758980.0000",
+      "reason": "AI游戏+修仙时代+梦三国IP",
+      "exclusion": "不满足本次传媒局部许可及个股有效叙事/参与确认，不作正式候选",
+      "candidateGroup": "10cm新启动扫描",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "300006.SZ",
+      "name": "莱美药业",
+      "twenty": true,
+      "priorFiveLimits": [
+        "2026-10-12"
+      ],
+      "type": "反包/二波观察",
+      "firstLimit": "09:39:24",
+      "breakCount": 0,
+      "turnoverYi": 12.84,
+      "turnoverRate": 16.29,
+      "sealYuan": "166584487.6000",
+      "reason": "抗癌药物+纳米炭铁+资产出售",
+      "exclusion": "近期曾涨停或前日跌停，单列反包/二波，不混普通新启动",
+      "candidateGroup": "反包/二波观察",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "600252.SH",
+      "name": "中恒集团",
+      "twenty": false,
+      "priorFiveLimits": [],
+      "type": "新启动首板",
+      "firstLimit": "09:39:07",
+      "breakCount": 1,
+      "turnoverYi": 4.78,
+      "turnoverRate": 6.17,
+      "sealYuan": "51189985.0400",
+      "reason": "中药创新药+医药制造+回购注销",
+      "exclusion": "不满足本次传媒局部许可及个股有效叙事/参与确认，不作正式候选",
+      "candidateGroup": "10cm新启动扫描",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "000601.SZ",
+      "name": "韶能股份",
+      "twenty": false,
+      "priorFiveLimits": [],
+      "type": "新启动首板",
+      "firstLimit": "09:46:57",
+      "breakCount": 2,
+      "turnoverYi": 10.72,
+      "turnoverRate": 15.17,
+      "sealYuan": "61292567.6000",
+      "reason": "清洁能源+算电协同+三季报预增",
+      "exclusion": "不满足本次传媒局部许可及个股有效叙事/参与确认，不作正式候选",
+      "candidateGroup": "10cm新启动扫描",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "600121.SH",
+      "name": "郑州煤电",
+      "twenty": false,
+      "priorFiveLimits": [],
+      "type": "新启动首板",
+      "firstLimit": "09:47:19",
+      "breakCount": 4,
+      "turnoverYi": 13.67,
+      "turnoverRate": 19.64,
+      "sealYuan": "44276384.4200",
+      "reason": "煤炭涨价+煤炭主业+国企控股",
+      "exclusion": "不满足本次传媒局部许可及个股有效叙事/参与确认，不作正式候选",
+      "candidateGroup": "10cm新启动扫描",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "002813.SZ",
+      "name": "路畅科技",
+      "twenty": false,
+      "priorFiveLimits": [],
+      "type": "复牌特殊首板",
+      "firstLimit": "09:56:15",
+      "breakCount": 0,
+      "turnoverYi": 2.94,
+      "turnoverRate": 8.87,
+      "sealYuan": "45755834.0000",
+      "reason": "控制权变更+复牌+智能座舱+抬头显示",
+      "exclusion": "前日停牌，不能接续普通连板",
+      "candidateGroup": "复牌单独观察",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "001299.SZ",
+      "name": "美能能源",
+      "twenty": false,
+      "priorFiveLimits": [],
+      "type": "新启动首板",
+      "firstLimit": "10:02:39",
+      "breakCount": 0,
+      "turnoverYi": 1.86,
+      "turnoverRate": 6.17,
+      "sealYuan": "12667352.8800",
+      "reason": "城镇燃气+智慧燃气+工商业储能",
+      "exclusion": "不满足本次传媒局部许可及个股有效叙事/参与确认，不作正式候选",
+      "candidateGroup": "10cm新启动扫描",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "603533.SH",
+      "name": "掌阅科技",
+      "twenty": false,
+      "priorFiveLimits": [
+        "2026-10-09",
+        "2026-10-12"
+      ],
+      "type": "反包/二波观察",
+      "firstLimit": "10:05:25",
+      "breakCount": 1,
+      "turnoverYi": 19.33,
+      "turnoverRate": 15.28,
+      "sealYuan": "155705505.1200",
+      "reason": "AI短剧+短剧出海+数字阅读",
+      "exclusion": "近期曾涨停或前日跌停，单列反包/二波，不混普通新启动",
+      "candidateGroup": "反包/二波观察",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "603656.SH",
+      "name": "泰禾智能",
+      "twenty": false,
+      "priorFiveLimits": [],
+      "type": "新启动首板",
+      "firstLimit": "10:13:55",
+      "breakCount": 2,
+      "turnoverYi": 1.83,
+      "turnoverRate": 5.4,
+      "sealYuan": "27467366.0000",
+      "reason": "增持+储能+智能分选",
+      "exclusion": "不满足本次传媒局部许可及个股有效叙事/参与确认，不作正式候选",
+      "candidateGroup": "10cm新启动扫描",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "300299.SZ",
+      "name": "富春股份",
+      "twenty": true,
+      "priorFiveLimits": [],
+      "type": "新启动首板",
+      "firstLimit": "10:24:24",
+      "breakCount": 3,
+      "turnoverYi": 12.29,
+      "turnoverRate": 27.05,
+      "sealYuan": "12390893.7600",
+      "reason": "游戏出海+精品IP+扭亏为盈",
+      "exclusion": "传媒局部许可下的20cm弹性观察",
+      "candidateGroup": "20cm弹性观察",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "603598.SH",
+      "name": "引力传媒",
+      "twenty": false,
+      "priorFiveLimits": [],
+      "type": "新启动首板",
+      "firstLimit": "10:27:56",
+      "breakCount": 1,
+      "turnoverYi": 11.53,
+      "turnoverRate": 20.21,
+      "sealYuan": "23174207.0000",
+      "reason": "AI短剧+全域营销+AI用研",
+      "exclusion": "传媒局部许可下的条件候选",
+      "candidateGroup": "10cm新启动扫描",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "000573.SZ",
+      "name": "粤宏远A",
+      "twenty": false,
+      "priorFiveLimits": [],
+      "type": "新启动首板",
+      "firstLimit": "10:57:57",
+      "breakCount": 1,
+      "turnoverYi": 2.14,
+      "turnoverRate": 8.07,
+      "sealYuan": "42025170.0600",
+      "reason": "东莞地产+再生铅+产业转型",
+      "exclusion": "不满足本次传媒局部许可及个股有效叙事/参与确认，不作正式候选",
+      "candidateGroup": "10cm新启动扫描",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "601858.SH",
+      "name": "中国科传",
+      "twenty": false,
+      "priorFiveLimits": [],
+      "type": "新启动首板",
+      "firstLimit": "11:01:08",
+      "breakCount": 2,
+      "turnoverYi": 9.13,
+      "turnoverRate": 4.56,
+      "sealYuan": "18504157.0000",
+      "reason": "AI应用+数字教育+出版+央企",
+      "exclusion": "不满足本次传媒局部许可及个股有效叙事/参与确认，不作正式候选",
+      "candidateGroup": "10cm新启动扫描",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "601811.SH",
+      "name": "新华文轩",
+      "twenty": false,
+      "priorFiveLimits": [
+        "2026-10-09",
+        "2026-10-12"
+      ],
+      "type": "反包/二波观察",
+      "firstLimit": "11:07:05",
+      "breakCount": 22,
+      "turnoverYi": 14.27,
+      "turnoverRate": 8.34,
+      "sealYuan": "2583075.0000",
+      "reason": "出版传媒+数字教育+民族出版收购",
+      "exclusion": "近期曾涨停或前日跌停，单列反包/二波，不混普通新启动",
+      "candidateGroup": "反包/二波观察",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "002029.SZ",
+      "name": "七匹狼",
+      "twenty": false,
+      "priorFiveLimits": [],
+      "type": "新启动首板",
+      "firstLimit": "13:17:15",
+      "breakCount": 0,
+      "turnoverYi": 4.73,
+      "turnoverRate": 7.12,
+      "sealYuan": "69683773.4400",
+      "reason": "夹克男装+投资科技+基金备案+海峡两岸",
+      "exclusion": "不满足本次传媒局部许可及个股有效叙事/参与确认，不作正式候选",
+      "candidateGroup": "10cm新启动扫描",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "600408.SH",
+      "name": "安泰集团",
+      "twenty": false,
+      "priorFiveLimits": [
+        "2026-10-08",
+        "2026-10-09"
+      ],
+      "type": "反包/二波观察",
+      "firstLimit": "13:49:40",
+      "breakCount": 9,
+      "turnoverYi": 11.23,
+      "turnoverRate": 29.09,
+      "sealYuan": "46670101.9400",
+      "reason": "焦炭+焦炉煤气制氢+大型H型钢",
+      "exclusion": "近期曾涨停或前日跌停，单列反包/二波，不混普通新启动",
+      "candidateGroup": "反包/二波观察",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "001216.SZ",
+      "name": "华瓷股份",
+      "twenty": false,
+      "priorFiveLimits": [],
+      "type": "新启动首板",
+      "firstLimit": "14:18:06",
+      "breakCount": 10,
+      "turnoverYi": 9.85,
+      "turnoverRate": 17.98,
+      "sealYuan": "21547818.0000",
+      "reason": "氧化锆粉体+MLCC验证+越南基地+日用陶瓷",
+      "exclusion": "取得的细节原文为9月旧帖，缺少足以解释本轮重新交易的新增传播证据",
+      "candidateGroup": "10cm新启动扫描",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    },
+    {
+      "code": "603992.SH",
+      "name": "松霖科技",
+      "twenty": false,
+      "priorFiveLimits": [
+        "2026-10-12"
+      ],
+      "type": "反包/二波观察",
+      "firstLimit": "14:52:24",
+      "breakCount": 0,
+      "turnoverYi": 4.54,
+      "turnoverRate": 4.4,
+      "sealYuan": "13744365.0700",
+      "reason": "服务机器人+大健康硬件+智能厨卫",
+      "exclusion": "近期曾涨停或前日跌停，单列反包/二波，不混普通新启动",
+      "candidateGroup": "反包/二波观察",
+      "searchCoverage": "全部价格首板已扫描；公开网页与已取得正文核验，不等于登录后全站逐股检索"
+    }
+  ],
+  "narrativeAudit": {
+    "authenticated": false,
+    "coverage": "partial",
+    "automatedCards": 11,
+    "automatedCovered": 8,
+    "denominator": 36,
+    "note": "机器命中不等于人工有效；候选另存正文与事件卡，不伪称36股全站逐股检索完备。"
+  },
+  "sources": {
+    "objective": [
+      "data/cache/ftshare/2026-10-14/objective.json",
+      "data/cache/derived/2026-10-14/metrics.json",
+      "tmp/report-2026-10-14/audit.json",
+      "tmp/report-2026-10-14/core-evaluation.json"
+    ],
+    "themes": [
+      "data/cache/wencai/2026-10-14/fallback.json",
+      "https://www.cls.cn/detail/2504650"
+    ],
+    "narratives": [
+      "https://www.jiuyangongshe.com/a/jyht5nnxpc",
+      "https://www.jiuyangongshe.com/a/2guecaq548g",
+      "https://www.jiuyangongshe.com/a/2guec66grx4",
+      "https://www.jiuyangongshe.com/a/3y8c27dbzmx",
+      "https://www.jiuyangongshe.com/a/11egylnjdzu",
+      "https://www.jiuyangongshe.com/a/1hwgek068tw"
+    ],
+    "note": "行情、时点、停牌与叙事分别核验；核心名单为前日静态证据重建，可能遗漏，未将部分得分当完整评分。"
+  },
+  "logicHash": "34bdbd5e59122e67cb1887f449b732f7831b0d5b8e2b8136862b0de5418de23e"
+}

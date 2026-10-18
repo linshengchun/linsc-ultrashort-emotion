@@ -1,0 +1,132 @@
+{
+  "date": "2026-09-22",
+  "displayDate": "2026年9月22日",
+  "generatedAt": "2026-09-24T00:00:00+08:00",
+  "title": "2026-09-22《LINSC超短情绪复盘》",
+  "conclusion": {
+    "cycle": "主升期",
+    "substate": "强分歧、高位抱团与主线收敛并存",
+    "temperature": null,
+    "summary": "高标与连板继续加强，但前一日材料和纯名称扩散后排出现核心大面；AI应用/传媒成为第一主攻，医药保持第二承接。",
+    "evidence": [
+      "指数几乎横盘，成交额21236.59亿元、环比增加5.10%，上涨2221只、下跌2665只。",
+      "实际收盘涨停63只、跌停3只；连板24只、最高6板。",
+      "昨日涨停平均收盘+2.49%、24只晋级，但6只收盘大面。",
+      "华软科技、华纺股份两只D-1三板核心分别收-9.54%、-7.97%。"
+    ]
+  },
+  "market": {
+    "turnoverYi": 21236.59,
+    "turnoverPrevYi": 20205.63,
+    "turnoverChangeYi": 1030.96,
+    "turnoverChangePct": 5.10,
+    "turnoverMA60Yi": 23201.79,
+    "turnoverVsMA60Yi": -1965.21,
+    "turnoverVsMA60Pct": -8.47,
+    "indexSummary": "上证指数+0.06%，深证成指-0.05%，创业板指+0.01%，科创50+0.46%；指数高开低走、成交放大、个股跌多涨少。",
+    "up": 2221,
+    "down": 2665,
+    "limitUp": 63,
+    "limitDown": 3,
+    "connected": 24,
+    "highestBoard": 6,
+    "fiveDays": [
+      {"date":"2026-09-22","label":"09-22","turnoverYi":21236.59,"turnoverChangeYi":1030.96,"turnoverChangePct":5.10,"up":2221,"down":2665,"limitUp":63,"limitDown":3,"connected":24,"highestBoard":6,"coreEarlyLimitDown":0,"coreBigLoss":6,"killScore":null,"pain":"三级：心如刀割（5—6分）","marketEnvironment":"放量滞涨、高开低走","relayState":"高标加强、后排强分歧","state":"强分歧"},
+      {"date":"2026-09-21","label":"09-21","turnoverYi":20205.63,"turnoverChangeYi":-462.20,"turnoverChangePct":-2.24,"up":4070,"down":873,"limitUp":102,"limitDown":2,"connected":22,"highestBoard":5,"coreEarlyLimitDown":null,"coreBigLoss":null,"killScore":null,"pain":"一级：怅然若失（1—2分）","marketEnvironment":"缩量普涨、指数修复","relayState":"多题材扩散，板内分歧大","state":"扩散加强"},
+      {"date":"2026-09-18","label":"09-18","turnoverYi":20667.83,"turnoverChangeYi":2538.82,"turnoverChangePct":14.00,"up":3809,"down":1052,"limitUp":79,"limitDown":0,"connected":12,"highestBoard":4,"coreEarlyLimitDown":0,"coreBigLoss":0,"killScore":0,"pain":"一级：怅然若失（1—2分）","marketEnvironment":"放量普涨、科技领涨","relayState":"梯队修复、10cm回暖","state":"加强"},
+      {"date":"2026-09-17","label":"09-17","turnoverYi":18129.01,"turnoverChangeYi":-161.67,"turnoverChangePct":-0.88,"up":2413,"down":2471,"limitUp":47,"limitDown":1,"connected":9,"highestBoard":5,"coreEarlyLimitDown":2,"coreBigLoss":5,"killScore":1,"pain":"三级：心如刀割（5—6分）","marketEnvironment":"缩量、指数回落","relayState":"高度锚修复、普通后手分化","state":"分歧"},
+      {"date":"2026-09-16","label":"09-16","turnoverYi":18290.68,"turnoverChangeYi":2288.35,"turnoverChangePct":14.30,"up":3773,"down":1073,"limitUp":89,"limitDown":4,"connected":12,"highestBoard":6,"coreEarlyLimitDown":1,"coreBigLoss":2,"killScore":3.5,"pain":"至少四级：撕心裂肺（≥7分）","marketEnvironment":"放量普涨、科技扩散","relayState":"新科技修复、旧高标硬杀","state":"修复"}
+    ]
+  },
+  "pain": {
+    "level": "三级：心如刀割（5—6分）",
+    "score": null,
+    "summary": "平均反馈仍正，但两只D-1三板核心重伤、昨日板大面扩大至6只，2—3日持有体验出现明显左尾。",
+    "stocks": [
+      {"name":"华软科技","role":"D-1三板科技材料核心","auction":"开盘-0.68%","earlySession":"前5分钟成交占全天25.17%，前30分钟占53.10%","close":"收盘-9.54%","damage":"14:36触及实际跌停后打开","impact":"材料接力负反馈核心"},
+      {"name":"华纺股份","role":"D-1三板名称/纺织核心","auction":"开盘+7.97%","earlySession":"前5分钟成交占38.63%，前30分钟占55.98%","close":"收盘-7.97%","damage":"相对开盘回撤14.76%","impact":"红开闷杀，打击名称扩散"},
+      {"name":"百通能源","role":"D-1二板接力前排","auction":"开盘-0.43%","earlySession":"前30分钟成交占41.74%","close":"收盘-7.25%","damage":"中位断板大面","impact":"提高二进三淘汰风险"},
+      {"name":"华脉科技","role":"D-1通信前排","auction":"开盘-0.89%","earlySession":"前30分钟成交占42.80%","close":"收盘-6.99%","damage":"收盘大面","impact":"与材料旧核心形成共振负反馈"}
+    ],
+    "spread": "伤害从普通后排扩散到前一日三板核心，但未出现早盘多核心集中跌停，未触发四级下限。"
+  },
+  "yesterdayFeedback": {
+    "sample": 102,
+    "redOpen": 65,
+    "redOpenRate": 63.73,
+    "averageOpen": 2.44,
+    "redClose": 61,
+    "redCloseRate": 59.80,
+    "averageClose": 2.49,
+    "continuedLimit": 24,
+    "continuedLimitRate": 23.53,
+    "reading": "先手均值仍正，高标和主线前排继续赚钱，但核心左尾由局部扩大为结构性分歧。",
+    "fiveDays": [
+      {"date":"2026-09-22","label":"09-22","sample":102,"redOpen":65,"redOpenRate":63.73,"averageOpen":2.44,"redClose":61,"redCloseRate":59.80,"averageClose":2.49,"continuedLimit":24,"continuedLimitRate":23.53,"bigLoss":6,"bigLossRate":5.88,"limitDown":0,"pain":"心如刀割；均值为正但核心左尾扩大"},
+      {"date":"2026-09-21","label":"09-21","sample":78,"redOpen":56,"redOpenRate":71.79,"averageOpen":2.10,"redClose":53,"redCloseRate":67.95,"averageClose":3.26,"continuedLimit":22,"continuedLimitRate":28.21,"bigLoss":2,"bigLossRate":2.56,"limitDown":0,"pain":"怅然若失；持有与晋级均强"},
+      {"date":"2026-09-18","label":"09-18","sample":47,"redOpen":29,"redOpenRate":61.70,"averageOpen":2.05,"redClose":32,"redCloseRate":68.09,"averageClose":2.78,"continuedLimit":12,"continuedLimitRate":25.53,"bigLoss":1,"bigLossRate":2.13,"limitDown":0,"pain":"怅然若失；强修复"},
+      {"date":"2026-09-17","label":"09-17","sample":89,"redOpen":40,"redOpenRate":44.94,"averageOpen":0.39,"redClose":36,"redCloseRate":40.45,"averageClose":0.15,"continuedLimit":9,"continuedLimitRate":10.11,"bigLoss":11,"bigLossRate":12.36,"limitDown":0,"pain":"心如刀割；大面集中"},
+      {"date":"2026-09-16","label":"09-16","sample":32,"redOpen":24,"redOpenRate":75.00,"averageOpen":2.85,"redClose":23,"redCloseRate":71.88,"averageClose":3.65,"continuedLimit":12,"continuedLimitRate":37.50,"bigLoss":2,"bigLossRate":6.25,"limitDown":1,"pain":"高收益与尾部跌停并存"}
+    ]
+  },
+  "ladder": [
+    {"board":6,"stocks":["华瓷股份"]},
+    {"board":5,"stocks":["内蒙新华"]},
+    {"board":4,"stocks":["南华生物"]},
+    {"board":3,"stocks":["大亚圣象","三羊马","新华文轩","博通集成"]},
+    {"board":2,"stocks":["我爱我家","华媒控股","新华制药","泰慕士","延华智能","升达林业","美盈森","奥佳华","华仁药业","华丽家族","哈药股份","百花医药","华远控股","新华传媒","爱普股份","艾艾精工","南威软件"]},
+    {"board":1,"stocks":["新能股份","智度股份","坤泰股份","宏英智能","联合精密","箭牌家居","贤丰控股","天威视讯","禾盛新材","齐心集团","日海智能","二六三","天沃科技","东江环保","南兴股份","国恩股份","中新赛克","旋极信息","五洲医疗","大有能源","江淮汽车","千金药业","先导基电","综艺股份","厦工股份","中国出版","泛微网络","梦天家居","爱丽家居","引力传媒","瑞芯微","中持股份","澳弘电子","时空科技","一鸣食品","伟时电子","协和电子","新炬网络","视涯科技-UW"]}
+  ],
+  "anchors": [
+    {"name":"华瓷股份","board":"6板","role":"全市场空间锚","influence":"竞价封板且未开，维持主升高度；单股强势不等于后排普遍安全。"},
+    {"name":"内蒙新华","board":"5板","role":"出版传媒高度与风险锚","influence":"换手回封，但盘后监管工作函提高次日不确定性。"},
+    {"name":"南华生物","board":"4板","role":"医药高度核心","influence":"竞价封板，确认医药前排延续。"},
+    {"name":"新华文轩","board":"3板","role":"传媒中位核心","influence":"与新华传媒、华媒控股构成5—3—2梯队。"},
+    {"name":"华软科技","board":"断板","role":"D-1三板负反馈锚","influence":"盘中触及跌停、收盘-9.54%，压制材料旧线后手。"}
+  ],
+  "themes": [
+    {"name":"AI应用/文化传媒/出版","strength":"当日第一主攻","stage":"延续确认后进入首次强分歧窗口","messages":[{"source":"同花顺问财","content":"AI营销、智能体、财税数字化、云办公和出版数字化形成批量映射。"},{"source":"公开收评与人民网","content":"财税数字化、云办公活跃，上海AI应用生态大会于9月21—22日举行。"}],"branches":["AI营销与智能体","财税数字化与云办公","出版传媒数字化"],"limitStocks":["内蒙新华","新华文轩","华媒控股","新华传媒","南威软件","智度股份","天威视讯","引力传媒","中国出版","旋极信息","泛微网络"],"logic":"身位、容量、20cm弹性与低位宽度同时存在。","expectationSpace":"产业催化支持继续交易，但监管函和高标定价要求次日只看中位换手承接。","persistence":"09-18预热、09-21扩散、09-22与AI应用合流加强。","coreStocks":[{"name":"内蒙新华","role":"高度/风险锚","performance":"5板，盘后监管函"},{"name":"新华文轩","role":"中位核心","performance":"3板"},{"name":"智度股份","role":"AI应用容量前排","performance":"首板，多次开板后回封"}]},
+    {"name":"国产算力芯片/端侧AI硬件","strength":"身位、容量与弹性齐备","stage":"科技内部由材料向应用/芯片切换","messages":[{"source":"同花顺问财","content":"端侧AI、CPU、AI芯片、算力和半导体产业链形成映射。"},{"source":"中新经纬与盘口记录","content":"算力芯片活跃，瑞芯微09:52触及涨停并形成大额成交。"}],"branches":["CPU与端侧芯片","封装基板与PCB","电子制造与散热"],"limitStocks":["博通集成","瑞芯微","旋极信息","禾盛新材","综艺股份","先导基电","联合精密","澳弘电子","协和电子"],"logic":"博通集成提供身位，瑞芯微提供容量，旋极信息提供20cm弹性。","expectationSpace":"产业映射优于名称炒作，但旧材料核心大面，后手需等待换手确认。","persistence":"09-21材料扩散，09-22切向芯片与AI应用。","coreStocks":[{"name":"博通集成","role":"身位核心","performance":"3板"},{"name":"瑞芯微","role":"容量锚","performance":"首板，成交54.63亿元、42次开板"},{"name":"旋极信息","role":"20cm弹性锚","performance":"首板"}]},
+    {"name":"医药医疗","strength":"梯队完整、前排收敛","stage":"延续确认","messages":[{"source":"同花顺问财","content":"细胞医疗、创新药、药品注册、医药工业和研发服务形成映射。"},{"source":"上海证券报市场综述","content":"医药股持续活跃，多只个股晋级2板。"}],"branches":["细胞医疗与创新药","化学制药","研发服务与医疗器械"],"limitStocks":["南华生物","新华制药","哈药股份","华仁药业","百花医药","奥佳华","千金药业","五洲医疗"],"logic":"4板高度与多只2板共振，D-1候选哈药股份兑现晋级。","expectationSpace":"适合作为第一主攻分歧后的第二承接；若只剩南华生物一字则后排空间不足。","persistence":"09-18修复、09-21批量加强、09-22前排收敛。","coreStocks":[{"name":"南华生物","role":"高度核心","performance":"4板"},{"name":"哈药股份","role":"2板前排","performance":"2板，封单约3.60亿元"},{"name":"华仁药业","role":"20cm接力","performance":"2板"}]},
+    {"name":"地产/家居与名称去弱留强","strength":"局部延续、名称后排退潮","stage":"扩散后筛选","messages":[{"source":"同花顺问财","content":"房产经纪、物业、地产、家居和机器人形成映射。"},{"source":"9月21—22日公开盘面记录","content":"前日华字辈大面积扩散，次日有真实题材支撑者晋级、纯名称后排明显回落。"}],"branches":["地产服务与物业","家居建材","名称辨识度"],"limitStocks":["大亚圣象","我爱我家","华远控股","华丽家族","梦天家居","爱丽家居","箭牌家居"],"logic":"产业映射仍有梯队，但容量领涨减弱，纯名称逻辑失效。","expectationSpace":"只保留有题材与换手支撑的前排，纯名称后排反包列为回避。","persistence":"09-18地产启动、09-21名称扩散、09-22去弱留强。","coreStocks":[{"name":"大亚圣象","role":"家居身位","performance":"3板"},{"name":"我爱我家","role":"地产服务前排","performance":"2板"},{"name":"华远控股","role":"地产助攻","performance":"2板"}]}
+  ],
+  "themeTimeline": [
+    {"theme":"AI应用/传媒出版","days":[{"date":"09-18","performance":"出版身位预热","leaders":["内蒙新华","新华文轩"]},{"date":"09-21","performance":"重组与名称扩散","leaders":["内蒙新华","新华传媒"]},{"date":"09-22","performance":"与AI应用共振加强","leaders":["内蒙新华","新华文轩","智度股份","瑞芯微"]}]},
+    {"theme":"医药医疗","days":[{"date":"09-18","performance":"修复","leaders":["南华生物"]},{"date":"09-21","performance":"批量加强","leaders":["南华生物","哈药股份"]},{"date":"09-22","performance":"前排收敛","leaders":["南华生物","新华制药","哈药股份","华仁药业"]}]},
+    {"theme":"MLCC/PCB/算力芯片","days":[{"date":"09-18","performance":"半导体修复","leaders":["华软科技"]},{"date":"09-21","performance":"材料扩散","leaders":["华瓷股份","华软科技","中材科技"]},{"date":"09-22","performance":"切向芯片与AI应用","leaders":["华瓷股份","博通集成","瑞芯微","旋极信息"]}]},
+    {"theme":"地产/家居与名称扩散","days":[{"date":"09-18","performance":"地产启动","leaders":["世联行","万科A"]},{"date":"09-21","performance":"地产与名称扩散","leaders":["世联行","华瓷股份"]},{"date":"09-22","performance":"产业映射局部延续、名称后排退潮","leaders":["大亚圣象","我爱我家"]}]}
+  ],
+  "effects": {
+    "relayDifficulty": "困难：高标和主线前排仍有正反馈，但17只二板同身位拥挤，D-1核心左尾扩大。",
+    "profit": ["24只昨日板晋级，最高板升至6板。","AI应用/传媒形成5—3—2—1梯队，医药形成4—2—1梯队。","瑞芯微、旋极信息提供容量与20cm弹性。"],
+    "loss": ["昨日板6只大面，华软科技触及跌停后收-9.54%。","华纺股份从高开7.97%跌至收盘-7.97%。","材料旧核心和纯名称扩散后排成为主要亏钱区。"],
+    "styles": [
+      {"style":"高标连板","result":"强","reading":"高度5→6、连板22→24。"},
+      {"style":"昨日涨停持有","result":"分化","reading":"平均收盘+2.49%，但大面扩大至6只。"},
+      {"style":"AI应用/传媒前排","result":"较强","reading":"身位、容量和宽度共振。"},
+      {"style":"材料旧线/名称后排","result":"弱","reading":"多只前期核心收盘大面。"}
+    ]
+  },
+  "cycle": {
+    "main": "主升期",
+    "substate": "强分歧、高位抱团与主线收敛并存",
+    "signals": ["最高板5→6、连板22→24。","昨日涨停平均收盘+2.49%、24只晋级。","上涨家数4070→2221、大面2→6。","AI应用/传媒成为第一主攻，医药前排延续。"],
+    "risk": "内蒙新华监管函、D-1材料核心大面和17只二板拥挤，均可能使次日强分歧转为退潮。"
+  },
+  "prediction": {
+    "baseline": "修复后强分歧延续，AI应用/传媒内部去弱留强，医药作为第二承接",
+    "confidence": "中",
+    "firstChoice": "AI应用/传媒中位前排的换手承接",
+    "secondChoice": "医药2板前排在第一主攻分歧时的轮动承接",
+    "avoid": "纯华字辈后排反包、材料旧核心无确认抄底、孤立秒板",
+    "positionTier": 2,
+    "stop": "高度锚与第一主攻同时低于预期，或负反馈扩散至两只以上新核心"
+  },
+  "oneToTwo": [],
+  "sources": {
+    "objective": ["FTShare目标日完整缓存：5905条、197页。","deterministicMetrics（linsc-derived-v1）与逐股有效涨跌停价复核。","shortTermEvidence：仅使用实际支持的开盘、分钟成交与真实涨跌停时点。"],
+    "themes": ["同花顺问财62只过滤后涨停原因映射。","9月22日公开市场收评。","人民网上海AI应用生态大会信息。","上交所内蒙新华监管工作函。"],
+    "narratives": ["韭研公社无登录态公开页及本地缓存。","公开日度页只作总体叙事交叉参考，不充当个股事件覆盖。"],
+    "note": "韭研缓存partial：6/6页完成、事件卡0、优先股覆盖0/82、authenticatedSessionSupplied=false；1进2候选为0。报告不使用9月23日结果倒推。"
+  }
+}
